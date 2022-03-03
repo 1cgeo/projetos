@@ -27,7 +27,7 @@ body {
 
 .module__item_map {
   align-items: center;
-  display: flex;
+  /* display: flex; */
   height: 100%;
   width: 100%;
   justify-content: center;
