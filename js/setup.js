@@ -786,7 +786,7 @@ var PROJECTS = {
             },
             {
                 name: 'sisfron-17rcmec_carta_topo_50k_pr',
-                subtitle: `1:5.000`,
+                subtitle: `1:50.000`,
                 description: `Execução de mapeamento topográfico na escalas 1:50.000 de 12 cartas topográficas e seus dados
                 vetoriais na região de fronteira do Paraná.`,
                 zoom: [
