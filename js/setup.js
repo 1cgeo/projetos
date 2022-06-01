@@ -90,6 +90,7 @@ const INIT_ZOOM = {
 var PROJECTS = {
     'generalizacao-cartografica': {
         title: 'Generalização Cartográfica 2021',
+        executed: true,
         legend: [
             1,
             9,
@@ -193,6 +194,7 @@ var PROJECTS = {
     },
     'plano-desenvolvimento': {
         title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2021',
+        executed: true,
         legend: [
             1,
             12,
@@ -254,6 +256,7 @@ var PROJECTS = {
     },
     'mapeamento-interesse-da-forca': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2021',
+        executed: true,
         legend: [
             1,
             12,
@@ -452,6 +455,7 @@ var PROJECTS = {
     },
     'sisfron': {
         title: 'SISFRON 2021',
+        executed: true,
         legend: [
             1,
             12,
@@ -570,6 +574,7 @@ var PROJECTS = {
     },
     'rio-grande-do-sul': {
         title: 'Projeto de Mapeamento do Estado do Rio Grande do Sul',
+        executed: false,
         legend: [3],
         description: `O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas
         topográficas
@@ -647,6 +652,7 @@ var PROJECTS = {
     },
     'uraricoera': {
         title: 'Exercício Uraricoera',
+        executed: false,
         legend: [3],
         description: `O objetivo do presente projeto consiste na elaboração de 48 cartas topográficas na
         escala
@@ -703,6 +709,7 @@ var PROJECTS = {
     },
     'SISFRON-PR':{
         title: 'SISFRON-PR',
+        executed: false,
         legend: [3],
         description: `Execução de mapeamento topográfico, totalizando 44 cartas topográficas e seus dados
         vetoriais na
@@ -756,6 +763,7 @@ var PROJECTS = {
     },
     'campo-instrucao': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Campos de Instrução',
+        executed: false,
         legend: [3],
         description: `Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000,
         referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de
@@ -852,6 +860,7 @@ var PROJECTS = {
     },
     'santa-catarina': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
+        executed: false,
         legend: [3],
         description: `Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas
         1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º
@@ -947,6 +956,7 @@ var PROJECTS = {
     },
     'radiografia': {
         title: 'Projeto Radiografia da Amazônia',
+        executed: false,
         legend: [3],
         description: `O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais
         (altimetria,

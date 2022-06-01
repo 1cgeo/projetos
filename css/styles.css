@@ -165,6 +165,7 @@ body {
     line-height: 1.2;
 }
 
+
 .description {
     padding: 0px;
     margin:  0px 20px 0px;
@@ -383,4 +384,12 @@ body {
 
   .subtitle {
     text-align: center;
+  }
+
+  .group {
+    color: rgb(0, 38, 37);
+    font-family: "Charter BT", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.2;
   }

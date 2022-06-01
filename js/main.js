@@ -319,28 +319,54 @@ getSummarySlide = () => {
             text: "Sumário"
         })
     )
+
+    let executed = $("<ul/>", {})
+    let notExecuted = $("<ul/>", {})
     let projects = getProjectSettings()
     for (let projectName in projects) {
-        div.append(
-            $("<ul/>", {})
+        let group = (projects[projectName].executed) ? executed : notExecuted
+        group.append(
+            $("<li/>", {})
                 .append(
-                    $("<li/>", {})
+                    $("<a/>", {
+
+                        href: "#"
+
+                    })
                         .append(
-                            $("<a/>", {
-
-                                href: "#"
-
+                            $("<h3/>", {
+                                id: `${projectName}${getSeperatorId()}${projects[projectName].lotes[0].name}`,
+                                text: projects[projectName].title
                             })
-                                .append(
-                                    $("<h3/>", {
-                                        id: `${projectName}${getSeperatorId()}${projects[projectName].lotes[0].name}`,
-                                        text: projects[projectName].title
-                                    })
-                                )
                         )
                 )
         )
     }
+
+    let ulMain = $("<ul/>", {})
+
+    
+
+    ulMain.append(
+        $("<li/>", {
+            class: "group",
+            text: "Em Execução"
+        }).append(
+            notExecuted
+        )
+    )
+
+    ulMain.append(
+        $("<li/>", {
+            class: "group",
+            text: "Executado"
+        }).append(
+            executed
+        )
+    )
+
+    div.append(ulMain)
+
     return content.append(div)
 }
 
