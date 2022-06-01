@@ -581,7 +581,7 @@ var PROJECTS = {
     },
     'santa-catarina': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
-        executed: false,
+        executed: true,
         legend: [3],
         description: `Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas
         1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º
@@ -677,7 +677,7 @@ var PROJECTS = {
     },
     'uraricoera': {
         title: 'Exercício Uraricoera',
-        executed: false,
+        executed: true,
         legend: [3],
         description: `O objetivo do presente projeto consiste na elaboração de 48 cartas topográficas na
         escala
@@ -734,7 +734,7 @@ var PROJECTS = {
     },
     'sisfron-17rcmec':{
         title: 'SISFRON - 17 RC Mec',
-        executed: false,
+        executed: true,
         legend: [3],
         description: `Execução de mapeamento topográfico, nas escalas 1:25.000, 1:50.000 e 1:100.000, totalizando 59 cartas topográficas e seus dados
         vetoriais na região de fronteira do Paraná.`,
@@ -878,7 +878,7 @@ var PROJECTS = {
     },
     'campo-instrucao': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Campos de Instrução',
-        executed: false,
+        executed: true,
         legend: [3],
         description: `Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000,
         referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de
@@ -975,7 +975,7 @@ var PROJECTS = {
     },
     'radiografia': {
         title: 'Projeto Radiografia da Amazônia',
-        executed: false,
+        executed: true,
         legend: [3],
         description: `O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais
         (altimetria,
