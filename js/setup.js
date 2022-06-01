@@ -88,33 +88,31 @@ const INIT_ZOOM = {
 }
 
 var PROJECTS = {
-    'generalizacao-cartografica': {
-        title: 'Generalização Cartográfica 2021',
-        executed: true,
+    'plano-desenvolvimento': {
+        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2022',
+        executed: false,
         legend: [
             1,
-            9,
+            12,
+            2,
             5,
             6,
             3
         ],
-        description: `O objetivo do presente projeto consiste em realizar a Generalização Cartográfica
-        na escala 1:50.000 e 1:100.000 de produtos na região de Paraná, Santa Catarina e Rio
-        Grande do Sul, para gerar 46 cartas topográficas na escala 1:50.000 e 15 cartas
-        topográficas na escala 1:100.000 visando atender a meta 11 do Plano Interno de Trabalho
-        (PIT) 2021 da Diretoria de Serviço Geográfico.`,
+        description: `O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.`,
         lotes: [
             {
-                name: 'generalizacao-cartografica-50k',
-                subtitle: 'Generalização 1:50.000',
+                name: 'pddmt_sub-meta_a_carta_orto_50k_pr',
+                subtitle: 'Carta Ortoimagem 1:50.000 no PR',
+                description: `Construção de 76 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações no Lago de Itaipu para o CMS.`,
                 zoom: [
-                    [-54.60516441090726, -31.59015763447726], // southwestern corner of the bounds
-                    [-50.14483553439275, -22.90972914019692] // northeastern corner of the bounds
+                    [-58.999999898, -32.999999850000002], // southwestern corner of the bounds
+                    [-52.0000001041, -27.499999969] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
-                        'id': 'generalizacao-cartografica-50k-fill',
-                        'source': 'generalizacao-cartografica-50k',
+                        'id': 'pddmt_sub-meta_a_carta_orto_50k_pr-fill',
+                        'source': 'pddmt_sub-meta_a_carta_orto_50k_pr',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -122,8 +120,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'generalizacao-cartografica-50k-border',
-                        'source': 'generalizacao-cartografica-50k',
+                        'id': 'pddmt_sub-meta_a_carta_orto_50k_pr-border',
+                        'source': 'pddmt_sub-meta_a_carta_orto_50k_pr',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -132,11 +130,10 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'generalizacao-cartografica-50k-text',
-                        'source': 'generalizacao-cartografica-50k',
+                        'id': 'pddmt_sub-meta_a_carta_orto_50k_pr-text',
+                        'source': 'pddmt_sub-meta_a_carta_orto_50k_pr',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 7.4,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
@@ -148,79 +145,17 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'generalizacao-cartografica-100k',
-                subtitle: 'Generalização 1:100.000',
-                zoom: [
-                    [-54.60516441090726, -31.59015763447726], // southwestern corner of the bounds
-                    [-50.14483553439275, -22.90972914019692] // northeastern corner of the bounds
-                ],
-                styles: [
-                    {
-                        'id': 'generalizacao-cartografica-100k-fill',
-                        'source': 'generalizacao-cartografica-100k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'generalizacao-cartografica-100k-border',
-                        'source': 'generalizacao-cartografica-100k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'generalizacao-cartografica-100k-text',
-                        'source': 'generalizacao-cartografica-100k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 6.14,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'plano-desenvolvimento': {
-        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2021',
-        executed: true,
-        legend: [
-            1,
-            12,
-            2,
-            5,
-            6,
-            3
-        ],
-        description: `O objetivo do presente projeto consiste na elaboração de 52 cartas topográficas na
-        escala entre
-        1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex para
-        a região
-        do
-        CMS.`,
-        lotes: [
-            {
-                name: 'plano-desenvolvimento',
-                subtitle: '',
+                name: 'pddmt_sub-meta_b1_carta_topo_100k_rs',
+                subtitle: 'Carta Topográfica 1:100.000 do RS',
+                description: `Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.`,
                 zoom: [
                     [-58.999999898, -32.999999850000002], // southwestern corner of the bounds
                     [-52.0000001041, -27.499999969] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
-                        'id': 'plano-desenvolvimento-fill',
-                        'source': 'plano-desenvolvimento',
+                        'id': 'pddmt_sub-meta_b1_carta_topo_100k_rs-fill',
+                        'source': 'pddmt_sub-meta_b1_carta_topo_100k_rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -228,8 +163,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'plano-desenvolvimento-border',
-                        'source': 'plano-desenvolvimento',
+                        'id': 'pddmt_sub-meta_b1_carta_topo_100k_rs-border',
+                        'source': 'pddmt_sub-meta_b1_carta_topo_100k_rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -238,8 +173,51 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'plano-desenvolvimento-text',
-                        'source': 'plano-desenvolvimento',
+                        'id': 'pddmt_sub-meta_b1_carta_topo_100k_rs-text',
+                        'source': 'pddmt_sub-meta_b1_carta_topo_100k_rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'pddmt_sub-meta_b2_carta_topo_100k_pr',
+                subtitle: 'Carta Topográfica 1:100.000 do PR',
+                description: `Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.`,
+                zoom: [
+                    [-58.999999898, -32.999999850000002], // southwestern corner of the bounds
+                    [-52.0000001041, -27.499999969] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt_sub-meta_b2_carta_topo_100k_pr-fill',
+                        'source': 'pddmt_sub-meta_b2_carta_topo_100k_pr',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt_sub-meta_b2_carta_topo_100k_pr-border',
+                        'source': 'pddmt_sub-meta_b2_carta_topo_100k_pr',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt_sub-meta_b2_carta_topo_100k_pr-text',
+                        'source': 'pddmt_sub-meta_b2_carta_topo_100k_pr',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -253,10 +231,10 @@ var PROJECTS = {
                 ]
             }
         ]
-    },
+    },   
     'mapeamento-interesse-da-forca': {
-        title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2021',
-        executed: true,
+        title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
+        executed: false,
         legend: [
             1,
             12,
@@ -266,30 +244,24 @@ var PROJECTS = {
             3
         ],
         description: `O objetivo do presente projeto consiste na elaboração de cartas ortoimagens em escalas
-        entre
-        1:25.000 e
-        1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
-        Suprimento
-        Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de
-        responsabilidade do
-        Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina
-        e
-        Paraná.
-        Dessa
-        forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de
+        entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
+        Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de
+        responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina
+        e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de
         responsabilidade.`,
         lotes: [
             {
-                name: 'mapeamento-interesse-da-forca-25k',
-                subtitle: 'Escala 1:25.000',
+                name: 'mapintfter_sub-meta_a1_carta_topo_25k_florianopolis',
+                subtitle: 'Carta Topográfica 1:25.000 de Florianópolis',
+                description: `Construção de 09 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.`,
                 zoom: [
                     [-57.85792524319584, -33.96505531990365], // southwestern corner of the bounds
                     [-50.14207493280416, -22.909789655302163] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
-                        'id': 'mapeamento-interesse-da-forca-25k-fill',
-                        'source': 'mapeamento-interesse-da-forca-25k',
+                        'id': 'mapintfter_sub-meta_a1_carta_topo_25k_florianopolis-fill',
+                        'source': 'mapintfter_sub-meta_a1_carta_topo_25k_florianopolis',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -297,8 +269,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-interesse-da-forca-25k-border',
-                        'source': 'mapeamento-interesse-da-forca-25k',
+                        'id': 'mapintfter_sub-meta_a1_carta_topo_25k_florianopolis-border',
+                        'source': 'mapintfter_sub-meta_a1_carta_topo_25k_florianopolis',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -307,8 +279,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-interesse-da-forca-25k-text',
-                        'source': 'mapeamento-interesse-da-forca-25k',
+                        'id': 'mapintfter_sub-meta_a1_carta_topo_25k_florianopolis-text',
+                        'source': 'mapintfter_sub-meta_a1_carta_topo_25k_florianopolis',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -323,16 +295,17 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapeamento-interesse-da-forca-50k',
+                name: 'mapintfter_sub-meta_a2_carta_topo_25k_uruguaiana',
+                subtitle: 'Carta Topográfica 1:25.000 de Uruguaiana',
+                description: `Construção de 02 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
                 zoom: [
-                    [-54.104642771209704, -31.090174775111926],
-                    [-50.395357523790295, -23.909732006690916]
+                    [-57.85792524319584, -33.96505531990365], // southwestern corner of the bounds
+                    [-50.14207493280416, -22.909789655302163] // northeastern corner of the bounds
                 ],
-                subtitle: 'Escala 1:50.000',
                 styles: [
                     {
-                        'id': 'mapeamento-interesse-da-forca-50k-fill',
-                        'source': 'mapeamento-interesse-da-forca-50k',
+                        'id': 'mapintfter_sub-meta_a2_carta_topo_25k_uruguaiana-fill',
+                        'source': 'mapintfter_sub-meta_a2_carta_topo_25k_uruguaiana',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -340,8 +313,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-interesse-da-forca-50k-border',
-                        'source': 'mapeamento-interesse-da-forca-50k',
+                        'id': 'mapintfter_sub-meta_a2_carta_topo_25k_uruguaiana-border',
+                        'source': 'mapintfter_sub-meta_a2_carta_topo_25k_uruguaiana',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -350,8 +323,53 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-interesse-da-forca-50k-text',
-                        'source': 'mapeamento-interesse-da-forca-50k',
+                        'id': 'mapintfter_sub-meta_a2_carta_topo_25k_uruguaiana-text',
+                        'source': 'mapintfter_sub-meta_a2_carta_topo_25k_uruguaiana',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'mapintfter_sub-meta_a3_carta_topo_25k_ms',
+                subtitle: 'Carta Topográfica 1:25.000 do Mato Grosso do Sul',
+                description: `Construção de 64 cartas topográficas na escala 1:25.000 na região da fronteira do Mato Grosso do Sul.`,
+                zoom: [
+                    [-54.104642771209704, -31.090174775111926],
+                    [-50.395357523790295, -23.909732006690916]
+                ],
+                subtitle: 'Escala 1:50.000',
+                styles: [
+                    {
+                        'id': 'mapintfter_sub-meta_a3_carta_topo_25k_ms-fill',
+                        'source': 'mapintfter_sub-meta_a3_carta_topo_25k_ms',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter_sub-meta_a3_carta_topo_25k_ms-border',
+                        'source': 'mapintfter_sub-meta_a3_carta_topo_25k_ms',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter_sub-meta_a3_carta_topo_25k_ms-text',
+                        'source': 'mapintfter_sub-meta_a3_carta_topo_25k_ms',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 7.34,
@@ -366,16 +384,17 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapeamento-interesse-da-forca-100k',
-                subtitle: 'Escala 1:100.000',
+                name: 'mapintfter_sub-meta_b_carta_topo_50k_rr',
+                subtitle: 'Carta Topográfica 1:50.000 de Roraima',
+                description: `Construção de 22 cartas topográficas na escala 1:50.000 na região da fronteira de Roraima.`,
                 zoom: [
                     [-54.104642771209704, -31.090174775111926],
                     [-50.395357523790295, -23.909732006690916]
                 ],
                 styles: [
                     {
-                        'id': 'mapeamento-interesse-da-forca-100k-fill',
-                        'source': 'mapeamento-interesse-da-forca-100k',
+                        'id': 'mapintfter_sub-meta_b_carta_topo_50k_rr-fill',
+                        'source': 'mapintfter_sub-meta_b_carta_topo_50k_rr',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -383,8 +402,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-interesse-da-forca-100k-border',
-                        'source': 'mapeamento-interesse-da-forca-100k',
+                        'id': 'mapintfter_sub-meta_b_carta_topo_50k_rr-border',
+                        'source': 'mapintfter_sub-meta_b_carta_topo_50k_rr',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -393,8 +412,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-interesse-da-forca-100k-text',
-                        'source': 'mapeamento-interesse-da-forca-100k',
+                        'id': 'mapintfter_sub-meta_b_carta_topo_50k_rr-text',
+                        'source': 'mapintfter_sub-meta_b_carta_topo_50k_rr',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.03,
@@ -409,16 +428,19 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapeamento-interesse-da-forca-250k',
-                subtitle: 'Escala 1:250.000',
+                name: 'mapintfter_sub-meta_c_carta_topo_100k_rs_sc',
+                subtitle: 'Generalização Carta Topográfica 1:100.000',
+                description: `O objetivo do presente projeto consiste em realizar a Generalização Cartográfica
+                na escala 1:100.000 de produtos na região de Santa Catarina e Rio
+                Grande do Sul, para gerar 12 cartas topográficas na escala 1:100.000.`,
                 zoom: [
                     [-54.104642487394564, -31.09019171550016],
                     [-52.39535777550543, -23.909716233711624]
                 ],
                 styles: [
                     {
-                        'id': 'mapeamento-interesse-da-forca-250k-fill',
-                        'source': 'mapeamento-interesse-da-forca-250k',
+                        'id': 'mapintfter_sub-meta_c_carta_topo_100k_rs_sc-fill',
+                        'source': 'mapintfter_sub-meta_c_carta_topo_100k_rs_sc',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -426,8 +448,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-interesse-da-forca-250k-border',
-                        'source': 'mapeamento-interesse-da-forca-250k',
+                        'id': 'mapintfter_sub-meta_c_carta_topo_100k_rs_sc-border',
+                        'source': 'mapintfter_sub-meta_c_carta_topo_100k_rs_sc',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -436,8 +458,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-interesse-da-forca-250k-text',
-                        'source': 'mapeamento-interesse-da-forca-250k',
+                        'id': 'mapintfter_sub-meta_c_carta_topo_100k_rs_sc-text',
+                        'source': 'mapintfter_sub-meta_c_carta_topo_100k_rs_sc',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 4.56,
@@ -453,48 +475,32 @@ var PROJECTS = {
             }
         ]
     },
-    'sisfron': {
-        title: 'SISFRON 2021',
+    'rio-grande-do-sul': {
+        title: 'Projeto de Mapeamento do Estado do Rio Grande do Sul',
         executed: true,
-        legend: [
-            1,
-            12,
-            2,
-            5,
-            6,
-            3
-        ],
-        description: `O projeto SISFRON – Sistema Integrado de Monitoramento de Fronteiras – tem como objetivo
-        assegurar o
-        monitoramento da fronteira terrestre brasileira por meio de coleta, sistematização,
-        processamento e
-        distribuição de informações, fortalecendo a presença e capacidade de ação do Estado na
-        região.
-        Pode-se
-        dizer que as cartas têm fundamental importância quando se trata de informações capazes
-        de
-        auxiliar
-        na
-        tomada de decisão nas atividades fins do projeto. Nesse sentido, visando o atendimento
-        das
-        demandas
-        do
-        Exército Brasileiro, o 1º Centro de Geoinformação (1º CGEO) ficou responsável pela
-        elaboração de
-        64
-        cartas 1:25.000 do Mato Grosso do Sul e 13 cartas 1:50.000 de Roraima.`,
+        legend: [3],
+        description: `O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas
+        topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais
+        de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre,
+        Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice
+        (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de
+        Dados Espaciais (INDE).`,
         lotes: [
             {
-                name: 'sisfron-ms',
-                subtitle: 'Mato Grosso do Sul',
+                name: 'conv_rs_carta_topo_25k_rs',
+                subtitle: '1:25.000',
+                description: `A elaboração das cartas topográficas foi executada em 5 (cinco) lotes de produção
+                cartográfica. Além da base cartográfica digital contínua foram entregues as imagens brutas, os modelos
+                digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta
+                topográfica em formato matricial.`,
                 zoom: [
-                    [-58.00961789820789, -21.009031787082876],
-                    [-56.990381788192096, -19.990966854945665]
+                    [-52.51051155017842, -31.384018169281973],
+                    [-50.23948867872158, -29.24097876335743]
                 ],
                 styles: [
                     {
-                        'id': 'sisfron-ms-fill',
-                        'source': 'sisfron-ms',
+                        'id': 'conv_rs_carta_topo_25k_rs-fill',
+                        'source': 'conv_rs_carta_topo_25k_rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -502,8 +508,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-ms-border',
-                        'source': 'sisfron-ms',
+                        'id': 'conv_rs_carta_topo_25k_rs-border',
+                        'source': 'conv_rs_carta_topo_25k_rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -512,11 +518,11 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-ms-text',
-                        'source': 'sisfron-ms',
+                        'id': 'conv_rs_carta_topo_25k_rs-text',
+                        'source': 'conv_rs_carta_topo_25k_rs',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 8.88,
+                        "minzoom": 8.89,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
@@ -528,16 +534,17 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'sisfron-rr',
-                subtitle: 'Roraima',
+                name: 'conv_rs_carta_topo_50k_rs',
+                subtitle: '1:50.000',
+                description: `Produção de cartas topográficas 1:50.000 por processo de generalização`,
                 zoom: [
-                    [-63.759010716772494, 3.990958376806931],
-                    [-59.990989283227506, 4.509041501813903]
+                    [-52.51051155017842, -31.384018169281973],
+                    [-50.23948867872158, -29.24097876335743]
                 ],
                 styles: [
                     {
-                        'id': 'sisfron-rr-fill',
-                        'source': 'sisfron-rr',
+                        'id': 'conv_rs_carta_topo_50k_rs-fill',
+                        'source': 'conv_rs_carta_topo_50k_rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -545,8 +552,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-rr-border',
-                        'source': 'sisfron-rr',
+                        'id': 'conv_rs_carta_topo_50k_rs-border',
+                        'source': 'conv_rs_carta_topo_50k_rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -555,11 +562,11 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-rr-text',
-                        'source': 'sisfron-rr',
+                        'id': 'conv_rs_carta_topo_50k_rs-text',
+                        'source': 'conv_rs_carta_topo_50k_rs',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 7.29,
+                        "minzoom": 8.89,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
@@ -572,50 +579,25 @@ var PROJECTS = {
             }
         ]
     },
-    'rio-grande-do-sul': {
-        title: 'Projeto de Mapeamento do Estado do Rio Grande do Sul',
+    'santa-catarina': {
+        title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
         executed: false,
         legend: [3],
-        description: `O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas
-        topográficas
-        na
-        escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais
-        de
-        elevação
-        e
-        dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre,
-        Região
-        Metropolitana
-        e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice
-        (MI), de
-        acordo
-        com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de
-        Dados
-        Espaciais
-        (INDE).
-
-        A elaboração das cartas topográficas será executada em 5 (cinco) lotes de produção
-        cartográfica.
-        Além da
-        base cartográfica digital contínua serão entregues as imagens brutas, os modelos
-        digitais de
-        superfície,
-        os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta
-        topográfica
-        em
-        formato matricial.`,
+        description: `Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas
+        1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º
+        Centro de Geoinformação.`,
         lotes: [
             {
-                name: 'rio-grande-do-sul',
-                subtitle: '',
+                name: 'santa-catarina-25k',
+                subtitle: 'Escala 1:25.000',
                 zoom: [
-                    [-52.51051155017842, -31.384018169281973],
-                    [-50.23948867872158, -29.24097876335743]
+                    [-52.26021357165334, -28.509022154962935],
+                    [-49.98978660234666, -26.24097472235442]
                 ],
                 styles: [
                     {
-                        'id': 'rio-grande-do-sul-fill',
-                        'source': 'rio-grande-do-sul',
+                        'id': 'santa-catarina-25k-fill',
+                        'source': 'santa-catarina-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -623,8 +605,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'rio-grande-do-sul-border',
-                        'source': 'rio-grande-do-sul',
+                        'id': 'santa-catarina-25k-border',
+                        'source': 'santa-catarina-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -633,11 +615,54 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'rio-grande-do-sul-text',
-                        'source': 'rio-grande-do-sul',
+                        'id': 'santa-catarina-25k-text',
+                        'source': 'santa-catarina-25k',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 8.89,
+                        "minzoom": 9.01,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'santa-catarina-50k',
+                subtitle: 'Escala 1:50.000',
+                zoom: [
+                    [-52.26021357165334, -28.509022154962935],
+                    [-49.98978660234666, -26.24097472235442]
+                ],
+                styles: [
+                    {
+                        'id': 'santa-catarina-50k-fill',
+                        'source': 'santa-catarina-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-50k-border',
+                        'source': 'santa-catarina-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-50k-text',
+                        'source': 'santa-catarina-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.4,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
@@ -707,26 +732,26 @@ var PROJECTS = {
             }
         ]
     },
-    'SISFRON-PR':{
-        title: 'SISFRON-PR',
+    'sisfron-17rcmec':{
+        title: 'SISFRON - 17 RC Mec',
         executed: false,
         legend: [3],
-        description: `Execução de mapeamento topográfico, totalizando 44 cartas topográficas e seus dados
-        vetoriais na
-        escala
-        1:25.000 da região de fronteira do Paraná.`,
+        description: `Execução de mapeamento topográfico, nas escalas 1:25.000, 1:50.000 e 1:100.000, totalizando 59 cartas topográficas e seus dados
+        vetoriais na região de fronteira do Paraná.`,
         lotes: [
             {
-                name: 'sisfron-pr',
+                name: 'sisfron-17rcmec_carta_topo_25k_pr',
+                subtitle: `1:25.000`,
+                description: `Execução de mapeamento topográfico na escalas 1:25.000 de 44 cartas topográficas e seus dados
+                vetoriais na região de fronteira do Paraná.`,
                 zoom: [
                     [-54.384866243172475, -24.509027741479414],
                     [-53.490134107727535, -22.9909701451744]
                 ],
-                subtitle: ``,
                 styles: [
                     {
-                        'id': 'sisfron-pr-fill',
-                        'source': 'sisfron-pr',
+                        'id': 'sisfron-17rcmec_carta_topo_25k_pr-fill',
+                        'source': 'sisfron-17rcmec_carta_topo_25k_pr',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -734,8 +759,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-pr-border',
-                        'source': 'sisfron-pr',
+                        'id': 'sisfron-17rcmec_carta_topo_25k_pr-border',
+                        'source': 'sisfron-17rcmec_carta_topo_25k_pr',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -744,8 +769,98 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-pr-text',
-                        'source': 'sisfron-pr',
+                        'id': 'sisfron-17rcmec_carta_topo_25k_pr-text',
+                        'source': 'sisfron-17rcmec_carta_topo_25k_pr',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.89,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'sisfron-17rcmec_carta_topo_50k_pr',
+                subtitle: `1:5.000`,
+                description: `Execução de mapeamento topográfico na escalas 1:50.000 de 12 cartas topográficas e seus dados
+                vetoriais na região de fronteira do Paraná.`,
+                zoom: [
+                    [-54.384866243172475, -24.509027741479414],
+                    [-53.490134107727535, -22.9909701451744]
+                ],
+                styles: [
+                    {
+                        'id': 'sisfron-17rcmec_carta_topo_50k_pr-fill',
+                        'source': 'sisfron-17rcmec_carta_topo_50k_pr',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'sisfron-17rcmec_carta_topo_50k_pr-border',
+                        'source': 'sisfron-17rcmec_carta_topo_50k_pr',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'sisfron-17rcmec_carta_topo_50k_pr-text',
+                        'source': 'sisfron-17rcmec_carta_topo_50k_pr',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.89,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'sisfron-17rcmec_carta_topo_100k_pr',
+                subtitle: `1:100.000`,
+                description: `Execução de mapeamento topográfico na escalas 1:100.000 de 03 cartas topográficas e seus dados
+                vetoriais na região de fronteira do Paraná.`,
+                zoom: [
+                    [-54.384866243172475, -24.509027741479414],
+                    [-53.490134107727535, -22.9909701451744]
+                ],
+                styles: [
+                    {
+                        'id': 'sisfron-17rcmec_carta_topo_100k_pr-fill',
+                        'source': 'sisfron-17rcmec_carta_topo_100k_pr',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'sisfron-17rcmec_carta_topo_100k_pr-border',
+                        'source': 'sisfron-17rcmec_carta_topo_100k_pr',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'sisfron-17rcmec_carta_topo_100k_pr-text',
+                        'source': 'sisfron-17rcmec_carta_topo_100k_pr',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.89,
@@ -846,102 +961,6 @@ var PROJECTS = {
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 9.01,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'santa-catarina': {
-        title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
-        executed: false,
-        legend: [3],
-        description: `Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas
-        1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º
-        Centro de Geoinformação.`,
-        lotes: [
-            {
-                name: 'santa-catarina-25k',
-                subtitle: 'Escala 1:25.000',
-                zoom: [
-                    [-52.26021357165334, -28.509022154962935],
-                    [-49.98978660234666, -26.24097472235442]
-                ],
-                styles: [
-                    {
-                        'id': 'santa-catarina-25k-fill',
-                        'source': 'santa-catarina-25k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-25k-border',
-                        'source': 'santa-catarina-25k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-25k-text',
-                        'source': 'santa-catarina-25k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 9.01,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'santa-catarina-50k',
-                subtitle: 'Escala 1:50.000',
-                zoom: [
-                    [-52.26021357165334, -28.509022154962935],
-                    [-49.98978660234666, -26.24097472235442]
-                ],
-                styles: [
-                    {
-                        'id': 'santa-catarina-50k-fill',
-                        'source': 'santa-catarina-50k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-50k-border',
-                        'source': 'santa-catarina-50k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-50k-text',
-                        'source': 'santa-catarina-50k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.4,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
