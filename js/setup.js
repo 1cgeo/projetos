@@ -106,8 +106,8 @@ var PROJECTS = {
                 subtitle: 'Carta Ortoimagem 1:50.000 no PR',
                 description: `Construção de 76 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações no Lago de Itaipu para o CMS.`,
                 zoom: [
-                    [-54.75998613650147, -26.00902567166439], // southwestern corner of the bounds
-                    [-52.490013820402154, -22.490969580592395] // northeastern corner of the bounds
+                    [-54.94972409601194, -26.180512277006958], // southwestern corner of the bounds
+                    [-52.30027568484421, -22.31939338230858] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -149,8 +149,8 @@ var PROJECTS = {
                 subtitle: 'Carta Topográfica 1:100.000 do RS',
                 description: `Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.`,
                 zoom: [
-                    [-58.01058055953992, -32.00901444135753], // southwestern corner of the bounds
-                    [-52.98941940303685, -28.49097756341926] // northeastern corner of the bounds
+                    [-58.21161276301428, -32.18028902748594], // southwestern corner of the bounds
+                    [-52.78838650527125, -28.319550623077966] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -192,8 +192,8 @@ var PROJECTS = {
                 subtitle: 'Carta Topográfica 1:100.000 do PR',
                 description: `Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.`,
                 zoom: [
-                    [-54.009945597570635, -25.509025840181344], // southwestern corner of the bounds
-                    [-50.990054737682385, -22.990970322330142] // northeastern corner of the bounds
+                    [-54.19890772417906, -25.68051670275164], // southwestern corner of the bounds
+                    [-50.80109236228307, -22.819407209943435] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -255,8 +255,8 @@ var PROJECTS = {
                 subtitle: 'Carta Topográfica 1:25.000 de Florianópolis',
                 description: `Construção de 09 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.`,
                 zoom: [
-                    [-48.63515502905979, -27.88402364931158], // southwestern corner of the bounds
-                    [-48.23984537153085, -27.365975302737326] // northeastern corner of the bounds
+                    [-48.82809677372772, -28.05547382461215], // southwestern corner of the bounds
+                    [-48.046903497479974, -27.1945079332596] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -299,8 +299,8 @@ var PROJECTS = {
                 subtitle: 'Carta Topográfica 1:25.000 de Uruguaiana',
                 description: `Construção de 02 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
                 zoom: [
-                    [-57.135351076436095, -29.884020970259446], // southwestern corner of the bounds
-                    [-56.9896485768469, -29.615978384204976] // northeastern corner of the bounds
+                    [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
+                    [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -343,8 +343,8 @@ var PROJECTS = {
                 subtitle: 'Carta Topográfica 1:25.000 do Mato Grosso do Sul',
                 description: `Construção de 64 cartas topográficas na escala 1:25.000 na região da fronteira do Mato Grosso do Sul.`,
                 zoom: [
-                    [-58.009617534472866, -21.009031888594546],
-                    [-56.99038215476067, -19.99096671276109]
+                    [-58.192352538599025, -21.18063783765893],
+                    [-56.80764718063957, -19.81933644861341]
                 ],
                 subtitle: 'Escala 1:50.000',
                 styles: [
@@ -388,8 +388,8 @@ var PROJECTS = {
                 subtitle: 'Carta Topográfica 1:50.000 de Roraima',
                 description: `Construção de 22 cartas topográficas na escala 1:50.000 na região da fronteira de Roraima.`,
                 zoom: [
-                    [-63.75902430973597, 3.9909581459814705],
-                    [-59.99097555585375, 5.5090414124124925]
+                    [-63.930486186711185, 3.8191625478856177],
+                    [-59.81951367376761, 5.68082793786413]
                 ],
                 styles: [
                     {
@@ -434,8 +434,8 @@ var PROJECTS = {
                 na escala 1:100.000 de produtos na região de Santa Catarina e Rio
                 Grande do Sul, para gerar 12 cartas topográficas na escala 1:100.000.`,
                 zoom: [
-                    [-52.010468863656676, -31.009018914711863],
-                    [-49.98953140864334, -26.49097461405787]
+                    [-52.209372285465335, -31.180376012441414],
+                    [-49.79062798683473, -26.319489869099446]
                 ],
                 styles: [
                     {
@@ -494,8 +494,8 @@ var PROJECTS = {
                 digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta
                 topográfica em formato matricial.`,
                 zoom: [
-                    [-52.51051115079902, -31.384018413584283],
-                    [-50.23948908742193, -29.240977951971203]
+                    [-52.71022179722203, -31.555366389875033],
+                    [-50.03977859831828, -29.069557751876076]
                 ],
                 styles: [
                     {
@@ -538,8 +538,8 @@ var PROJECTS = {
                 subtitle: '1:50.000',
                 description: `Produção de cartas topográficas 1:50.000 por processo de generalização`,
                 zoom: [
-                    [-52.51051115079902, -31.384018413584283],
-                    [-50.23948908742193, -29.240977951971203]
+                    [-52.71022179722203, -31.555366389875033],
+                    [-50.03977859831828, -29.069557751876076]
                 ],
                 styles: [
                     {
@@ -591,8 +591,8 @@ var PROJECTS = {
                 name: 'santa-catarina-25k',
                 subtitle: 'Escala 1:25.000',
                 zoom: [
-                    [-52.26021306473297, -28.509022254757816],
-                    [-49.98978711237043, -26.240974148031118]
+                    [-52.454258275555226, -28.680443365430413],
+                    [-49.79574195439098, -26.069483443263103]
                 ],
                 styles: [
                     {
@@ -634,8 +634,8 @@ var PROJECTS = {
                 name: 'santa-catarina-50k',
                 subtitle: 'Escala 1:50.000',
                 zoom: [
-                    [-52.26021306473297, -28.509022254757816],
-                    [-49.98978711237043, -26.240974148031118]
+                    [-52.454258275555226, -28.680443365430413],
+                    [-49.79574195439098, -26.069483443263103]
                 ],
                 styles: [
                     {
@@ -691,8 +691,8 @@ var PROJECTS = {
                 name: 'uraricoera',
                 subtitle: '',
                 zoom: [
-                    [-61.50901228262598, 1.4909562822294118],
-                    [-60.490987416973965, 4.759042955384573]
+                    [-61.68024984824885, 1.3191292999480237],
+                    [-60.31974985130867, 4.9308586451198915]
                 ],
                 styles: [
                     {
@@ -745,8 +745,8 @@ var PROJECTS = {
                 description: `Execução de mapeamento topográfico na escalas 1:25.000 de 44 cartas topográficas e seus dados
                 vetoriais na região de fronteira do Paraná.`,
                 zoom: [
-                    [-54.50986597322839, -24.509027705272096],
-                    [-53.490133951271616, -22.990970109909824]
+                    [-54.69732378130477, -24.6805561899923],
+                    [-53.30267614980163, -22.81940267434254]
                 ],
                 styles: [
                     {
@@ -790,8 +790,8 @@ var PROJECTS = {
                 description: `Execução de mapeamento topográfico na escalas 1:50.000 de 12 cartas topográficas e seus dados
                 vetoriais na região de fronteira do Paraná.`,
                 zoom: [
-                    [-54.50986597322839, -24.509027705272096],
-                    [-53.490133951271616, -22.990970109909824]
+                    [-54.69732378130477, -24.6805561899923],
+                    [-53.30267614980163, -22.81940267434254]
                 ],
                 styles: [
                     {
@@ -835,8 +835,8 @@ var PROJECTS = {
                 description: `Execução de mapeamento topográfico na escalas 1:100.000 de 03 cartas topográficas e seus dados
                 vetoriais na região de fronteira do Paraná.`,
                 zoom: [
-                    [-54.50986597322839, -24.509027705272096],
-                    [-53.490133951271616, -22.990970109909824]
+                    [-54.69732378130477, -24.6805561899923],
+                    [-53.30267614980163, -22.81940267434254]
                 ],
                 styles: [
                     {
@@ -889,8 +889,8 @@ var PROJECTS = {
                 name: 'campo-instrucao-25k',
                 subtitle: 'Escala 1:25.000',
                 zoom: [
-                    [-55.76038748018338, -30.259015219864047],
-                    [-50.11461239406215, -26.115975559945213]
+                    [-55.957753436413284, -30.430305858861235],
+                    [-49.91724633565898, -25.944514314083726]
                 ],
                 styles: [
                     {
@@ -932,8 +932,8 @@ var PROJECTS = {
                 name: 'campo-instrucao-50k',
                 subtitle: 'Escala 1:50.000',
                 zoom: [
-                    [-55.76038748018338, -30.259015219864047],
-                    [-50.11461239406215, -26.115975559945213]
+                    [-55.957753436413284, -30.430305858861235],
+                    [-49.91724633565898, -25.944514314083726]
                 ],
                 styles: [
                     {
@@ -990,8 +990,8 @@ var PROJECTS = {
                 name: 'radiografia-am',
                 subtitle: '',
                 zoom: [
-                    [-73.75908298085555, -9.508998140587076],
-                    [-53.99091712025353, 5.509000470431487]
+                    [-73.93162706598982, -9.679934513144],
+                    [-53.81837302401246, 5.679984155770884]
                 ],
                 styles: [
                     {
