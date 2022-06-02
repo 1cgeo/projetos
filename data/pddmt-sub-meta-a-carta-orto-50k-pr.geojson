@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "pddmt_sub-meta_a_carta_orto_50k_pr",
+	"name" : "pddmt-sub-meta-a-carta-orto-50k-pr",
 	"features" : [
 		{
 			"type" : "Feature",
@@ -27,7 +27,7 @@
 			"properties" : {
 				"id" : 0,
 				"identificador" : "2833-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -55,7 +55,7 @@
 			"properties" : {
 				"id" : 1,
 				"identificador" : "2833-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -83,7 +83,7 @@
 			"properties" : {
 				"id" : 2,
 				"identificador" : "2833-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -111,7 +111,7 @@
 			"properties" : {
 				"id" : 3,
 				"identificador" : "2833-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -139,7 +139,7 @@
 			"properties" : {
 				"id" : 4,
 				"identificador" : "2848-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"properties" : {
 				"id" : 5,
 				"identificador" : "2848-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -195,7 +195,7 @@
 			"properties" : {
 				"id" : 6,
 				"identificador" : "2848-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -223,7 +223,7 @@
 			"properties" : {
 				"id" : 7,
 				"identificador" : "2848-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 			"properties" : {
 				"id" : 8,
 				"identificador" : "2800-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -279,7 +279,7 @@
 			"properties" : {
 				"id" : 9,
 				"identificador" : "2800-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"properties" : {
 				"id" : 10,
 				"identificador" : "2800-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -335,7 +335,7 @@
 			"properties" : {
 				"id" : 11,
 				"identificador" : "2800-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -363,7 +363,7 @@
 			"properties" : {
 				"id" : 12,
 				"identificador" : "2801-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -391,7 +391,7 @@
 			"properties" : {
 				"id" : 13,
 				"identificador" : "2801-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -419,7 +419,7 @@
 			"properties" : {
 				"id" : 14,
 				"identificador" : "2801-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -447,7 +447,7 @@
 			"properties" : {
 				"id" : 15,
 				"identificador" : "2801-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -475,7 +475,7 @@
 			"properties" : {
 				"id" : 16,
 				"identificador" : "2778-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -503,7 +503,7 @@
 			"properties" : {
 				"id" : 17,
 				"identificador" : "2778-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -531,7 +531,7 @@
 			"properties" : {
 				"id" : 18,
 				"identificador" : "2778-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -559,7 +559,7 @@
 			"properties" : {
 				"id" : 19,
 				"identificador" : "2778-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -643,7 +643,7 @@
 			"properties" : {
 				"id" : 22,
 				"identificador" : "2753-3",
-				"situacao" : "Adquirido"
+				"situacao" : "Digitalização"
 			}
 		},
 		{
@@ -671,7 +671,7 @@
 			"properties" : {
 				"id" : 23,
 				"identificador" : "2753-4",
-				"situacao" : "Adquirido"
+				"situacao" : "Digitalização"
 			}
 		},
 		{
@@ -755,7 +755,7 @@
 			"properties" : {
 				"id" : 26,
 				"identificador" : "2754-3",
-				"situacao" : "Adquirido"
+				"situacao" : "Digitalização"
 			}
 		},
 		{
@@ -923,7 +923,7 @@
 			"properties" : {
 				"id" : 32,
 				"identificador" : "2817-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -951,7 +951,7 @@
 			"properties" : {
 				"id" : 33,
 				"identificador" : "2817-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -979,7 +979,7 @@
 			"properties" : {
 				"id" : 34,
 				"identificador" : "2818-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1007,7 +1007,7 @@
 			"properties" : {
 				"id" : 35,
 				"identificador" : "2818-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1203,7 +1203,7 @@
 			"properties" : {
 				"id" : 42,
 				"identificador" : "2818-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1231,7 +1231,7 @@
 			"properties" : {
 				"id" : 43,
 				"identificador" : "2818-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1259,7 +1259,7 @@
 			"properties" : {
 				"id" : 44,
 				"identificador" : "2816-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1287,7 +1287,7 @@
 			"properties" : {
 				"id" : 45,
 				"identificador" : "2831-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1315,7 +1315,7 @@
 			"properties" : {
 				"id" : 46,
 				"identificador" : "2832-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1343,7 +1343,7 @@
 			"properties" : {
 				"id" : 47,
 				"identificador" : "2832-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1371,7 +1371,7 @@
 			"properties" : {
 				"id" : 48,
 				"identificador" : "2832-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1399,7 +1399,7 @@
 			"properties" : {
 				"id" : 49,
 				"identificador" : "2832-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1427,7 +1427,7 @@
 			"properties" : {
 				"id" : 50,
 				"identificador" : "2846-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1455,7 +1455,7 @@
 			"properties" : {
 				"id" : 51,
 				"identificador" : "2847-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1483,7 +1483,7 @@
 			"properties" : {
 				"id" : 52,
 				"identificador" : "2847-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1511,7 +1511,7 @@
 			"properties" : {
 				"id" : 53,
 				"identificador" : "2799-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"properties" : {
 				"id" : 54,
 				"identificador" : "2799-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1567,7 +1567,7 @@
 			"properties" : {
 				"id" : 55,
 				"identificador" : "2799-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1595,7 +1595,7 @@
 			"properties" : {
 				"id" : 56,
 				"identificador" : "2799-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1623,7 +1623,7 @@
 			"properties" : {
 				"id" : 57,
 				"identificador" : "2816-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1651,7 +1651,7 @@
 			"properties" : {
 				"id" : 58,
 				"identificador" : "2816-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1679,7 +1679,7 @@
 			"properties" : {
 				"id" : 59,
 				"identificador" : "2816-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1707,7 +1707,7 @@
 			"properties" : {
 				"id" : 60,
 				"identificador" : "2817-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1735,7 +1735,7 @@
 			"properties" : {
 				"id" : 61,
 				"identificador" : "2817-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1847,7 +1847,7 @@
 			"properties" : {
 				"id" : 65,
 				"identificador" : "2779-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1875,7 +1875,7 @@
 			"properties" : {
 				"id" : 66,
 				"identificador" : "2779-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1903,7 +1903,7 @@
 			"properties" : {
 				"id" : 67,
 				"identificador" : "2779-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1931,7 +1931,7 @@
 			"properties" : {
 				"id" : 68,
 				"identificador" : "2779-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1959,7 +1959,7 @@
 			"properties" : {
 				"id" : 69,
 				"identificador" : "2780-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -1987,7 +1987,7 @@
 			"properties" : {
 				"id" : 70,
 				"identificador" : "2780-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -2015,7 +2015,7 @@
 			"properties" : {
 				"id" : 71,
 				"identificador" : "2780-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -2043,7 +2043,7 @@
 			"properties" : {
 				"id" : 72,
 				"identificador" : "2780-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{

@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "mapintfter_sub-meta_a3_carta_topo_25k_ms",
+	"name" : "mapintfter-sub-meta-a3-carta-topo-25k-ms",
 	"features" : [
 		{
 			"type" : "Feature",
@@ -26,7 +26,7 @@
 			},
 			"properties" : {
 				"id" : 0,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-1-NE"
 			}
 		},
@@ -54,7 +54,7 @@
 			},
 			"properties" : {
 				"id" : 1,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-4-NE"
 			}
 		},
@@ -82,7 +82,7 @@
 			},
 			"properties" : {
 				"id" : 2,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-3-SO"
 			}
 		},
@@ -110,7 +110,7 @@
 			},
 			"properties" : {
 				"id" : 3,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-4-SO"
 			}
 		},
@@ -138,7 +138,7 @@
 			},
 			"properties" : {
 				"id" : 4,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-1-NE"
 			}
 		},
@@ -166,7 +166,7 @@
 			},
 			"properties" : {
 				"id" : 5,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-3-SO"
 			}
 		},
@@ -194,7 +194,7 @@
 			},
 			"properties" : {
 				"id" : 6,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-4-SE"
 			}
 		},
@@ -222,7 +222,7 @@
 			},
 			"properties" : {
 				"id" : 7,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-3-NE"
 			}
 		},
@@ -250,7 +250,7 @@
 			},
 			"properties" : {
 				"id" : 8,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-3-NO"
 			}
 		},
@@ -278,7 +278,7 @@
 			},
 			"properties" : {
 				"id" : 9,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-3-SE"
 			}
 		},
@@ -306,7 +306,7 @@
 			},
 			"properties" : {
 				"id" : 10,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-3-NE"
 			}
 		},
@@ -334,7 +334,7 @@
 			},
 			"properties" : {
 				"id" : 11,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-2-SO"
 			}
 		},
@@ -362,7 +362,7 @@
 			},
 			"properties" : {
 				"id" : 12,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-2-SE"
 			}
 		},
@@ -390,7 +390,7 @@
 			},
 			"properties" : {
 				"id" : 13,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-4-NO"
 			}
 		},
@@ -418,7 +418,7 @@
 			},
 			"properties" : {
 				"id" : 14,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-4-NO"
 			}
 		},
@@ -446,7 +446,7 @@
 			},
 			"properties" : {
 				"id" : 15,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-2-NE"
 			}
 		},
@@ -474,7 +474,7 @@
 			},
 			"properties" : {
 				"id" : 16,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-3-SE"
 			}
 		},
@@ -502,7 +502,7 @@
 			},
 			"properties" : {
 				"id" : 17,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-4-SO"
 			}
 		},
@@ -530,7 +530,7 @@
 			},
 			"properties" : {
 				"id" : 18,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-1-NO"
 			}
 		},
@@ -558,7 +558,7 @@
 			},
 			"properties" : {
 				"id" : 19,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-2-SO"
 			}
 		},
@@ -586,7 +586,7 @@
 			},
 			"properties" : {
 				"id" : 20,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-2-SE"
 			}
 		},
@@ -614,7 +614,7 @@
 			},
 			"properties" : {
 				"id" : 21,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-2-NO"
 			}
 		},
@@ -642,7 +642,7 @@
 			},
 			"properties" : {
 				"id" : 22,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-1-NE"
 			}
 		},
@@ -670,7 +670,7 @@
 			},
 			"properties" : {
 				"id" : 23,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-1-SO"
 			}
 		},
@@ -698,7 +698,7 @@
 			},
 			"properties" : {
 				"id" : 24,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-4-SE"
 			}
 		},
@@ -726,7 +726,7 @@
 			},
 			"properties" : {
 				"id" : 25,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-1-NO"
 			}
 		},
@@ -754,7 +754,7 @@
 			},
 			"properties" : {
 				"id" : 26,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-2-SE"
 			}
 		},
@@ -782,7 +782,7 @@
 			},
 			"properties" : {
 				"id" : 27,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-2-NE"
 			}
 		},
@@ -810,7 +810,7 @@
 			},
 			"properties" : {
 				"id" : 28,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-4-SE"
 			}
 		},
@@ -838,7 +838,7 @@
 			},
 			"properties" : {
 				"id" : 29,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-2-NO"
 			}
 		},
@@ -866,7 +866,7 @@
 			},
 			"properties" : {
 				"id" : 30,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-3-NO"
 			}
 		},
@@ -894,7 +894,7 @@
 			},
 			"properties" : {
 				"id" : 31,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-1-SO"
 			}
 		},
@@ -922,7 +922,7 @@
 			},
 			"properties" : {
 				"id" : 32,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-4-NE"
 			}
 		},
@@ -950,7 +950,7 @@
 			},
 			"properties" : {
 				"id" : 33,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-1-SE"
 			}
 		},
@@ -978,7 +978,7 @@
 			},
 			"properties" : {
 				"id" : 34,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-3-SO"
 			}
 		},
@@ -1006,7 +1006,7 @@
 			},
 			"properties" : {
 				"id" : 35,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-3-NO"
 			}
 		},
@@ -1034,7 +1034,7 @@
 			},
 			"properties" : {
 				"id" : 36,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-4-NO"
 			}
 		},
@@ -1062,7 +1062,7 @@
 			},
 			"properties" : {
 				"id" : 37,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-4-NE"
 			}
 		},
@@ -1090,7 +1090,7 @@
 			},
 			"properties" : {
 				"id" : 38,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-4-SO"
 			}
 		},
@@ -1118,7 +1118,7 @@
 			},
 			"properties" : {
 				"id" : 39,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-3-SE"
 			}
 		},
@@ -1146,7 +1146,7 @@
 			},
 			"properties" : {
 				"id" : 40,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-1-SO"
 			}
 		},
@@ -1174,7 +1174,7 @@
 			},
 			"properties" : {
 				"id" : 41,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-1-SE"
 			}
 		},
@@ -1202,7 +1202,7 @@
 			},
 			"properties" : {
 				"id" : 42,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-3-NE"
 			}
 		},
@@ -1230,7 +1230,7 @@
 			},
 			"properties" : {
 				"id" : 43,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-3-SO"
 			}
 		},
@@ -1258,7 +1258,7 @@
 			},
 			"properties" : {
 				"id" : 44,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-1-SE"
 			}
 		},
@@ -1286,7 +1286,7 @@
 			},
 			"properties" : {
 				"id" : 45,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-2-NE"
 			}
 		},
@@ -1314,7 +1314,7 @@
 			},
 			"properties" : {
 				"id" : 46,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-1-SO"
 			}
 		},
@@ -1342,7 +1342,7 @@
 			},
 			"properties" : {
 				"id" : 47,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-1-NO"
 			}
 		},
@@ -1370,7 +1370,7 @@
 			},
 			"properties" : {
 				"id" : 48,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-4-NO"
 			}
 		},
@@ -1398,7 +1398,7 @@
 			},
 			"properties" : {
 				"id" : 49,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-1-NE"
 			}
 		},
@@ -1426,7 +1426,7 @@
 			},
 			"properties" : {
 				"id" : 50,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-2-SO"
 			}
 		},
@@ -1454,7 +1454,7 @@
 			},
 			"properties" : {
 				"id" : 51,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-4-SO"
 			}
 		},
@@ -1482,7 +1482,7 @@
 			},
 			"properties" : {
 				"id" : 52,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-2-SO"
 			}
 		},
@@ -1510,7 +1510,7 @@
 			},
 			"properties" : {
 				"id" : 53,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-1-SE"
 			}
 		},
@@ -1538,7 +1538,7 @@
 			},
 			"properties" : {
 				"id" : 54,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-4-NE"
 			}
 		},
@@ -1566,7 +1566,7 @@
 			},
 			"properties" : {
 				"id" : 55,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-2-NO"
 			}
 		},
@@ -1594,7 +1594,7 @@
 			},
 			"properties" : {
 				"id" : 56,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-2-NO"
 			}
 		},
@@ -1622,7 +1622,7 @@
 			},
 			"properties" : {
 				"id" : 57,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-3-NO"
 			}
 		},
@@ -1650,7 +1650,7 @@
 			},
 			"properties" : {
 				"id" : 58,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-4-SE"
 			}
 		},
@@ -1678,7 +1678,7 @@
 			},
 			"properties" : {
 				"id" : 59,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-3-NE"
 			}
 		},
@@ -1706,7 +1706,7 @@
 			},
 			"properties" : {
 				"id" : 60,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2546-3-SE"
 			}
 		},
@@ -1734,7 +1734,7 @@
 			},
 			"properties" : {
 				"id" : 61,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2581-2-NE"
 			}
 		},
@@ -1762,7 +1762,7 @@
 			},
 			"properties" : {
 				"id" : 62,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2545-2-SE"
 			}
 		},
@@ -1790,7 +1790,7 @@
 			},
 			"properties" : {
 				"id" : 63,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2582-1-NO"
 			}
 		}

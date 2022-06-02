@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "conv_rs_carta_topo_25k_rs",
+	"name" : "conv-rs-carta-topo-25k-rs",
 	"features" : [
 		{
 			"type" : "Feature",
@@ -27,7 +27,7 @@
 			"properties" : {
 				"id" : 0,
 				"identificador" : "2952-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -55,7 +55,7 @@
 			"properties" : {
 				"id" : 1,
 				"identificador" : "2952-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -83,7 +83,7 @@
 			"properties" : {
 				"id" : 2,
 				"identificador" : "2952-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -111,7 +111,7 @@
 			"properties" : {
 				"id" : 3,
 				"identificador" : "2953-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -139,7 +139,7 @@
 			"properties" : {
 				"id" : 4,
 				"identificador" : "2953-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"properties" : {
 				"id" : 5,
 				"identificador" : "2953-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -195,7 +195,7 @@
 			"properties" : {
 				"id" : 6,
 				"identificador" : "2953-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -223,7 +223,7 @@
 			"properties" : {
 				"id" : 7,
 				"identificador" : "2953-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 			"properties" : {
 				"id" : 8,
 				"identificador" : "2953-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -279,7 +279,7 @@
 			"properties" : {
 				"id" : 9,
 				"identificador" : "2953-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"properties" : {
 				"id" : 10,
 				"identificador" : "2954-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -335,7 +335,7 @@
 			"properties" : {
 				"id" : 11,
 				"identificador" : "2954-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -363,7 +363,7 @@
 			"properties" : {
 				"id" : 12,
 				"identificador" : "2954-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -391,7 +391,7 @@
 			"properties" : {
 				"id" : 13,
 				"identificador" : "2955-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -419,7 +419,7 @@
 			"properties" : {
 				"id" : 14,
 				"identificador" : "2968-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -447,7 +447,7 @@
 			"properties" : {
 				"id" : 15,
 				"identificador" : "2968-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -475,7 +475,7 @@
 			"properties" : {
 				"id" : 16,
 				"identificador" : "2969-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -503,7 +503,7 @@
 			"properties" : {
 				"id" : 17,
 				"identificador" : "2969-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -531,7 +531,7 @@
 			"properties" : {
 				"id" : 18,
 				"identificador" : "2969-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -559,7 +559,7 @@
 			"properties" : {
 				"id" : 19,
 				"identificador" : "2969-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -587,7 +587,7 @@
 			"properties" : {
 				"id" : 20,
 				"identificador" : "2969-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -615,7 +615,7 @@
 			"properties" : {
 				"id" : 21,
 				"identificador" : "2969-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -643,7 +643,7 @@
 			"properties" : {
 				"id" : 22,
 				"identificador" : "2969-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -671,7 +671,7 @@
 			"properties" : {
 				"id" : 23,
 				"identificador" : "2969-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -699,7 +699,7 @@
 			"properties" : {
 				"id" : 24,
 				"identificador" : "2969-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -727,7 +727,7 @@
 			"properties" : {
 				"id" : 25,
 				"identificador" : "2969-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -755,7 +755,7 @@
 			"properties" : {
 				"id" : 26,
 				"identificador" : "2969-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -783,7 +783,7 @@
 			"properties" : {
 				"id" : 27,
 				"identificador" : "2970-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -811,7 +811,7 @@
 			"properties" : {
 				"id" : 28,
 				"identificador" : "2970-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -839,7 +839,7 @@
 			"properties" : {
 				"id" : 29,
 				"identificador" : "2970-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 			"properties" : {
 				"id" : 30,
 				"identificador" : "2970-1-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -895,7 +895,7 @@
 			"properties" : {
 				"id" : 31,
 				"identificador" : "2970-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -923,7 +923,7 @@
 			"properties" : {
 				"id" : 32,
 				"identificador" : "2970-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -951,7 +951,7 @@
 			"properties" : {
 				"id" : 33,
 				"identificador" : "2971-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -979,7 +979,7 @@
 			"properties" : {
 				"id" : 34,
 				"identificador" : "2971-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1007,7 +1007,7 @@
 			"properties" : {
 				"id" : 35,
 				"identificador" : "2971-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1035,7 +1035,7 @@
 			"properties" : {
 				"id" : 36,
 				"identificador" : "2971-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1063,7 +1063,7 @@
 			"properties" : {
 				"id" : 37,
 				"identificador" : "2971-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1091,7 +1091,7 @@
 			"properties" : {
 				"id" : 38,
 				"identificador" : "2971-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1119,7 +1119,7 @@
 			"properties" : {
 				"id" : 39,
 				"identificador" : "2971-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1147,7 +1147,7 @@
 			"properties" : {
 				"id" : 40,
 				"identificador" : "2971-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1175,7 +1175,7 @@
 			"properties" : {
 				"id" : 41,
 				"identificador" : "2971-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1203,7 +1203,7 @@
 			"properties" : {
 				"id" : 42,
 				"identificador" : "2971-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1231,7 +1231,7 @@
 			"properties" : {
 				"id" : 43,
 				"identificador" : "2971-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1259,7 +1259,7 @@
 			"properties" : {
 				"id" : 44,
 				"identificador" : "2971-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1287,7 +1287,7 @@
 			"properties" : {
 				"id" : 45,
 				"identificador" : "2972-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1315,7 +1315,7 @@
 			"properties" : {
 				"id" : 46,
 				"identificador" : "2972-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1343,7 +1343,7 @@
 			"properties" : {
 				"id" : 47,
 				"identificador" : "2972-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1371,7 +1371,7 @@
 			"properties" : {
 				"id" : 48,
 				"identificador" : "2972-1-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1399,7 +1399,7 @@
 			"properties" : {
 				"id" : 49,
 				"identificador" : "2972-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1427,7 +1427,7 @@
 			"properties" : {
 				"id" : 50,
 				"identificador" : "2972-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1455,7 +1455,7 @@
 			"properties" : {
 				"id" : 51,
 				"identificador" : "2972-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1483,7 +1483,7 @@
 			"properties" : {
 				"id" : 52,
 				"identificador" : "2972-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1511,7 +1511,7 @@
 			"properties" : {
 				"id" : 53,
 				"identificador" : "2985-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"properties" : {
 				"id" : 54,
 				"identificador" : "2985-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1567,7 +1567,7 @@
 			"properties" : {
 				"id" : 55,
 				"identificador" : "2986-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1595,7 +1595,7 @@
 			"properties" : {
 				"id" : 56,
 				"identificador" : "2986-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1623,7 +1623,7 @@
 			"properties" : {
 				"id" : 57,
 				"identificador" : "2986-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1651,7 +1651,7 @@
 			"properties" : {
 				"id" : 58,
 				"identificador" : "2986-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1679,7 +1679,7 @@
 			"properties" : {
 				"id" : 59,
 				"identificador" : "2988-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1707,7 +1707,7 @@
 			"properties" : {
 				"id" : 60,
 				"identificador" : "2988-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1735,7 +1735,7 @@
 			"properties" : {
 				"id" : 61,
 				"identificador" : "2988-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1763,7 +1763,7 @@
 			"properties" : {
 				"id" : 62,
 				"identificador" : "2988-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1791,7 +1791,7 @@
 			"properties" : {
 				"id" : 63,
 				"identificador" : "2988-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1819,7 +1819,7 @@
 			"properties" : {
 				"id" : 64,
 				"identificador" : "2988-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1847,7 +1847,7 @@
 			"properties" : {
 				"id" : 65,
 				"identificador" : "2988-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1875,7 +1875,7 @@
 			"properties" : {
 				"id" : 66,
 				"identificador" : "2988-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1903,7 +1903,7 @@
 			"properties" : {
 				"id" : 67,
 				"identificador" : "2989-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1931,7 +1931,7 @@
 			"properties" : {
 				"id" : 68,
 				"identificador" : "2998-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1959,7 +1959,7 @@
 			"properties" : {
 				"id" : 69,
 				"identificador" : "2998-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1987,7 +1987,7 @@
 			"properties" : {
 				"id" : 70,
 				"identificador" : "2998-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2015,7 +2015,7 @@
 			"properties" : {
 				"id" : 71,
 				"identificador" : "2998-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2043,7 +2043,7 @@
 			"properties" : {
 				"id" : 72,
 				"identificador" : "2998-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2071,7 +2071,7 @@
 			"properties" : {
 				"id" : 73,
 				"identificador" : "2998-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2099,7 +2099,7 @@
 			"properties" : {
 				"id" : 74,
 				"identificador" : "2998-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2127,7 +2127,7 @@
 			"properties" : {
 				"id" : 75,
 				"identificador" : "2998-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2155,7 +2155,7 @@
 			"properties" : {
 				"id" : 76,
 				"identificador" : "2998-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2183,7 +2183,7 @@
 			"properties" : {
 				"id" : 77,
 				"identificador" : "2999-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2211,7 +2211,7 @@
 			"properties" : {
 				"id" : 78,
 				"identificador" : "2999-1-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2239,7 +2239,7 @@
 			"properties" : {
 				"id" : 79,
 				"identificador" : "2999-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2267,7 +2267,7 @@
 			"properties" : {
 				"id" : 80,
 				"identificador" : "2999-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2295,7 +2295,7 @@
 			"properties" : {
 				"id" : 81,
 				"identificador" : "2999-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2323,7 +2323,7 @@
 			"properties" : {
 				"id" : 82,
 				"identificador" : "2999-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2351,7 +2351,7 @@
 			"properties" : {
 				"id" : 83,
 				"identificador" : "2999-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2379,7 +2379,7 @@
 			"properties" : {
 				"id" : 84,
 				"identificador" : "2999-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2407,7 +2407,7 @@
 			"properties" : {
 				"id" : 85,
 				"identificador" : "2999-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2435,7 +2435,7 @@
 			"properties" : {
 				"id" : 86,
 				"identificador" : "2999-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2463,7 +2463,7 @@
 			"properties" : {
 				"id" : 87,
 				"identificador" : "2999-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2491,7 +2491,7 @@
 			"properties" : {
 				"id" : 88,
 				"identificador" : "2999-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2519,7 +2519,7 @@
 			"properties" : {
 				"id" : 89,
 				"identificador" : "3000-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2547,7 +2547,7 @@
 			"properties" : {
 				"id" : 90,
 				"identificador" : "3000-1-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2575,7 +2575,7 @@
 			"properties" : {
 				"id" : 91,
 				"identificador" : "3000-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2603,7 +2603,7 @@
 			"properties" : {
 				"id" : 92,
 				"identificador" : "3000-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2631,7 +2631,7 @@
 			"properties" : {
 				"id" : 93,
 				"identificador" : "3000-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2659,7 +2659,7 @@
 			"properties" : {
 				"id" : 94,
 				"identificador" : "3000-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2687,7 +2687,7 @@
 			"properties" : {
 				"id" : 95,
 				"identificador" : "3011-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2715,7 +2715,7 @@
 			"properties" : {
 				"id" : 96,
 				"identificador" : "3011-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2743,7 +2743,7 @@
 			"properties" : {
 				"id" : 97,
 				"identificador" : "3011-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2771,7 +2771,7 @@
 			"properties" : {
 				"id" : 98,
 				"identificador" : "3012-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2799,7 +2799,7 @@
 			"properties" : {
 				"id" : 99,
 				"identificador" : "3012-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2827,7 +2827,7 @@
 			"properties" : {
 				"id" : 100,
 				"identificador" : "3012-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2855,7 +2855,7 @@
 			"properties" : {
 				"id" : 101,
 				"identificador" : "3012-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2883,7 +2883,7 @@
 			"properties" : {
 				"id" : 102,
 				"identificador" : "3012-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2911,7 +2911,7 @@
 			"properties" : {
 				"id" : 103,
 				"identificador" : "3012-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2939,7 +2939,7 @@
 			"properties" : {
 				"id" : 104,
 				"identificador" : "3012-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2967,7 +2967,7 @@
 			"properties" : {
 				"id" : 105,
 				"identificador" : "3012-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -2995,7 +2995,7 @@
 			"properties" : {
 				"id" : 106,
 				"identificador" : "3012-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3023,7 +3023,7 @@
 			"properties" : {
 				"id" : 107,
 				"identificador" : "3012-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3051,7 +3051,7 @@
 			"properties" : {
 				"id" : 108,
 				"identificador" : "3013-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3079,7 +3079,7 @@
 			"properties" : {
 				"id" : 109,
 				"identificador" : "2986-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3107,7 +3107,7 @@
 			"properties" : {
 				"id" : 110,
 				"identificador" : "2985-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3135,7 +3135,7 @@
 			"properties" : {
 				"id" : 111,
 				"identificador" : "2986-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3163,7 +3163,7 @@
 			"properties" : {
 				"id" : 112,
 				"identificador" : "2987-1-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3191,7 +3191,7 @@
 			"properties" : {
 				"id" : 113,
 				"identificador" : "2988-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3219,7 +3219,7 @@
 			"properties" : {
 				"id" : 114,
 				"identificador" : "2987-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3247,7 +3247,7 @@
 			"properties" : {
 				"id" : 115,
 				"identificador" : "2987-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3275,7 +3275,7 @@
 			"properties" : {
 				"id" : 116,
 				"identificador" : "3000-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3303,7 +3303,7 @@
 			"properties" : {
 				"id" : 117,
 				"identificador" : "2970-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3331,7 +3331,7 @@
 			"properties" : {
 				"id" : 118,
 				"identificador" : "2998-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3359,7 +3359,7 @@
 			"properties" : {
 				"id" : 119,
 				"identificador" : "2987-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3387,7 +3387,7 @@
 			"properties" : {
 				"id" : 120,
 				"identificador" : "2999-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3415,7 +3415,7 @@
 			"properties" : {
 				"id" : 121,
 				"identificador" : "2970-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3443,7 +3443,7 @@
 			"properties" : {
 				"id" : 122,
 				"identificador" : "2986-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3471,7 +3471,7 @@
 			"properties" : {
 				"id" : 123,
 				"identificador" : "2987-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3499,7 +3499,7 @@
 			"properties" : {
 				"id" : 124,
 				"identificador" : "2988-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3527,7 +3527,7 @@
 			"properties" : {
 				"id" : 125,
 				"identificador" : "2970-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3555,7 +3555,7 @@
 			"properties" : {
 				"id" : 126,
 				"identificador" : "2988-1-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3583,7 +3583,7 @@
 			"properties" : {
 				"id" : 127,
 				"identificador" : "2987-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3611,7 +3611,7 @@
 			"properties" : {
 				"id" : 128,
 				"identificador" : "2998-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3639,7 +3639,7 @@
 			"properties" : {
 				"id" : 129,
 				"identificador" : "2987-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3667,7 +3667,7 @@
 			"properties" : {
 				"id" : 130,
 				"identificador" : "2985-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3695,7 +3695,7 @@
 			"properties" : {
 				"id" : 131,
 				"identificador" : "2986-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3723,7 +3723,7 @@
 			"properties" : {
 				"id" : 132,
 				"identificador" : "2987-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3751,7 +3751,7 @@
 			"properties" : {
 				"id" : 133,
 				"identificador" : "2987-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3779,7 +3779,7 @@
 			"properties" : {
 				"id" : 134,
 				"identificador" : "2988-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3807,7 +3807,7 @@
 			"properties" : {
 				"id" : 135,
 				"identificador" : "2971-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3835,7 +3835,7 @@
 			"properties" : {
 				"id" : 136,
 				"identificador" : "2998-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3863,7 +3863,7 @@
 			"properties" : {
 				"id" : 137,
 				"identificador" : "2998-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3891,7 +3891,7 @@
 			"properties" : {
 				"id" : 138,
 				"identificador" : "2986-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3919,7 +3919,7 @@
 			"properties" : {
 				"id" : 139,
 				"identificador" : "2970-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3947,7 +3947,7 @@
 			"properties" : {
 				"id" : 140,
 				"identificador" : "2970-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -3975,7 +3975,7 @@
 			"properties" : {
 				"id" : 141,
 				"identificador" : "2971-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4003,7 +4003,7 @@
 			"properties" : {
 				"id" : 142,
 				"identificador" : "2985-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4031,7 +4031,7 @@
 			"properties" : {
 				"id" : 143,
 				"identificador" : "2986-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4059,7 +4059,7 @@
 			"properties" : {
 				"id" : 144,
 				"identificador" : "3000-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4087,7 +4087,7 @@
 			"properties" : {
 				"id" : 145,
 				"identificador" : "2970-3-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4115,7 +4115,7 @@
 			"properties" : {
 				"id" : 146,
 				"identificador" : "2987-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4143,7 +4143,7 @@
 			"properties" : {
 				"id" : 147,
 				"identificador" : "2999-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4171,7 +4171,7 @@
 			"properties" : {
 				"id" : 148,
 				"identificador" : "2999-1-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4199,7 +4199,7 @@
 			"properties" : {
 				"id" : 149,
 				"identificador" : "2985-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4227,7 +4227,7 @@
 			"properties" : {
 				"id" : 150,
 				"identificador" : "2987-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4255,7 +4255,7 @@
 			"properties" : {
 				"id" : 151,
 				"identificador" : "2986-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4283,7 +4283,7 @@
 			"properties" : {
 				"id" : 152,
 				"identificador" : "2986-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4311,7 +4311,7 @@
 			"properties" : {
 				"id" : 153,
 				"identificador" : "2970-4-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4339,7 +4339,7 @@
 			"properties" : {
 				"id" : 154,
 				"identificador" : "2970-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4367,7 +4367,7 @@
 			"properties" : {
 				"id" : 155,
 				"identificador" : "2987-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4395,7 +4395,7 @@
 			"properties" : {
 				"id" : 156,
 				"identificador" : "2986-4-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4423,7 +4423,7 @@
 			"properties" : {
 				"id" : 157,
 				"identificador" : "2987-3-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4451,7 +4451,7 @@
 			"properties" : {
 				"id" : 158,
 				"identificador" : "2970-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4479,7 +4479,7 @@
 			"properties" : {
 				"id" : 159,
 				"identificador" : "2971-1-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4507,7 +4507,7 @@
 			"properties" : {
 				"id" : 160,
 				"identificador" : "2986-1-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4535,7 +4535,7 @@
 			"properties" : {
 				"id" : 161,
 				"identificador" : "2985-4-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4563,7 +4563,7 @@
 			"properties" : {
 				"id" : 162,
 				"identificador" : "2987-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4591,7 +4591,7 @@
 			"properties" : {
 				"id" : 163,
 				"identificador" : "2986-1-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4619,7 +4619,7 @@
 			"properties" : {
 				"id" : 164,
 				"identificador" : "2985-4-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4647,7 +4647,7 @@
 			"properties" : {
 				"id" : 165,
 				"identificador" : "2971-1-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4675,7 +4675,7 @@
 			"properties" : {
 				"id" : 166,
 				"identificador" : "2999-2-NO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4703,7 +4703,7 @@
 			"properties" : {
 				"id" : 167,
 				"identificador" : "2970-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4731,7 +4731,7 @@
 			"properties" : {
 				"id" : 168,
 				"identificador" : "2987-3-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4759,7 +4759,7 @@
 			"properties" : {
 				"id" : 169,
 				"identificador" : "2985-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4787,7 +4787,7 @@
 			"properties" : {
 				"id" : 170,
 				"identificador" : "2987-2-NE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4815,7 +4815,7 @@
 			"properties" : {
 				"id" : 171,
 				"identificador" : "2985-2-SE",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4843,7 +4843,7 @@
 			"properties" : {
 				"id" : 172,
 				"identificador" : "2985-2-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -4871,7 +4871,7 @@
 			"properties" : {
 				"id" : 173,
 				"identificador" : "2986-3-SO",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		}
 	]

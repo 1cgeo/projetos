@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "pddmt_sub-meta_b1_carta_topo_100k_rs",
+	"name" : "pddmt-sub-meta-b1-carta-topo-100k-rs",
 	"features" : [
 		{
 			"type" : "Feature",
@@ -26,7 +26,7 @@
 			},
 			"properties" : {
 				"id" : 0,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2926"
 			}
 		},
@@ -54,7 +54,7 @@
 			},
 			"properties" : {
 				"id" : 1,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2927"
 			}
 		},
@@ -82,7 +82,7 @@
 			},
 			"properties" : {
 				"id" : 2,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2928"
 			}
 		},
@@ -110,7 +110,7 @@
 			},
 			"properties" : {
 				"id" : 3,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2929"
 			}
 		},
@@ -138,7 +138,7 @@
 			},
 			"properties" : {
 				"id" : 4,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2930"
 			}
 		},
@@ -166,7 +166,7 @@
 			},
 			"properties" : {
 				"id" : 5,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2942"
 			}
 		},
@@ -194,7 +194,7 @@
 			},
 			"properties" : {
 				"id" : 6,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2943"
 			}
 		},
@@ -222,7 +222,7 @@
 			},
 			"properties" : {
 				"id" : 7,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2944"
 			}
 		},
@@ -250,7 +250,7 @@
 			},
 			"properties" : {
 				"id" : 8,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2959"
 			}
 		},
@@ -278,7 +278,7 @@
 			},
 			"properties" : {
 				"id" : 9,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2960"
 			}
 		},
@@ -306,7 +306,7 @@
 			},
 			"properties" : {
 				"id" : 10,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2961"
 			}
 		},
@@ -334,7 +334,7 @@
 			},
 			"properties" : {
 				"id" : 11,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2945"
 			}
 		},
@@ -362,7 +362,7 @@
 			},
 			"properties" : {
 				"id" : 12,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2946"
 			}
 		},
@@ -390,7 +390,7 @@
 			},
 			"properties" : {
 				"id" : 13,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2947"
 			}
 		},
@@ -418,7 +418,7 @@
 			},
 			"properties" : {
 				"id" : 14,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2962"
 			}
 		},
@@ -446,7 +446,7 @@
 			},
 			"properties" : {
 				"id" : 15,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2963"
 			}
 		},
@@ -474,7 +474,7 @@
 			},
 			"properties" : {
 				"id" : 16,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2964"
 			}
 		},
@@ -502,7 +502,7 @@
 			},
 			"properties" : {
 				"id" : 17,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2974"
 			}
 		},
@@ -530,7 +530,7 @@
 			},
 			"properties" : {
 				"id" : 18,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2975"
 			}
 		},
@@ -558,7 +558,7 @@
 			},
 			"properties" : {
 				"id" : 19,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2976"
 			}
 		},
@@ -586,7 +586,7 @@
 			},
 			"properties" : {
 				"id" : 20,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2977"
 			}
 		},
@@ -614,7 +614,7 @@
 			},
 			"properties" : {
 				"id" : 21,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2978"
 			}
 		},
@@ -642,7 +642,7 @@
 			},
 			"properties" : {
 				"id" : 22,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2990"
 			}
 		},
@@ -670,7 +670,7 @@
 			},
 			"properties" : {
 				"id" : 23,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2991"
 			}
 		},
@@ -698,7 +698,7 @@
 			},
 			"properties" : {
 				"id" : 24,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2979"
 			}
 		},
@@ -726,7 +726,7 @@
 			},
 			"properties" : {
 				"id" : 25,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2980"
 			}
 		},
@@ -754,7 +754,7 @@
 			},
 			"properties" : {
 				"id" : 26,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2981"
 			}
 		},
@@ -782,7 +782,7 @@
 			},
 			"properties" : {
 				"id" : 27,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2992"
 			}
 		},
@@ -810,7 +810,7 @@
 			},
 			"properties" : {
 				"id" : 28,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2993"
 			}
 		},
@@ -838,7 +838,7 @@
 			},
 			"properties" : {
 				"id" : 29,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2994"
 			}
 		},
@@ -866,7 +866,7 @@
 			},
 			"properties" : {
 				"id" : 30,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3003"
 			}
 		},
@@ -894,7 +894,7 @@
 			},
 			"properties" : {
 				"id" : 31,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2948"
 			}
 		},
@@ -922,7 +922,7 @@
 			},
 			"properties" : {
 				"id" : 32,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2949"
 			}
 		},
@@ -950,7 +950,7 @@
 			},
 			"properties" : {
 				"id" : 33,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2965"
 			}
 		},
@@ -978,7 +978,7 @@
 			},
 			"properties" : {
 				"id" : 34,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2966"
 			}
 		},
@@ -1006,7 +1006,7 @@
 			},
 			"properties" : {
 				"id" : 35,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2958"
 			}
 		},
@@ -1034,7 +1034,7 @@
 			},
 			"properties" : {
 				"id" : 36,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3004"
 			}
 		},
@@ -1062,7 +1062,7 @@
 			},
 			"properties" : {
 				"id" : 37,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3005"
 			}
 		},
@@ -1090,7 +1090,7 @@
 			},
 			"properties" : {
 				"id" : 38,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3006"
 			}
 		},
@@ -1118,7 +1118,7 @@
 			},
 			"properties" : {
 				"id" : 39,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3007"
 			}
 		},
@@ -1146,7 +1146,7 @@
 			},
 			"properties" : {
 				"id" : 40,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3015"
 			}
 		},
@@ -1174,7 +1174,7 @@
 			},
 			"properties" : {
 				"id" : 41,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3016"
 			}
 		},
@@ -1202,7 +1202,7 @@
 			},
 			"properties" : {
 				"id" : 42,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2931"
 			}
 		},
@@ -1230,7 +1230,7 @@
 			},
 			"properties" : {
 				"id" : 43,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2932"
 			}
 		},
@@ -1258,7 +1258,7 @@
 			},
 			"properties" : {
 				"id" : 44,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2982"
 			}
 		},
@@ -1286,7 +1286,7 @@
 			},
 			"properties" : {
 				"id" : 45,
-				"situacao" : "Validado",
+				"situacao" : "Validação",
 				"identificador" : "2983"
 			}
 		},
@@ -1314,7 +1314,7 @@
 			},
 			"properties" : {
 				"id" : 46,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2995"
 			}
 		},
@@ -1342,7 +1342,7 @@
 			},
 			"properties" : {
 				"id" : 47,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "2996"
 			}
 		},
@@ -1370,7 +1370,7 @@
 			},
 			"properties" : {
 				"id" : 48,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3008"
 			}
 		},
@@ -1398,7 +1398,7 @@
 			},
 			"properties" : {
 				"id" : 49,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3009"
 			}
 		},
@@ -1426,7 +1426,7 @@
 			},
 			"properties" : {
 				"id" : 50,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3017"
 			}
 		},
@@ -1454,7 +1454,7 @@
 			},
 			"properties" : {
 				"id" : 51,
-				"situacao" : "Adquirido",
+				"situacao" : "Digitalização",
 				"identificador" : "3018"
 			}
 		}

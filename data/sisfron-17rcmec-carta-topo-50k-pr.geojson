@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "sisfron-pr",
+	"name" : "sisfron-17rcmec-carta-topo-50k-pr",
 	"features" : [
 		{
 			"type" : "Feature",
@@ -27,7 +27,7 @@
 			"properties" : {
 				"id" : 0,
 				"identificador" : "2753-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -55,7 +55,7 @@
 			"properties" : {
 				"id" : 1,
 				"identificador" : "2753-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -83,7 +83,7 @@
 			"properties" : {
 				"id" : 2,
 				"identificador" : "2753-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -111,7 +111,7 @@
 			"properties" : {
 				"id" : 3,
 				"identificador" : "2753-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -139,7 +139,7 @@
 			"properties" : {
 				"id" : 4,
 				"identificador" : "2799-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"properties" : {
 				"id" : 5,
 				"identificador" : "2799-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -195,7 +195,7 @@
 			"properties" : {
 				"id" : 6,
 				"identificador" : "2799-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -223,7 +223,7 @@
 			"properties" : {
 				"id" : 7,
 				"identificador" : "2799-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 			"properties" : {
 				"id" : 8,
 				"identificador" : "2779-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -279,7 +279,7 @@
 			"properties" : {
 				"id" : 9,
 				"identificador" : "2779-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"properties" : {
 				"id" : 10,
 				"identificador" : "2779-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -335,7 +335,7 @@
 			"properties" : {
 				"id" : 11,
 				"identificador" : "2779-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		}
 	]

@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "mapintfter_sub-meta_c_carta_topo_100k_rs_sc",
+	"name" : "mapintfter-sub-meta-c-carta-topo-100k-rs-sc",
 	"features" : [
 		{
 			"type" : "Feature",
@@ -167,7 +167,7 @@
 			"properties" : {
 				"id" : 5,
 				"identificador" : "2889",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -195,7 +195,7 @@
 			"properties" : {
 				"id" : 6,
 				"identificador" : "2878",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -223,7 +223,7 @@
 			"properties" : {
 				"id" : 7,
 				"identificador" : "2879",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 			"properties" : {
 				"id" : 8,
 				"identificador" : "2890",
-				"situacao" : "Generalizado"
+				"situacao" : "Generalização"
 			}
 		},
 		{
@@ -279,7 +279,7 @@
 			"properties" : {
 				"id" : 9,
 				"identificador" : "2891",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"properties" : {
 				"id" : 10,
 				"identificador" : "2905",
-				"situacao" : "Generalizado"
+				"situacao" : "Generalização"
 			}
 		},
 		{
@@ -335,7 +335,7 @@
 			"properties" : {
 				"id" : 11,
 				"identificador" : "2906",
-				"situacao" : "Generalizado"
+				"situacao" : "Generalização"
 			}
 		}
 	]

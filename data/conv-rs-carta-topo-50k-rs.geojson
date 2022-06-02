@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "conv_rs_carta_topo_50k_rs",
+	"name" : "conv-rs-carta-topo-50k-rs",
 	"features" : [
 		{
 			"type" : "Feature",
@@ -27,7 +27,7 @@
 			"properties" : {
 				"id" : 0,
 				"identificador" : "2988-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -55,7 +55,7 @@
 			"properties" : {
 				"id" : 1,
 				"identificador" : "2988-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -83,7 +83,7 @@
 			"properties" : {
 				"id" : 2,
 				"identificador" : "2986-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -111,7 +111,7 @@
 			"properties" : {
 				"id" : 3,
 				"identificador" : "2986-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -139,7 +139,7 @@
 			"properties" : {
 				"id" : 4,
 				"identificador" : "2986-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"properties" : {
 				"id" : 5,
 				"identificador" : "2986-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -195,7 +195,7 @@
 			"properties" : {
 				"id" : 6,
 				"identificador" : "2987-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -223,7 +223,7 @@
 			"properties" : {
 				"id" : 7,
 				"identificador" : "2987-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 			"properties" : {
 				"id" : 8,
 				"identificador" : "2987-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -279,7 +279,7 @@
 			"properties" : {
 				"id" : 9,
 				"identificador" : "2987-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"properties" : {
 				"id" : 10,
 				"identificador" : "2998-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -335,7 +335,7 @@
 			"properties" : {
 				"id" : 11,
 				"identificador" : "2998-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -363,7 +363,7 @@
 			"properties" : {
 				"id" : 12,
 				"identificador" : "3012-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -391,7 +391,7 @@
 			"properties" : {
 				"id" : 13,
 				"identificador" : "2969-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -419,7 +419,7 @@
 			"properties" : {
 				"id" : 14,
 				"identificador" : "2969-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -447,7 +447,7 @@
 			"properties" : {
 				"id" : 15,
 				"identificador" : "2999-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -475,7 +475,7 @@
 			"properties" : {
 				"id" : 16,
 				"identificador" : "2999-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -503,7 +503,7 @@
 			"properties" : {
 				"id" : 17,
 				"identificador" : "2999-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -531,7 +531,7 @@
 			"properties" : {
 				"id" : 18,
 				"identificador" : "2999-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -559,7 +559,7 @@
 			"properties" : {
 				"id" : 19,
 				"identificador" : "3000-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -587,7 +587,7 @@
 			"properties" : {
 				"id" : 20,
 				"identificador" : "3000-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -615,7 +615,7 @@
 			"properties" : {
 				"id" : 21,
 				"identificador" : "2970-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -643,7 +643,7 @@
 			"properties" : {
 				"id" : 22,
 				"identificador" : "2970-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -671,7 +671,7 @@
 			"properties" : {
 				"id" : 23,
 				"identificador" : "2970-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -699,7 +699,7 @@
 			"properties" : {
 				"id" : 24,
 				"identificador" : "2970-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -727,7 +727,7 @@
 			"properties" : {
 				"id" : 25,
 				"identificador" : "2953-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -755,7 +755,7 @@
 			"properties" : {
 				"id" : 26,
 				"identificador" : "2971-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -783,7 +783,7 @@
 			"properties" : {
 				"id" : 27,
 				"identificador" : "2971-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -811,7 +811,7 @@
 			"properties" : {
 				"id" : 28,
 				"identificador" : "2971-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -839,7 +839,7 @@
 			"properties" : {
 				"id" : 29,
 				"identificador" : "2971-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 			"properties" : {
 				"id" : 30,
 				"identificador" : "2972-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -895,7 +895,7 @@
 			"properties" : {
 				"id" : 31,
 				"identificador" : "2972-3",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -923,7 +923,7 @@
 			"properties" : {
 				"id" : 32,
 				"identificador" : "2985-2",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -951,7 +951,7 @@
 			"properties" : {
 				"id" : 33,
 				"identificador" : "2985-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -979,7 +979,7 @@
 			"properties" : {
 				"id" : 34,
 				"identificador" : "3012-4",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1007,7 +1007,7 @@
 			"properties" : {
 				"id" : 35,
 				"identificador" : "3013-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		},
 		{
@@ -1035,7 +1035,7 @@
 			"properties" : {
 				"id" : 36,
 				"identificador" : "2988-1",
-				"situacao" : "Entregue"
+				"situacao" : "Disseminação"
 			}
 		}
 	]

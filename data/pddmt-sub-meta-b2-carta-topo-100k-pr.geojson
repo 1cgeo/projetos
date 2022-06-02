@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "pddmt_sub-meta_b2_carta_topo_100k_pr",
+	"name" : "pddmt-sub-meta-b2-carta-topo-100k-pr",
 	"features" : [
 		{
 			"type" : "Feature",

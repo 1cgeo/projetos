@@ -196,6 +196,11 @@ connectEvents = () => {
         document.getElementById('info').scrollTo(0, 0)
         /* map.on('mouseup', () => {
             console.log(map.getZoom())
+            let bounds = map.getBounds()
+            console.log([
+                [bounds._sw.lng, bounds._sw.lat],
+                [bounds._ne.lng, bounds._ne.lat]
+            ])
         }); */
     })
 

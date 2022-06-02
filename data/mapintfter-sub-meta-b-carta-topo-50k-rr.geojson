@@ -1,6 +1,6 @@
 {
 	"type" : "FeatureCollection",
-	"name" : "mapintfter_sub-meta_b_carta_topo_50k_rr",
+	"name" : "mapintfter-sub-meta-b-carta-topo-50k-rr",
 	"features" : [
 		{
 			"type" : "Feature",
@@ -27,7 +27,7 @@
 			"properties" : {
 				"id" : 0,
 				"identificador" : "0009-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -55,7 +55,7 @@
 			"properties" : {
 				"id" : 1,
 				"identificador" : "0010-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -83,7 +83,7 @@
 			"properties" : {
 				"id" : 2,
 				"identificador" : "0010-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -111,7 +111,7 @@
 			"properties" : {
 				"id" : 3,
 				"identificador" : "0011-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -139,7 +139,7 @@
 			"properties" : {
 				"id" : 4,
 				"identificador" : "0011-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"properties" : {
 				"id" : 5,
 				"identificador" : "0012-1",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -195,7 +195,7 @@
 			"properties" : {
 				"id" : 6,
 				"identificador" : "0012-2",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -223,7 +223,7 @@
 			"properties" : {
 				"id" : 7,
 				"identificador" : "0012-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 			"properties" : {
 				"id" : 8,
 				"identificador" : "0012-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -335,7 +335,7 @@
 			"properties" : {
 				"id" : 11,
 				"identificador" : "0015-3",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
@@ -363,7 +363,7 @@
 			"properties" : {
 				"id" : 12,
 				"identificador" : "0015-4",
-				"situacao" : "Validado"
+				"situacao" : "Validação"
 			}
 		},
 		{
