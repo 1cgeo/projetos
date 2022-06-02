@@ -86,7 +86,7 @@ setCurrentChapter = async (currentSlideId) => {
 
     map.fitBounds(loteSettings.zoom);
     await loadGeoJSON(loteName, loteSettings.styles)
-    activeSubtitle = projectSettings[projectName].legend
+    activeSubtitle = loteSettings.legend
     if (!mobileScreen()) {
         loadLegend(activeSubtitle)
     }
@@ -375,7 +375,7 @@ getSummarySlide = () => {
     return content.append(div)
 }
 
-geDefaultSlide = (slideId, title, description, subtitle) => {
+geDefaultSlide = (slideId, title, description, subtitle, loteDescription) => {
     let content = $("<div/>", {
         id: slideId,
         class: "swiper-slide"
@@ -406,6 +406,11 @@ geDefaultSlide = (slideId, title, description, subtitle) => {
                 })
             )
         )
+        div.append(
+            $("<b/>", {
+                text: loteDescription
+            })
+        )
     }
     div.append($("<br/>"))
     return content.append(div)
@@ -423,7 +428,8 @@ loadSlides = () => {
                         `${projectName}${getSeperatorId()}${lote.name}`,
                         projects[projectName].title,
                         projects[projectName].description,
-                        lote.subtitle
+                        lote.subtitle,
+                        lote.description
                     )
                 )
                 continue
@@ -433,7 +439,8 @@ loadSlides = () => {
                     `${projectName}${getSeperatorId()}${lote.name}`,
                     projects[projectName].title,
                     null,
-                    lote.subtitle
+                    lote.subtitle,
+                    lote.description
                 )
             )
         }
@@ -447,9 +454,9 @@ stopLoader = () => {
 setProjectSettings = () => {
     for (let projectName in PROJECTS) {
         let project = PROJECTS[projectName]
-        let subtitleSetting = getSubtitleSetting(project.legend)
-        project.legend = subtitleSetting
         for (let lote of project.lotes) {
+            let subtitleSetting = getSubtitleSetting(lote.legend)
+            lote.legend = subtitleSetting
             lote.styles[0].paint['fill-color'] = [
                 'match', ['string', ['get', 'situacao']], ...subtitleSetting, '#AAAAAA'
             ]

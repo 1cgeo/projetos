@@ -91,14 +91,6 @@ var PROJECTS = {
     'plano-desenvolvimento': {
         title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2022',
         executed: false,
-        legend: [
-            1,
-            12,
-            2,
-            5,
-            6,
-            3
-        ],
         description: `O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.`,
         lotes: [
             {
@@ -108,6 +100,14 @@ var PROJECTS = {
                 zoom: [
                     [-54.94972409601194, -26.180512277006958], // southwestern corner of the bounds
                     [-52.30027568484421, -22.31939338230858] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
                 ],
                 styles: [
                     {
@@ -151,6 +151,14 @@ var PROJECTS = {
                 zoom: [
                     [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
                     [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
                 ],
                 styles: [
                     {
@@ -201,6 +209,14 @@ var PROJECTS = {
                         -22.624879681924526
                     ]
                 ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
                 styles: [
                     {
                         'id': 'pddmt-sub-meta-b2-carta-topo-100k-pr-fill',
@@ -241,15 +257,6 @@ var PROJECTS = {
     'mapeamento-interesse-da-forca': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
         executed: false,
-        legend: [
-            1,
-            12,
-            2,
-            5,
-            6,
-            3,
-            9
-        ],
         description: `O objetivo do presente projeto consiste na elaboração de cartas ortoimagens em escalas
         entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
         Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de
@@ -264,6 +271,15 @@ var PROJECTS = {
                 zoom: [
                     [-48.82809677372772, -28.05547382461215], // southwestern corner of the bounds
                     [-48.046903497479974, -27.1945079332596] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3,
+                    9
                 ],
                 styles: [
                     {
@@ -309,6 +325,15 @@ var PROJECTS = {
                     [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
                     [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
                 ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3,
+                    9
+                ],
                 styles: [
                     {
                         'id': 'mapintfter-sub-meta-a2-carta-topo-25k-uruguaiana-fill',
@@ -353,7 +378,15 @@ var PROJECTS = {
                     [-58.192352538599025, -21.18063783765893],
                     [-56.80764718063957, -19.81933644861341]
                 ],
-                subtitle: 'Escala 1:50.000',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3,
+                    9
+                ],
                 styles: [
                     {
                         'id': 'mapintfter-sub-meta-a3-carta-topo-25k-ms-fill',
@@ -404,6 +437,15 @@ var PROJECTS = {
                         6.32638916302372
                     ]
                 ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3,
+                    9
+                ],
                 styles: [
                     {
                         'id': 'mapintfter-sub-meta-b-carta-topo-50k-rr-fill',
@@ -450,6 +492,15 @@ var PROJECTS = {
                     [-52.209372285465335, -31.180376012441414],
                     [-49.79062798683473, -26.319489869099446]
                 ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3,
+                    9
+                ],
                 styles: [
                     {
                         'id': 'mapintfter-sub-meta-c-carta-topo-100k-rs-sc-fill',
@@ -491,7 +542,6 @@ var PROJECTS = {
     'rio-grande-do-sul': {
         title: 'Projeto de Mapeamento do Estado do Rio Grande do Sul',
         executed: true,
-        legend: [3],
         description: `O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas
         topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais
         de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre,
@@ -516,6 +566,7 @@ var PROJECTS = {
                         -29.08630601676895
                     ]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'conv-rs-carta-topo-25k-rs-fill',
@@ -566,6 +617,7 @@ var PROJECTS = {
                         -29.11968658972779
                     ]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'conv-rs-carta-topo-50k-rs-fill',
@@ -607,7 +659,6 @@ var PROJECTS = {
     'santa-catarina': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
         executed: true,
-        legend: [3],
         description: `Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas
         1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º
         Centro de Geoinformação.`,
@@ -625,6 +676,7 @@ var PROJECTS = {
                         -26.090528839826753
                     ]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'santa-catarina-25k-fill',
@@ -668,6 +720,7 @@ var PROJECTS = {
                     [-52.454258275555226, -28.680443365430413],
                     [-49.79574195439098, -26.069483443263103]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'santa-catarina-50k-fill',
@@ -709,7 +762,6 @@ var PROJECTS = {
     'uraricoera': {
         title: 'Exercício Uraricoera',
         executed: true,
-        legend: [3],
         description: `O objetivo do presente projeto consiste na elaboração de 48 cartas topográficas na
         escala
         1:50.000
@@ -725,6 +777,7 @@ var PROJECTS = {
                     [-61.68024984824885, 1.3191292999480237],
                     [-60.31974985130867, 4.9308586451198915]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'uraricoera-fill',
@@ -766,7 +819,6 @@ var PROJECTS = {
     'sisfron-17rcmec':{
         title: 'SISFRON - 17 RC Mec',
         executed: true,
-        legend: [3],
         description: `Execução de mapeamento topográfico, nas escalas 1:25.000, 1:50.000 e 1:100.000, totalizando 59 cartas topográficas e seus dados
         vetoriais na região de fronteira do Paraná.`,
         lotes: [
@@ -779,6 +831,7 @@ var PROJECTS = {
                     [-54.69732378130477, -24.6805561899923],
                     [-53.30267614980163, -22.81940267434254]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'sisfron-17rcmec-carta-topo-25k-pr-fill',
@@ -824,6 +877,7 @@ var PROJECTS = {
                     [-54.69732378130477, -24.6805561899923],
                     [-53.30267614980163, -22.81940267434254]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'sisfron-17rcmec-carta-topo-50k-pr-fill',
@@ -869,6 +923,7 @@ var PROJECTS = {
                     [-54.69732378130477, -24.6805561899923],
                     [-53.30267614980163, -22.81940267434254]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'sisfron-17rcmec-carta-topo-100k-pr-fill',
@@ -910,7 +965,6 @@ var PROJECTS = {
     'campo-instrucao': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Campos de Instrução',
         executed: true,
-        legend: [3],
         description: `Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000,
         referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de
         Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na
@@ -929,6 +983,7 @@ var PROJECTS = {
                         -25.982504667730154
                     ]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'campo-instrucao-25k-fill',
@@ -978,6 +1033,7 @@ var PROJECTS = {
                         -25.675197661624992
                     ]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'campo-instrucao-50k-fill',
@@ -1019,7 +1075,6 @@ var PROJECTS = {
     'radiografia': {
         title: 'Projeto Radiografia da Amazônia',
         executed: true,
-        legend: [3],
         description: `O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais
         (altimetria,
         hidrografia e
@@ -1042,6 +1097,7 @@ var PROJECTS = {
                         8.500903062364785
                     ]
                 ],
+                legend: [3],
                 styles: [
                     {
                         'id': 'radiografia-am-fill',
