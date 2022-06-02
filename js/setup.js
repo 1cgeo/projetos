@@ -245,10 +245,10 @@ var PROJECTS = {
             1,
             12,
             2,
+            9,
             5,
             6,
-            3,
-            9
+            3
         ],
         description: `O objetivo do presente projeto consiste na elaboração de cartas ortoimagens em escalas
         entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
