@@ -278,8 +278,7 @@ var PROJECTS = {
                     2,
                     5,
                     6,
-                    3,
-                    9
+                    3
                 ],
                 styles: [
                     {
@@ -331,8 +330,7 @@ var PROJECTS = {
                     2,
                     5,
                     6,
-                    3,
-                    9
+                    3
                 ],
                 styles: [
                     {
@@ -384,8 +382,7 @@ var PROJECTS = {
                     2,
                     5,
                     6,
-                    3,
-                    9
+                    3
                 ],
                 styles: [
                     {
@@ -443,8 +440,7 @@ var PROJECTS = {
                     2,
                     5,
                     6,
-                    3,
-                    9
+                    3
                 ],
                 styles: [
                     {
@@ -494,12 +490,10 @@ var PROJECTS = {
                 ],
                 legend: [
                     1,
-                    12,
-                    2,
+                    9,
                     5,
                     6,
-                    3,
-                    9
+                    3
                 ],
                 styles: [
                     {
