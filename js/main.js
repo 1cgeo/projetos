@@ -8,7 +8,7 @@ const map = new maplibregl.Map({
 var activeSubtitle = null;
 var activeSubtitleCount = null;
 var autoplay = false
-var presentationDelay = 2 * 1000
+var presentationDelay = 5 * 1000
 
 loadLegend = (legend, legendCount) => {
     var layers = legend.filter((value, index) => { return (index % 2) == 0 });
