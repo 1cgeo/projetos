@@ -6,8 +6,11 @@ const map = new maplibregl.Map({
 });
 
 var activeSubtitle = null;
+var activeSubtitleCount = null;
+var autoplay = false
+var presentationDelay = 2 * 1000
 
-loadLegend = (legend) => {
+loadLegend = (legend, legendCount) => {
     var layers = legend.filter((value, index) => { return (index % 2) == 0 });
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
     let legendEl = document.getElementById('legend');
@@ -24,14 +27,15 @@ loadLegend = (legend) => {
 
         var value = document.createElement('span');
         value.className = 'legend-value';
-        value.innerHTML = layer;
+        let count = legendCount[layer] ? legendCount[layer] : 0
+        value.innerHTML = `${layer} (${count})`;
         item.appendChild(key);
         item.appendChild(value);
         legendEl.appendChild(item);
     }
 }
 
-showModalLegend = (legend) => {
+showModalLegend = (legend, legendCount) => {
     var layers = legend.filter((value, index) => { return (index % 2) == 0 });
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
     const legendEl = document.getElementById('modal-text');
@@ -46,7 +50,8 @@ showModalLegend = (legend) => {
         key.style.backgroundColor = color;
         var value = document.createElement('span');
         value.className = 'legend-value';
-        value.innerHTML = layer;
+        let count = legendCount[layer] ? legendCount[layer] : 0
+        value.innerHTML = `${layer} (${count})`;
         item.appendChild(key);
         item.appendChild(value);
         legendEl.appendChild(item);
@@ -87,8 +92,9 @@ setCurrentChapter = async (currentSlideId) => {
     map.fitBounds(loteSettings.zoom);
     await loadGeoJSON(loteName, loteSettings.styles)
     activeSubtitle = loteSettings.legend
+    activeSubtitleCount = loteSettings.legendCount
     if (!mobileScreen()) {
-        loadLegend(activeSubtitle)
+        loadLegend(activeSubtitle, activeSubtitleCount)
     }
 
 }
@@ -155,6 +161,9 @@ function plugin({ swiper, extendParams, on }) {
 var swiperWidget = new Swiper(".swiper-app", {
     modules: [plugin],
     direction: "horizontal",
+    autoplay: {
+        delay: presentationDelay
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -166,6 +175,8 @@ var swiperWidget = new Swiper(".swiper-app", {
     },
     freeMode: true
 });
+
+swiperWidget.autoplay.stop()
 
 getSlideIndex = (slideId) => {
     for (let [idx, el] of swiperWidget.slides.entries()) {
@@ -241,7 +252,7 @@ connectEvents = () => {
     var span = document.getElementsByClassName("close")[0];
 
     btn.onclick = () => {
-        showModalLegend(activeSubtitle)
+        showModalLegend(activeSubtitle, activeSubtitleCount)
         modal.style.display = "block";
     }
 
@@ -267,12 +278,17 @@ connectEvents = () => {
         } else {
             document.getElementById("legend-icon").style.display = ''
             modal.style.display = "none"
-            loadLegend(activeSubtitle)
+            loadLegend(activeSubtitle, activeSubtitleCount)
         }
     }, true);
+
+    $('#play-button').on('click', () => {
+        autoplay ? swiperWidget.autoplay.stop() : swiperWidget.autoplay.start()
+        autoplay = !autoplay
+    });
 }
 
-getSubtitleSetting = (legend) => {
+getSubtitleSetting = (legend, name) => {
     let subtitleSetting = []
     for (let legendId of legend) {
         state = SUBTITLE_STATES.find(item => item.id == legendId)
@@ -350,7 +366,7 @@ getSummarySlide = () => {
 
     let ulMain = $("<ul/>", {})
 
-    
+
 
     ulMain.append(
         $("<li/>", {
@@ -451,26 +467,43 @@ stopLoader = () => {
     document.getElementById("loader").style.display = 'none'
 }
 
-setProjectSettings = () => {
+setProjectSettings = async () => {
     for (let projectName in PROJECTS) {
         let project = PROJECTS[projectName]
         for (let lote of project.lotes) {
-            let subtitleSetting = getSubtitleSetting(lote.legend)
+            let subtitleSetting = getSubtitleSetting(lote.legend, lote.name)
             lote.legend = subtitleSetting
             lote.styles[0].paint['fill-color'] = [
                 'match', ['string', ['get', 'situacao']], ...subtitleSetting, '#AAAAAA'
             ]
+            let legendCount = await getLegendCount(lote.name)
+            lote.legendCount = legendCount
         }
     }
     sessionStorage.setItem('PROJECTS', JSON.stringify(PROJECTS))
+}
+
+getLegendCount = async (name) => {
+    let count = {}
+    let resp = await fetch(`./data/${name}.geojson`);
+    let data = await resp.json();
+    for (let i = data.features.length; i > 0; i--) {
+        let feature = data.features[i - 1]
+        if (count[feature.properties.situacao] == null) {
+            count[feature.properties.situacao] = 1
+            continue
+        }
+        count[feature.properties.situacao] += 1
+    }
+    return count
 }
 
 getProjectSettings = () => {
     return JSON.parse(sessionStorage.getItem('PROJECTS'))
 }
 
-main = () => {
-    setProjectSettings()
+main = async () => {
+    await setProjectSettings()
     loadSlides()
     connectEvents()
     setTimeout(stopLoader, 2000)

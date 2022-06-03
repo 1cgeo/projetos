@@ -37,7 +37,7 @@ body {
 .module__item_info {
   align-items: center;
   display: flex;
-  height: 90%;
+  height: 75%;
   width: 100%;
   justify-content: center;
   
@@ -46,10 +46,29 @@ body {
 .module__item_sumary-button {
   align-items: center;
   display: flex;
-  height: 10%;
+  height: 25%;
   justify-content: center;
   background-color: #fff;
   color: #F73859;
+}
+
+.append-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.append-buttons a {
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  display: inline-block;
 }
 
 
@@ -117,23 +136,6 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 30px;
-}
-
-
-.append-buttons {
-  text-align: center;
-  padding: 15px;
-  margin: 0px;
-}
-
-.append-buttons a {
-  border: 1px solid #007aff;
-  color: #007aff;
-  text-decoration: none;
-  padding: 4px 10px;
-  border-radius: 4px;
-  margin: 0 10px;
-  font-size: 13px;
 }
 
 .summary-list{
@@ -226,6 +228,11 @@ body {
 
 
   @media only screen and (max-width: 960px) {
+
+    .append-buttons {
+      flex-direction: column;
+    }
+
     .swiper-slide {
       font-size: 18px;
       height: auto;
@@ -389,7 +396,7 @@ body {
   .group {
     color: rgb(0, 38, 37);
     font-family: "Charter BT", serif;
-    font-size: 1.3rem;
+    font-size: 15px;
     font-weight: 700;
     line-height: 1.2;
   }
