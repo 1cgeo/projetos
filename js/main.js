@@ -83,6 +83,13 @@ loadGeoJSON = (loteName, styles) => {
 
 }
 
+const getButtonProps = (active) => {
+    return {
+        'text': active ? 'Pausar Apresentação' : 'Iniciar Apresentação',
+        'color': active ? '#E0E0E0' : ''
+    }
+}
+
 setCurrentChapter = async (currentSlideId) => {
     let projectSettings = getProjectSettings()
     let projectName = currentSlideId.split(getSeperatorId())[0]
@@ -162,7 +169,8 @@ var swiperWidget = new Swiper(".swiper-app", {
     modules: [plugin],
     direction: "horizontal",
     autoplay: {
-        delay: presentationDelay
+        delay: presentationDelay,
+        disableOnInteraction: false
     },
     pagination: {
         el: ".swiper-pagination",
@@ -177,6 +185,10 @@ var swiperWidget = new Swiper(".swiper-app", {
 });
 
 swiperWidget.autoplay.stop()
+
+let buttonProps = getButtonProps(false)
+$("#play-button").html(buttonProps.text);
+$("#play-button").css('background-color', buttonProps.color);
 
 getSlideIndex = (slideId) => {
     for (let [idx, el] of swiperWidget.slides.entries()) {
@@ -285,6 +297,9 @@ connectEvents = () => {
     $('#play-button').on('click', () => {
         autoplay ? swiperWidget.autoplay.stop() : swiperWidget.autoplay.start()
         autoplay = !autoplay
+        let buttonProps = getButtonProps(autoplay)
+        $("#play-button").html(buttonProps.text);
+        $("#play-button").css('background-color', buttonProps.color);
     });
 }
 
