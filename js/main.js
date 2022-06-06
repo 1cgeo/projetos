@@ -160,7 +160,6 @@ function plugin({ swiper, extendParams, on }) {
         }
         if (mobileScreen()) document.getElementById("legend-icon").style.display = 'block'
         await setCurrentChapter(currentSlideId)
-
     });
 
 }
@@ -294,12 +293,14 @@ connectEvents = () => {
         }
     }, true);
 
-    $('#play-button').on('click', () => {
-        autoplay ? swiperWidget.autoplay.stop() : swiperWidget.autoplay.start()
+    $('#play-button').on('click', async () => {
+        let currentSlideIndex = (autoplay) ? swiperWidget.previousIndex : 0
+        autoplay ? await swiperWidget.autoplay.stop() : await swiperWidget.autoplay.start()
         autoplay = !autoplay
         let buttonProps = getButtonProps(autoplay)
         $("#play-button").html(buttonProps.text);
         $("#play-button").css('background-color', buttonProps.color);
+        swiperWidget.slideTo(currentSlideIndex);
     });
 }
 
