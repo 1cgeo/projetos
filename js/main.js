@@ -294,13 +294,14 @@ connectEvents = () => {
     }, true);
 
     $('#play-button').on('click', async () => {
-        let currentSlideIndex = (autoplay) ? swiperWidget.previousIndex : 0
-        autoplay ? await swiperWidget.autoplay.stop() : await swiperWidget.autoplay.start()
-        autoplay = !autoplay
-        let buttonProps = getButtonProps(autoplay)
+        let currentSlideIndex = swiperWidget.previousIndex
+        let buttonProps = getButtonProps(!autoplay)
         $("#play-button").html(buttonProps.text);
         $("#play-button").css('background-color', buttonProps.color);
         swiperWidget.slideTo(currentSlideIndex);
+        autoplay ? await swiperWidget.autoplay.stop() : await swiperWidget.autoplay.start()
+        autoplay = !autoplay
+        
     });
 }
 
