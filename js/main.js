@@ -145,7 +145,7 @@ function plugin({ swiper, extendParams, on }) {
         let previousSlideId = swiper.slides[swiper.previousIndex].getAttribute('id')
         let currentSlideId = swiper.slides[swiper.activeIndex].getAttribute('id')
         if (previousSlideId == currentSlideId) return
-        if (previousSlideId) {
+        if (previousSlideId || currentSlideId == "section") {
             let prevProjectName = previousSlideId.split(getSeperatorId())[0]
             let prevLoteName = previousSlideId.split(getSeperatorId())[1]
             if (hasSlideData(prevProjectName, prevLoteName)) {
@@ -301,7 +301,7 @@ connectEvents = () => {
         swiperWidget.slideTo(currentSlideIndex);
         autoplay ? await swiperWidget.autoplay.stop() : await swiperWidget.autoplay.start()
         autoplay = !autoplay
-        
+
     });
 }
 
@@ -334,6 +334,22 @@ getCoverSlide = () => {
                 $("<h2/>", {
                     class: "title",
                     text: "Projetos"
+                })
+            )
+    )
+}
+
+const getSectionSlide = (name) => {
+    return $("<div/>", {
+        id: 'section',
+        class: "swiper-slide center title"
+    }).append(
+        $("<div/>", {
+
+        })
+            .append(
+                $("<h2/>", {
+                    text: name
                 })
             )
     )
@@ -449,35 +465,52 @@ geDefaultSlide = (slideId, title, description, subtitle, loteDescription) => {
     return content.append(div)
 }
 
-loadSlides = () => {
-    $("#slides-content").append(getCoverSlide())
-    $("#slides-content").append(getSummarySlide())
-    let projects = getProjectSettings()
+const filterSections = (projects) => {
+    let executed = []
+    let notExecuted = []
     for (let projectName in projects) {
+        let group = (projects[projectName].executed) ? executed : notExecuted
+        let lotes = []
         for (let [idx, lote] of projects[projectName].lotes.entries()) {
+            lotes.push({
+                slideId: `${projectName}${getSeperatorId()}${lote.name}`,
+                title: projects[projectName].title,
+                description: projects[projectName].description,
+                subtitle: lote.subtitle,
+                loteDescription: lote.description
+            })
+        }
+        group.push(lotes)
+    }
+    return { executed, notExecuted }
+}
+
+const loadSection = (name, sectionSlides) => {
+    $("#slides-content").append(getSectionSlide(name))
+
+    for (let lotes of sectionSlides) {
+        for (var idx = 0; idx < lotes.length; idx++) {
+            let { slideId, title, description, subtitle, loteDescription } = lotes[idx]
             if (idx == 0) {
                 $("#slides-content").append(
-                    geDefaultSlide(
-                        `${projectName}${getSeperatorId()}${lote.name}`,
-                        projects[projectName].title,
-                        projects[projectName].description,
-                        lote.subtitle,
-                        lote.description
-                    )
+                    geDefaultSlide(slideId, title, description, subtitle, loteDescription)
                 )
                 continue
             }
             $("#slides-content").append(
-                geDefaultSlide(
-                    `${projectName}${getSeperatorId()}${lote.name}`,
-                    projects[projectName].title,
-                    null,
-                    lote.subtitle,
-                    lote.description
-                )
+                geDefaultSlide(slideId, title, null, subtitle, loteDescription)
             )
         }
     }
+}
+
+loadSlides = () => {
+    $("#slides-content").append(getCoverSlide())
+    $("#slides-content").append(getSummarySlide())
+    let projects = getProjectSettings()
+    let { executed, notExecuted } = filterSections(projects)
+    loadSection("Em Executação", notExecuted)
+    loadSection("Executado", executed)
 }
 
 stopLoader = () => {

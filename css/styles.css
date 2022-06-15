@@ -226,6 +226,14 @@ body {
   cursor: pointer;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 45%;
+}
+
 
   @media only screen and (max-width: 960px) {
 
@@ -241,6 +249,9 @@ body {
       padding: 0px 30px 0px;
     }
     
+    .center {
+      margin-top: 2%;
+    }
       
     .module {
       height: calc(var(--vh, 1vh) * 100);
@@ -408,3 +419,4 @@ body {
     font-weight: 700;
     line-height: 1.2;
   }
+
