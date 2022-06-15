@@ -509,7 +509,7 @@ loadSlides = () => {
     $("#slides-content").append(getSummarySlide())
     let projects = getProjectSettings()
     let { executed, notExecuted } = filterSections(projects)
-    loadSection("Em Executação", notExecuted)
+    loadSection("Em Execução", notExecuted)
     loadSection("Executado", executed)
 }
 
