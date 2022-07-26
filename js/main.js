@@ -11,6 +11,7 @@ var autoplay = false
 var presentationDelay = 5 * 1000
 
 loadLegend = (legend, legendCount) => {
+    if (!legend || legend.length == 0) return
     var layers = legend.filter((value, index) => { return (index % 2) == 0 });
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
     let legendEl = document.getElementById('legend');
@@ -195,6 +196,15 @@ getSlideIndex = (slideId) => {
             return idx
         }
     }
+}
+
+const hasSlideIndex = (slideIdx) => {
+    for (let [idx, el] of swiperWidget.slides.entries()) {
+        if (idx == slideIdx) {
+            return true
+        }
+    }
+    return false
 }
 
 mobileScreen = () => {
@@ -552,11 +562,27 @@ getProjectSettings = () => {
     return JSON.parse(sessionStorage.getItem('PROJECTS'))
 }
 
+const loadQuery = () => {
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+    });
+    let slideIdx = params.slide
+    if (!hasSlideIndex(slideIdx)) return
+    swiperWidget.slideTo(
+        slideIdx,
+        0
+    );
+
+}
+
 main = async () => {
     await setProjectSettings()
     loadSlides()
     connectEvents()
-    setTimeout(stopLoader, 2000)
+    setTimeout(()=>{
+        stopLoader()
+        loadQuery()
+    }, 2000)
 }
 
 main()
