@@ -98,14 +98,8 @@ var PROJECTS = {
                 subtitle: 'Carta Topográfica 1:100.000 do PR - PDDM 2022',
                 description: `Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.`,
                 zoom: [
-                    [
-                        -54.84684259936897,
-                        -26.21578138464512
-                    ],
-                    [
-                        -49.46030041155424,
-                        -22.624879681924526
-                    ]
+                    [-54.00995, -25.50903],
+                    [-50.99005, -22.99097]
                 ],
                 legend: [
                     1,
@@ -151,12 +145,12 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'pddmt-sub-meta-a-carta-orto-50k-rs',
+                name: 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
                 subtitle: 'Carta Ortoimagem 1:50.000 no RS',
                 description: `Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.`,
                 zoom: [
-                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
-                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
+                    [-54.75999, -26.00903], // southwestern corner of the bounds
+                    [-52.49001, -22.49097] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -168,8 +162,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-rs-fill',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-fill',
+                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -177,8 +171,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-rs-border',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-border',
+                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -187,8 +181,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-rs-text',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-text',
+                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -202,12 +196,12 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'pddmt-sub-meta-b1-carta-topo-50k-pr',
+                name: 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
                 subtitle: 'Carta Topográfica 1:50.000 do PR',
                 description: `Construção de 34 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do PR.`,
                 zoom: [
-                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
-                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
+                    [-54.01012, -27.50902], // southwestern corner of the bounds
+                    [-52.48988, -25.99097] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -219,8 +213,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-sub-meta-b1-carta-topo-50k-pr-fill',
-                        'source': 'pddmt-sub-meta-b1-carta-topo-50k-pr',
+                        'id': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr-fill',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -228,8 +222,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-b1-carta-topo-50k-pr-border',
-                        'source': 'pddmt-sub-meta-b1-carta-topo-50k-pr',
+                        'id': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr-border',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -238,8 +232,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-b1-carta-topo-50k-pr-text',
-                        'source': 'pddmt-sub-meta-b1-carta-topo-50k-pr',
+                        'id': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr-text',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -253,12 +247,12 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'pddmt-sub-meta-b2-carta-orto-50k-rs',
+                name: 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs',
                 subtitle: 'Carta Topográfica 1:50.000 do RS',
                 description: `Construção de 95 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do RS.`,
                 zoom: [
-                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
-                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
+                    [-57.76047, -31.00902], // southwestern corner of the bounds
+                    [-52.98953, -29.49098] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -270,8 +264,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-sub-meta-b2-carta-orto-50k-rs-fill',
-                        'source': 'pddmt-sub-meta-b2-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs-fill',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -279,8 +273,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-b2-carta-orto-50k-rs-border',
-                        'source': 'pddmt-sub-meta-b2-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs-border',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -289,8 +283,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-b2-carta-orto-50k-rs-text',
-                        'source': 'pddmt-sub-meta-b2-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs-text',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -316,12 +310,12 @@ var PROJECTS = {
         responsabilidade.`,
         lotes: [
             {
-                name: 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba',
+                name: 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
                 subtitle: 'Carta Topográfica 1:25.000 de Curitiba',
                 description: `Construção de 06 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.`,
                 zoom: [
-                    [-48.82809677372772, -28.05547382461215], // southwestern corner of the bounds
-                    [-48.046903497479974, -27.1945079332596] // northeastern corner of the bounds
+                    [-49.38496, -25.63403], // southwestern corner of the bounds
+                    [-49.11504, -25.24097] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -333,8 +327,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba-fill',
-                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba',
+                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-fill',
+                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -342,8 +336,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba-border',
-                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba',
+                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-border',
+                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -352,8 +346,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba-text',
-                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba',
+                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-text',
+                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -368,12 +362,12 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete',
+                name: 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
                 subtitle: 'Carta Topográfica 1:25.000 de Alegrete',
                 description: `Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
                 zoom: [
-                    [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
-                    [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
+                    [-55.88536, -30.00902], // southwestern corner of the bounds
+                    [-55.61464, -29.74098] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -385,8 +379,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete-fill',
-                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete',
+                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-fill',
+                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -394,8 +388,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete-border',
-                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete',
+                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-border',
+                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -404,8 +398,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete-text',
-                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete',
+                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-text',
+                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -420,12 +414,12 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento',
+                name: 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
                 subtitle: 'Carta Topográfica 1:25.000 de Santana do Livramento',
                 description: `Construção de 04 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
                 zoom: [
-                    [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
-                    [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
+                    [-55.63547, -31.00902], // southwestern corner of the bounds
+                    [-55.36453, -30.74098] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -437,8 +431,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento-fill',
-                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-fill',
+                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -446,8 +440,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento-border',
-                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-border',
+                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -456,8 +450,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento-text',
-                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-text',
+                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -472,12 +466,12 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapintfter-sub-meta-a4-carta-topo-25k-quarai',
+                name: 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
                 subtitle: 'Carta Topográfica 1:25.000 de Quaraí',
                 description: `Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
                 zoom: [
-                    [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
-                    [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
+                    [-56.51042, -30.50902], // southwestern corner of the bounds
+                    [-56.36458, -30.24098] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -489,8 +483,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai-fill',
-                        'source': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai',
+                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-fill',
+                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -498,8 +492,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai-border',
-                        'source': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai',
+                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-border',
+                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -508,8 +502,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai-text',
-                        'source': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai',
+                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-text',
+                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -524,12 +518,12 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapintfter-sub-meta-a5-carta-topo-25k-ms',
+                name: 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
                 subtitle: 'Carta Topográfica 1:25.000 do Mato Grosso do Sul',
                 description: `Construção de 64 cartas topográficas militares na escala 1:25.000 na região da fronteira do Mato Grosso do Sul.`,
                 zoom: [
-                    [-58.192352538599025, -21.18063783765893],
-                    [-56.80764718063957, -19.81933644861341]
+                    [-58.00962, -21.00903],
+                    [-56.99038, -19.99097]
                 ],
                 legend: [
                     1,
@@ -541,8 +535,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-a5-carta-topo-25k-ms-fill',
-                        'source': 'mapintfter-sub-meta-a5-carta-topo-25k-ms',
+                        'id': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms-fill',
+                        'source': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -550,8 +544,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a5-carta-topo-25k-ms-border',
-                        'source': 'mapintfter-sub-meta-a5-carta-topo-25k-ms',
+                        'id': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms-border',
+                        'source': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -560,8 +554,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a5-carta-topo-25k-ms-text',
-                        'source': 'mapintfter-sub-meta-a5-carta-topo-25k-ms',
+                        'id': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms-text',
+                        'source': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 7.34,
@@ -583,7 +577,7 @@ var PROJECTS = {
         description: `O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.`,
         lotes: [
             {
-                name: 'pddmt-sub-meta-a-carta-orto-50k-pr',
+                name: 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
                 subtitle: 'Carta Ortoimagem 1:50.000 no PR',
                 description: `Construção de 76 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações no Lago de Itaipu para o CMS.`,
                 zoom: [
@@ -600,8 +594,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-pr-fill',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr-fill',
+                        'source': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -609,8 +603,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-pr-border',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr-border',
+                        'source': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -619,8 +613,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-pr-text',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr-text',
+                        'source': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -634,7 +628,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'pddmt-sub-meta-b1-carta-topo-100k-rs',
+                name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
                 subtitle: 'Carta Topográfica 1:100.000 do RS',
                 description: `Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.`,
                 zoom: [
@@ -651,8 +645,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-sub-meta-b1-carta-topo-100k-rs-fill',
-                        'source': 'pddmt-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-fill',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -660,8 +654,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-b1-carta-topo-100k-rs-border',
-                        'source': 'pddmt-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-border',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -670,8 +664,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-b1-carta-topo-100k-rs-text',
-                        'source': 'pddmt-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-text',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -697,7 +691,7 @@ var PROJECTS = {
         responsabilidade.`,
         lotes: [
             {
-                name: 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis',
+                name: 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
                 subtitle: 'Carta Topográfica 1:25.000 de Florianópolis',
                 description: `Construção de 09 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.`,
                 zoom: [
@@ -714,8 +708,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis-fill',
-                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis',
+                        'id': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis-fill',
+                        'source': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -723,8 +717,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis-border',
-                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis',
+                        'id': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis-border',
+                        'source': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -733,8 +727,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis-text',
-                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis',
+                        'id': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis-text',
+                        'source': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -749,7 +743,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapintfter-sub-meta-a2-carta-topo-25k-uruguaiana',
+                name: 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
                 subtitle: 'Carta Topográfica 1:25.000 de Uruguaiana',
                 description: `Construção de 02 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
                 zoom: [
@@ -766,8 +760,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-uruguaiana-fill',
-                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-uruguaiana',
+                        'id': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana-fill',
+                        'source': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -775,8 +769,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-uruguaiana-border',
-                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-uruguaiana',
+                        'id': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana-border',
+                        'source': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -785,8 +779,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-uruguaiana-text',
-                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-uruguaiana',
+                        'id': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana-text',
+                        'source': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -801,7 +795,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapintfter-sub-meta-b-carta-topo-50k-rr',
+                name: 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
                 subtitle: 'Carta Topográfica 1:50.000 de Roraima',
                 description: `Construção de 22 cartas topográficas na escala 1:50.000 na região da fronteira de Roraima.`,
                 zoom: [
@@ -824,8 +818,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-b-carta-topo-50k-rr-fill',
-                        'source': 'mapintfter-sub-meta-b-carta-topo-50k-rr',
+                        'id': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr-fill',
+                        'source': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -833,8 +827,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-b-carta-topo-50k-rr-border',
-                        'source': 'mapintfter-sub-meta-b-carta-topo-50k-rr',
+                        'id': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr-border',
+                        'source': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -843,8 +837,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-b-carta-topo-50k-rr-text',
-                        'source': 'mapintfter-sub-meta-b-carta-topo-50k-rr',
+                        'id': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr-text',
+                        'source': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.03,
@@ -859,7 +853,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'mapintfter-sub-meta-c-carta-topo-100k-rs-sc',
+                name: 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
                 subtitle: 'Generalização Carta Topográfica 1:100.000',
                 description: `O objetivo do presente projeto consiste em realizar a Generalização Cartográfica
                 na escala 1:100.000 de produtos na região de Santa Catarina e Rio
@@ -877,8 +871,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-sub-meta-c-carta-topo-100k-rs-sc-fill',
-                        'source': 'mapintfter-sub-meta-c-carta-topo-100k-rs-sc',
+                        'id': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc-fill',
+                        'source': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -886,8 +880,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-c-carta-topo-100k-rs-sc-border',
-                        'source': 'mapintfter-sub-meta-c-carta-topo-100k-rs-sc',
+                        'id': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc-border',
+                        'source': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -896,8 +890,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-sub-meta-c-carta-topo-100k-rs-sc-text',
-                        'source': 'mapintfter-sub-meta-c-carta-topo-100k-rs-sc',
+                        'id': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc-text',
+                        'source': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 4.56,
