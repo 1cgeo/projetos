@@ -91,12 +91,12 @@ var PROJECTS = {
     'plano-desenvolvimento-2023': {
         title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2023',
         executed: false,
-        description: `O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.`,
+        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
         lotes: [
             {
                 name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
                 subtitle: 'Carta Topográfica 1:100.000 do PR - PDDM 2022',
-                description: `Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.`,
+                description: 'Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.',
                 zoom: [
                     [-54.00995, -25.50903],
                     [-50.99005, -22.99097]
@@ -147,7 +147,7 @@ var PROJECTS = {
             {
                 name: 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
                 subtitle: 'Carta Ortoimagem 1:50.000 no RS',
-                description: `Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.`,
+                description: 'Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
                 zoom: [
                     [-54.75999, -26.00903], // southwestern corner of the bounds
                     [-52.49001, -22.49097] // northeastern corner of the bounds
@@ -198,7 +198,7 @@ var PROJECTS = {
             {
                 name: 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
                 subtitle: 'Carta Topográfica 1:50.000 do PR',
-                description: `Construção de 34 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do PR.`,
+                description: 'Construção de 34 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do PR.',
                 zoom: [
                     [-54.01012, -27.50902], // southwestern corner of the bounds
                     [-52.48988, -25.99097] // northeastern corner of the bounds
@@ -249,7 +249,7 @@ var PROJECTS = {
             {
                 name: 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
                 subtitle: 'Carta Topográfica 1:50.000 do RS',
-                description: `Construção de 95 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do RS.`,
+                description: 'Construção de 95 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do RS.',
                 zoom: [
                     [-57.76047, -31.00902], // southwestern corner of the bounds
                     [-52.98953, -29.49098] // northeastern corner of the bounds
@@ -302,17 +302,12 @@ var PROJECTS = {
     'mapeamento-interesse-da-forca-2023': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
         executed: false,
-        description: `O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas
-        entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
-        Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de
-        responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina
-        e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de
-        responsabilidade.`,
+        description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
         lotes: [
             {
                 name: 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
                 subtitle: 'Carta Topográfica 1:25.000 de Curitiba',
-                description: `Construção de 06 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.`,
+                description: 'Construção de 06 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.',
                 zoom: [
                     [-49.38496, -25.63403], // southwestern corner of the bounds
                     [-49.11504, -25.24097] // northeastern corner of the bounds
@@ -364,7 +359,7 @@ var PROJECTS = {
             {
                 name: 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
                 subtitle: 'Carta Topográfica 1:25.000 de Alegrete',
-                description: `Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
+                description: 'Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
                 zoom: [
                     [-55.88536, -30.00902], // southwestern corner of the bounds
                     [-55.61464, -29.74098] // northeastern corner of the bounds
@@ -416,7 +411,7 @@ var PROJECTS = {
             {
                 name: 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
                 subtitle: 'Carta Topográfica 1:25.000 de Santana do Livramento',
-                description: `Construção de 04 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
+                description: 'Construção de 04 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
                 zoom: [
                     [-55.63547, -31.00902], // southwestern corner of the bounds
                     [-55.36453, -30.74098] // northeastern corner of the bounds
@@ -468,7 +463,7 @@ var PROJECTS = {
             {
                 name: 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
                 subtitle: 'Carta Topográfica 1:25.000 de Quaraí',
-                description: `Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
+                description: 'Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
                 zoom: [
                     [-56.51042, -30.50902], // southwestern corner of the bounds
                     [-56.36458, -30.24098] // northeastern corner of the bounds
@@ -520,7 +515,7 @@ var PROJECTS = {
             {
                 name: 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
                 subtitle: 'Carta Topográfica 1:25.000 do Mato Grosso do Sul',
-                description: `Construção de 64 cartas topográficas militares na escala 1:25.000 na região da fronteira do Mato Grosso do Sul.`,
+                description: 'Construção de 64 cartas topográficas militares na escala 1:25.000 na região da fronteira do Mato Grosso do Sul.',
                 zoom: [
                     [-58.00962, -21.00903],
                     [-56.99038, -19.99097]
@@ -574,12 +569,12 @@ var PROJECTS = {
     'plano-desenvolvimento-2022': {
         title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2022',
         executed: true,
-        description: `O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.`,
+        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
         lotes: [
             {
                 name: 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
                 subtitle: 'Carta Ortoimagem 1:50.000 no PR',
-                description: `Construção de 76 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações no Lago de Itaipu para o CMS.`,
+                description: 'Construção de 76 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações no Lago de Itaipu para o CMS.',
                 zoom: [
                     [-54.94972409601194, -26.180512277006958], // southwestern corner of the bounds
                     [-52.30027568484421, -22.31939338230858] // northeastern corner of the bounds
@@ -630,7 +625,7 @@ var PROJECTS = {
             {
                 name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
                 subtitle: 'Carta Topográfica 1:100.000 do RS',
-                description: `Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.`,
+                description: 'Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.',
                 zoom: [
                     [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
                     [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
@@ -683,17 +678,12 @@ var PROJECTS = {
     'mapeamento-interesse-da-forca-2022': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
         executed: true,
-        description: `O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas
-        entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
-        Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de
-        responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina
-        e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de
-        responsabilidade.`,
+        description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
         lotes: [
             {
                 name: 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
                 subtitle: 'Carta Topográfica 1:25.000 de Florianópolis',
-                description: `Construção de 09 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.`,
+                description: 'Construção de 09 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.',
                 zoom: [
                     [-48.82809677372772, -28.05547382461215], // southwestern corner of the bounds
                     [-48.046903497479974, -27.1945079332596] // northeastern corner of the bounds
@@ -745,7 +735,7 @@ var PROJECTS = {
             {
                 name: 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
                 subtitle: 'Carta Topográfica 1:25.000 de Uruguaiana',
-                description: `Construção de 02 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
+                description: 'Construção de 02 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
                 zoom: [
                     [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
                     [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
@@ -797,7 +787,7 @@ var PROJECTS = {
             {
                 name: 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
                 subtitle: 'Carta Topográfica 1:50.000 de Roraima',
-                description: `Construção de 22 cartas topográficas na escala 1:50.000 na região da fronteira de Roraima.`,
+                description: 'Construção de 22 cartas topográficas na escala 1:50.000 na região da fronteira de Roraima.',
                 zoom: [
                     [
                         -63.93490169478686,
@@ -855,9 +845,7 @@ var PROJECTS = {
             {
                 name: 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
                 subtitle: 'Generalização Carta Topográfica 1:100.000',
-                description: `O objetivo do presente projeto consiste em realizar a Generalização Cartográfica
-                na escala 1:100.000 de produtos na região de Santa Catarina e Rio
-                Grande do Sul, para gerar 12 cartas topográficas na escala 1:100.000.`,
+                description: 'O objetivo do presente projeto consiste em realizar a Generalização Cartográfica na escala 1:100.000 de produtos na região de Santa Catarina e Rio Grande do Sul, para gerar 12 cartas topográficas na escala 1:100.000.',
                 zoom: [
                     [-52.209372285465335, -31.180376012441414],
                     [-49.79062798683473, -26.319489869099446]
@@ -910,20 +898,12 @@ var PROJECTS = {
     'rio-grande-do-sul': {
         title: 'Projeto de Mapeamento do Estado do Rio Grande do Sul',
         executed: true,
-        description: `O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas
-        topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais
-        de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre,
-        Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice
-        (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de
-        Dados Espaciais (INDE).`,
+        description: 'O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de Dados Espaciais (INDE).',
         lotes: [
             {
                 name: 'conv-rs-carta-topo-25k-rs',
                 subtitle: '1:25.000',
-                description: `A elaboração das cartas topográficas foi executada em 5 (cinco) lotes de produção
-                cartográfica. Além da base cartográfica digital contínua foram entregues as imagens brutas, os modelos
-                digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta
-                topográfica em formato matricial.`,
+                description: 'A elaboração das cartas topográficas foi executada em 5 (cinco) lotes de produção cartográfica. Além da base cartográfica digital contínua foram entregues as imagens brutas, os modelos digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta topográfica em formato matricial.',
                 zoom: [
                     [
                         -53.08078039276313,
@@ -974,7 +954,7 @@ var PROJECTS = {
             {
                 name: 'conv-rs-carta-topo-50k-rs',
                 subtitle: '1:50.000',
-                description: `Produção de cartas topográficas 1:50.000 por processo de generalização`,
+                description: 'Produção de cartas topográficas 1:50.000 por processo de generalização',
                 zoom: [
                     [
                         -53.07164719034553,
@@ -1027,9 +1007,7 @@ var PROJECTS = {
     'santa-catarina': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
         executed: true,
-        description: `Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas
-        1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º
-        Centro de Geoinformação.`,
+        description: 'Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas 1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação.',
         lotes: [
             {
                 name: 'santa-catarina-25k',
@@ -1130,13 +1108,7 @@ var PROJECTS = {
     'uraricoera': {
         title: 'Exercício Uraricoera',
         executed: true,
-        description: `O objetivo do presente projeto consiste na elaboração de 48 cartas topográficas na
-        escala
-        1:50.000
-        distribuídas no estado de Roraima visando atender demanda do COTER relativa a
-        realização de
-        exercícios
-        de Problemas Militares Simulados.`,
+        description: 'O objetivo do presente projeto consiste na elaboração de 48 cartas topográficas na escala 1:50.000 distribuídas no estado de Roraima visando atender demanda do COTER relativa a realização de exercícios de Problemas Militares Simulados.',
         lotes: [
             {
                 name: 'uraricoera',
@@ -1187,14 +1159,12 @@ var PROJECTS = {
     'sisfron-17rcmec':{
         title: 'SISFRON - 17 RC Mec',
         executed: true,
-        description: `Execução de mapeamento topográfico, nas escalas 1:25.000, 1:50.000 e 1:100.000, totalizando 59 cartas topográficas e seus dados
-        vetoriais na região de fronteira do Paraná.`,
+        description: 'Execução de mapeamento topográfico, nas escalas 1:25.000, 1:50.000 e 1:100.000, totalizando 59 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
         lotes: [
             {
                 name: 'sisfron-17rcmec-carta-topo-25k-pr',
-                subtitle: `1:25.000`,
-                description: `Execução de mapeamento topográfico na escalas 1:25.000 de 44 cartas topográficas e seus dados
-                vetoriais na região de fronteira do Paraná.`,
+                subtitle: '1:25.000',
+                description: 'Execução de mapeamento topográfico na escalas 1:25.000 de 44 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
                 zoom: [
                     [-54.69732378130477, -24.6805561899923],
                     [-53.30267614980163, -22.81940267434254]
@@ -1238,9 +1208,8 @@ var PROJECTS = {
             },
             {
                 name: 'sisfron-17rcmec-carta-topo-50k-pr',
-                subtitle: `1:50.000`,
-                description: `Execução de mapeamento topográfico na escalas 1:50.000 de 12 cartas topográficas e seus dados
-                vetoriais na região de fronteira do Paraná.`,
+                subtitle: '1:50.000',
+                description: 'Execução de mapeamento topográfico na escalas 1:50.000 de 12 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
                 zoom: [
                     [-54.69732378130477, -24.6805561899923],
                     [-53.30267614980163, -22.81940267434254]
@@ -1284,9 +1253,8 @@ var PROJECTS = {
             },
             {
                 name: 'sisfron-17rcmec-carta-topo-100k-pr',
-                subtitle: `1:100.000`,
-                description: `Execução de mapeamento topográfico na escalas 1:100.000 de 03 cartas topográficas e seus dados
-                vetoriais na região de fronteira do Paraná.`,
+                subtitle: '1:100.000',
+                description: 'Execução de mapeamento topográfico na escalas 1:100.000 de 03 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
                 zoom: [
                     [-54.69732378130477, -24.6805561899923],
                     [-53.30267614980163, -22.81940267434254]
@@ -1333,10 +1301,7 @@ var PROJECTS = {
     'campo-instrucao': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Campos de Instrução',
         executed: true,
-        description: `Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000,
-        referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de
-        Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na
-        área de responsabilidade do Comando Militar do Sul.`,
+        description: 'Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000, referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na área de responsabilidade do Comando Militar do Sul.',
         lotes: [
             {
                 name: 'campo-instrucao-25k',
@@ -1443,14 +1408,7 @@ var PROJECTS = {
     'radiografia': {
         title: 'Projeto Radiografia da Amazônia',
         executed: true,
-        description: `O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais
-        (altimetria,
-        hidrografia e
-        planimetria) e edição de cartas topográficas, com base nos dados geoespaciais de
-        vegetação
-        obtidos
-        pelo
-        2º CGEO (Brasília-DF), da área já imageada do projeto.`,
+        description: 'O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais (altimetria, hidrografia e planimetria) e edição de cartas topográficas, com base nos dados geoespaciais de vegetação obtidos pelo 2º CGEO (Brasília-DF), da área já imageada do projeto.',
         lotes: [
             {
                 name: 'radiografia-am',
