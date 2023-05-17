@@ -247,7 +247,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs',
+                name: 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
                 subtitle: 'Carta Topográfica 1:50.000 do RS',
                 description: `Construção de 95 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do RS.`,
                 zoom: [
@@ -264,8 +264,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-fill',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -273,8 +273,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-border',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -283,8 +283,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-text',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
