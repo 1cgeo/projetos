@@ -88,9 +88,498 @@ const INIT_ZOOM = {
 }
 
 var PROJECTS = {
-    'plano-desenvolvimento': {
-        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2022',
+    'plano-desenvolvimento-2023': {
+        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2023',
         executed: false,
+        description: `O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.`,
+        lotes: [
+            {
+                name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
+                subtitle: 'Carta Topográfica 1:100.000 do PR - PDDM 2022',
+                description: `Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.`,
+                zoom: [
+                    [
+                        -54.84684259936897,
+                        -26.21578138464512
+                    ],
+                    [
+                        -49.46030041155424,
+                        -22.624879681924526
+                    ]
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-fill',
+                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-border',
+                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-text',
+                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'pddmt-sub-meta-a-carta-orto-50k-rs',
+                subtitle: 'Carta Ortoimagem 1:50.000 no RS',
+                description: `Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.`,
+                zoom: [
+                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
+                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt-sub-meta-a-carta-orto-50k-rs-fill',
+                        'source': 'pddmt-sub-meta-a-carta-orto-50k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-sub-meta-a-carta-orto-50k-rs-border',
+                        'source': 'pddmt-sub-meta-a-carta-orto-50k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-sub-meta-a-carta-orto-50k-rs-text',
+                        'source': 'pddmt-sub-meta-a-carta-orto-50k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'pddmt-sub-meta-b1-carta-topo-50k-pr',
+                subtitle: 'Carta Topográfica 1:50.000 do PR',
+                description: `Construção de 34 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do PR.`,
+                zoom: [
+                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
+                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt-sub-meta-b1-carta-topo-50k-pr-fill',
+                        'source': 'pddmt-sub-meta-b1-carta-topo-50k-pr',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-sub-meta-b1-carta-topo-50k-pr-border',
+                        'source': 'pddmt-sub-meta-b1-carta-topo-50k-pr',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-sub-meta-b1-carta-topo-50k-pr-text',
+                        'source': 'pddmt-sub-meta-b1-carta-topo-50k-pr',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'pddmt-sub-meta-b2-carta-orto-50k-rs',
+                subtitle: 'Carta Topográfica 1:50.000 do RS',
+                description: `Construção de 95 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do RS.`,
+                zoom: [
+                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
+                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt-sub-meta-b2-carta-orto-50k-rs-fill',
+                        'source': 'pddmt-sub-meta-b2-carta-orto-50k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-sub-meta-b2-carta-orto-50k-rs-border',
+                        'source': 'pddmt-sub-meta-b2-carta-orto-50k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-sub-meta-b2-carta-orto-50k-rs-text',
+                        'source': 'pddmt-sub-meta-b2-carta-orto-50k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },   
+    'mapeamento-interesse-da-forca-2023': {
+        title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
+        executed: false,
+        description: `O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas
+        entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
+        Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de
+        responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina
+        e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de
+        responsabilidade.`,
+        lotes: [
+            {
+                name: 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba',
+                subtitle: 'Carta Topográfica 1:25.000 de Curitiba',
+                description: `Construção de 06 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.`,
+                zoom: [
+                    [-48.82809677372772, -28.05547382461215], // southwestern corner of the bounds
+                    [-48.046903497479974, -27.1945079332596] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba-fill',
+                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba-border',
+                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba-text',
+                        'source': 'mapintfter-sub-meta-a1-carta-topo-25k-curitiba',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete',
+                subtitle: 'Carta Topográfica 1:25.000 de Alegrete',
+                description: `Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
+                zoom: [
+                    [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
+                    [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete-fill',
+                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete-border',
+                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete-text',
+                        'source': 'mapintfter-sub-meta-a2-carta-topo-25k-alegrete',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento',
+                subtitle: 'Carta Topográfica 1:25.000 de Santana do Livramento',
+                description: `Construção de 04 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
+                zoom: [
+                    [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
+                    [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento-fill',
+                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento-border',
+                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento-text',
+                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'mapintfter-sub-meta-a4-carta-topo-25k-quarai',
+                subtitle: 'Carta Topográfica 1:25.000 de Quaraí',
+                description: `Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.`,
+                zoom: [
+                    [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
+                    [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai-fill',
+                        'source': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai-border',
+                        'source': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai-text',
+                        'source': 'mapintfter-sub-meta-a4-carta-topo-25k-quarai',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'mapintfter-sub-meta-a5-carta-topo-25k-ms',
+                subtitle: 'Carta Topográfica 1:25.000 do Mato Grosso do Sul',
+                description: `Construção de 64 cartas topográficas militares na escala 1:25.000 na região da fronteira do Mato Grosso do Sul.`,
+                zoom: [
+                    [-58.192352538599025, -21.18063783765893],
+                    [-56.80764718063957, -19.81933644861341]
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'mapintfter-sub-meta-a5-carta-topo-25k-ms-fill',
+                        'source': 'mapintfter-sub-meta-a5-carta-topo-25k-ms',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a5-carta-topo-25k-ms-border',
+                        'source': 'mapintfter-sub-meta-a5-carta-topo-25k-ms',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-sub-meta-a5-carta-topo-25k-ms-text',
+                        'source': 'mapintfter-sub-meta-a5-carta-topo-25k-ms',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.34,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    'plano-desenvolvimento-2022': {
+        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2022',
+        executed: true,
         description: `O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.`,
         lotes: [
             {
@@ -194,70 +683,13 @@ var PROJECTS = {
                         }
                     }
                 ]
-            },
-            {
-                name: 'pddmt-sub-meta-b2-carta-topo-100k-pr',
-                subtitle: 'Carta Topográfica 1:100.000 do PR',
-                description: `Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.`,
-                zoom: [
-                    [
-                        -54.84684259936897,
-                        -26.21578138464512
-                    ],
-                    [
-                        -49.46030041155424,
-                        -22.624879681924526
-                    ]
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'pddmt-sub-meta-b2-carta-topo-100k-pr-fill',
-                        'source': 'pddmt-sub-meta-b2-carta-topo-100k-pr',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'pddmt-sub-meta-b2-carta-topo-100k-pr-border',
-                        'source': 'pddmt-sub-meta-b2-carta-topo-100k-pr',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'pddmt-sub-meta-b2-carta-topo-100k-pr-text',
-                        'source': 'pddmt-sub-meta-b2-carta-topo-100k-pr',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
             }
         ]
     },   
-    'mapeamento-interesse-da-forca': {
+    'mapeamento-interesse-da-forca-2022': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
-        executed: false,
-        description: `O objetivo do presente projeto consiste na elaboração de cartas ortoimagens em escalas
+        executed: true,
+        description: `O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas
         entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
         Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de
         responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina
@@ -358,58 +790,6 @@ var PROJECTS = {
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'mapintfter-sub-meta-a3-carta-topo-25k-ms',
-                subtitle: 'Carta Topográfica 1:25.000 do Mato Grosso do Sul',
-                description: `Construção de 64 cartas topográficas na escala 1:25.000 na região da fronteira do Mato Grosso do Sul.`,
-                zoom: [
-                    [-58.192352538599025, -21.18063783765893],
-                    [-56.80764718063957, -19.81933644861341]
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-ms-fill',
-                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-ms',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-ms-border',
-                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-ms',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-sub-meta-a3-carta-topo-25k-ms-text',
-                        'source': 'mapintfter-sub-meta-a3-carta-topo-25k-ms',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.34,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
