@@ -73,7 +73,11 @@ loadGeoJSON = (loteName, styles) => {
             return response.json();
         })
         .then(async function (geoJson) {
-            map.fitBounds(geojsonExtent(geoJson))
+            const extent = geojsonExtent(geoJson)
+            map.fitBounds([
+                [extent[0] - 1, extent[1] - 1],
+                [extent[2] + 1, extent[3] + 1]
+            ])
             map.addSource(loteName, {
                 "type": "geojson",
                 "data": geoJson
@@ -344,7 +348,21 @@ getCoverSlide = () => {
                 $("<h2/>", {
                     class: "title",
                     text: "Projetos"
-                })
+                }).append(
+                    $("<div/>", {
+                        class: "linkContainer"
+                    }).append(
+                        $("<a/>", {
+                            href: "https://1cgeo.github.io/produtos/",
+                            target: "_blank",
+                            text: "Link para o site de produtos",
+                            class: "link"
+                        }).click(function (e) {
+                            window.open(e.target.href);
+                            return false;
+                        })
+                    )
+                )
             )
     )
 }
@@ -579,7 +597,7 @@ main = async () => {
     await setProjectSettings()
     loadSlides()
     connectEvents()
-    setTimeout(()=>{
+    setTimeout(() => {
         stopLoader()
         loadQuery()
     }, 2000)
