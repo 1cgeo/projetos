@@ -73,6 +73,7 @@ loadGeoJSON = (loteName, styles) => {
             return response.json();
         })
         .then(async function (geoJson) {
+            map.fitBounds(geojsonExtent(geoJson))
             map.addSource(loteName, {
                 "type": "geojson",
                 "data": geoJson
@@ -97,7 +98,6 @@ setCurrentChapter = async (currentSlideId) => {
     let loteName = currentSlideId.split(getSeperatorId())[1]
     let loteSettings = projectSettings[projectName].lotes.find(item => item.name == loteName)
 
-    map.fitBounds(loteSettings.zoom);
     await loadGeoJSON(loteName, loteSettings.styles)
     activeSubtitle = loteSettings.legend
     activeSubtitleCount = loteSettings.legendCount
