@@ -94,6 +94,57 @@ var PROJECTS = {
         description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
         lotes: [
             {
+                name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                subtitle: 'Carta Topográfica 1:100.000 do RS - PDDM 21/22',
+                description: 'Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.',
+                zoom: [
+                    [-54.00995, -25.50903],
+                    [-50.99005, -22.99097]
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-fill',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-border',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-text',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
                 name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
                 subtitle: 'Carta Topográfica 1:100.000 do PR - PDDM 2022',
                 description: 'Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.',
@@ -145,7 +196,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
+                name: 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
                 subtitle: 'Carta Ortoimagem 1:50.000 no RS',
                 description: 'Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
                 zoom: [
@@ -162,8 +213,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-fill',
+                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -171,8 +222,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-border',
+                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -181,8 +232,59 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-text',
+                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
+                subtitle: 'Carta Ortoimagem 1:25.000 no RS',
+                description: 'Construção de 356 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
+                zoom: [
+                    [-54.75999, -26.00903], // southwestern corner of the bounds
+                    [-52.49001, -22.49097] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-fill',
+                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-border',
+                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-text',
+                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
