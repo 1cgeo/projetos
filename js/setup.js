@@ -95,7 +95,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
-                subtitle: 'Carta Topográfica 1:100.000 do RS - PDDM 21/22',
+                subtitle: 'Carta Topográfica 1:100.000 do RS',
                 description: 'Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.',
                 zoom: [
                     [-54.00995, -25.50903],
@@ -146,7 +146,7 @@ var PROJECTS = {
             },
             {
                 name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
-                subtitle: 'Carta Topográfica 1:100.000 do PR - PDDM 2022',
+                subtitle: 'Carta Topográfica 1:100.000 do PR',
                 description: 'Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.',
                 zoom: [
                     [-54.00995, -25.50903],
