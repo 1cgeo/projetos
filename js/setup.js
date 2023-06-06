@@ -298,9 +298,9 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
-                subtitle: 'Carta Topográfica 1:50.000 do PR',
-                description: 'Construção de 34 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do PR.',
+                name: 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
+                subtitle: 'Carta Ortoimagem 1:50.000 do SC',
+                description: 'Construção de 34 cartas ortoimagem na escala 1:50.000 visando atender solicitação do CMS na região de SC.',
                 zoom: [
                     [-54.01012, -27.50902], // southwestern corner of the bounds
                     [-52.48988, -25.99097] // northeastern corner of the bounds
@@ -315,8 +315,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr-fill',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
+                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-fill',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -324,8 +324,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr-border',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
+                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-border',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -334,8 +334,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr-text',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-topo-50k-pr',
+                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-text',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
