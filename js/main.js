@@ -438,14 +438,14 @@ getSummarySlide = () => {
         )
     )
 
-    ulMain.append(
+    /* ulMain.append(
         $("<li/>", {
             class: "group",
             text: "Executado"
         }).append(
             executed
         )
-    )
+    ) */
 
     div.append(ulMain)
 
