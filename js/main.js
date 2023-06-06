@@ -407,8 +407,15 @@ getSummarySlide = () => {
     let projects = getProjectSettings()
     for (let projectName in projects) {
         let group = (projects[projectName].executed) ? executed : notExecuted
-        group.append(
-            $("<li/>", {})
+        project = $("<li/>", {})
+            .append(
+                $("<h3/>", {
+                    id: `${projectName}${getSeperatorId()}${projects[projectName].lotes[0].name}`,
+                    text: projects[projectName].title
+                })
+            )
+        for (let loteConfig of projects[projectName].lotes) {
+            lote = $("<ol/>", {})
                 .append(
                     $("<a/>", {
 
@@ -417,12 +424,14 @@ getSummarySlide = () => {
                     })
                         .append(
                             $("<h3/>", {
-                                id: `${projectName}${getSeperatorId()}${projects[projectName].lotes[0].name}`,
-                                text: projects[projectName].title
+                                id: `${projectName}${getSeperatorId()}${loteConfig.name}`,
+                                text: loteConfig.subtitle
                             })
                         )
                 )
-        )
+            project.append(lote)
+        }
+        group.append(project)
     }
 
     let ulMain = $("<ul/>", {})
@@ -453,6 +462,7 @@ getSummarySlide = () => {
 }
 
 geDefaultSlide = (slideId, title, description, subtitle, loteDescription) => {
+    console.log(slideId)
     let content = $("<div/>", {
         id: slideId,
         class: "swiper-slide"
@@ -538,7 +548,7 @@ loadSlides = () => {
     let projects = getProjectSettings()
     let { executed, notExecuted } = filterSections(projects)
     loadSection("Em Execução", notExecuted)
-    loadSection("Executado", executed)
+    //loadSection("Executado", executed)
 }
 
 stopLoader = () => {
