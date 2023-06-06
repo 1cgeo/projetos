@@ -613,58 +613,6 @@ var PROJECTS = {
                         }
                     }
                 ]
-            },
-            {
-                name: 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
-                subtitle: 'Carta Topográfica 1:25.000 do Mato Grosso do Sul',
-                description: 'Construção de 64 cartas topográficas militares na escala 1:25.000 na região da fronteira do Mato Grosso do Sul.',
-                zoom: [
-                    [-58.00962, -21.00903],
-                    [-56.99038, -19.99097]
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms-fill',
-                        'source': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms-border',
-                        'source': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms-text',
-                        'source': 'mapintfter-2023-sub-meta-a5-carta-topo-25k-ms',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.34,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
             }
         ]
     }
