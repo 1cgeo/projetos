@@ -402,7 +402,7 @@ var PROJECTS = {
         ]
     },   
     'mapeamento-interesse-da-forca-2023': {
-        title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
+        title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2023',
         executed: false,
         description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
         lotes: [
