@@ -88,15 +88,15 @@ const INIT_ZOOM = {
 }
 
 var PROJECTS = {
-    'plano-desenvolvimento-2023': {
-        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2023',
+    'plano-desenvolvimento-2024': {
+        title: 'Mapeamento para a Força Terrestre 2024',
         executed: false,
-        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
+        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 2. Metas de Trabalho, subitem a. do Plano Interno de Trabalho do 1° CGEO - 2024.',
         lotes: [
-            {
-                name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
-                subtitle: 'Carta Topográfica 1:100.000 do RS',
-                description: 'Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.',
+            { // CT Campo de Instrução 1:25.000
+                name: 'ct_ci_125000',
+                subtitle: 'Carta Topográfica 1:25.000 de Campos de Instrução do CMS',
+                description: 'Construção de 22 cartas topográficas na escala 1:25.000 visando atender a demanda de atualização de cartas nos Campos de Instrução do CMS.',
                 zoom: [
                     [-54.00995, -25.50903],
                     [-50.99005, -22.99097]
@@ -111,8 +111,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-fill',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'ct_ci_125000-fill',
+                        'source': 'ct_ci_125000',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -120,8 +120,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-border',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'ct_ci_125000-border',
+                        'source': 'ct_ci_125000',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -130,8 +130,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-text',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'ct_ci_125000-text',
+                        'source': 'ct_ci_125000',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -144,163 +144,10 @@ var PROJECTS = {
                     }
                 ]
             },
-            {
-                name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
-                subtitle: 'Carta Topográfica 1:100.000 do PR',
-                description: 'Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.',
-                zoom: [
-                    [-54.00995, -25.50903],
-                    [-50.99005, -22.99097]
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-fill',
-                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-border',
-                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-text',
-                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
-                subtitle: 'Carta Ortoimagem 1:50.000 no RS',
-                description: 'Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
-                zoom: [
-                    [-54.75999, -26.00903], // southwestern corner of the bounds
-                    [-52.49001, -22.49097] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
-                subtitle: 'Carta Ortoimagem 1:25.000 no RS',
-                description: 'Construção de 356 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
-                zoom: [
-                    [-54.75999, -26.00903], // southwestern corner of the bounds
-                    [-52.49001, -22.49097] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
-                subtitle: 'Carta Ortoimagem 1:50.000 do SC',
-                description: 'Construção de 34 cartas ortoimagem na escala 1:50.000 visando atender solicitação do CMS na região de SC.',
+            { // Demanda CMO / Conversão Benchmark
+                name: 'demanda_cmo',
+                subtitle: 'Carta Topográfica 1:50.000 do MS',
+                description: 'Construção de 16 cartas topográficas na escala 1:50.000 visando atender solicitação do CMO no estado do MS.',
                 zoom: [
                     [-54.01012, -27.50902], // southwestern corner of the bounds
                     [-52.48988, -25.99097] // northeastern corner of the bounds
@@ -315,8 +162,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-fill',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
+                        'id': 'demanda_cmo-fill',
+                        'source': 'demanda_cmo',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -324,8 +171,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-border',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
+                        'id': 'demanda_cmo-border',
+                        'source': 'demanda_cmo',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -334,8 +181,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-text',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
+                        'id': 'demanda_cmo-text',
+                        'source': 'demanda_cmo',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -348,13 +195,13 @@ var PROJECTS = {
                     }
                 ]
             },
-            {
-                name: 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
-                subtitle: 'Carta Topográfica 1:50.000 do RS',
-                description: 'Construção de 95 cartas topográficas na escala 1:50.000 visando atender solicitação do CMS na região do RS.',
+            { // CO Marechal Hermes
+                name: 'co_cimh',
+                subtitle: 'Carta Ortoimagem 1:50.000 do CIMH',
+                description: 'Construção de 06 cartas ortoimagem na escala 1:50.000 visando atualizar a geoinformação referente ao Campo de Instrução de Marechal Hermes.',
                 zoom: [
-                    [-57.76047, -31.00902], // southwestern corner of the bounds
-                    [-52.98953, -29.49098] // northeastern corner of the bounds
+                    [-54.00995, -25.50903],
+                    [-50.99005, -22.99097]
                 ],
                 legend: [
                     1,
@@ -366,8 +213,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
+                        'id': 'co_cimh-fill',
+                        'source': 'co_cimh',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -375,8 +222,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
+                        'id': 'co_cimh-border',
+                        'source': 'co_cimh',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -385,8 +232,110 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
+                        'id': 'co_cimh-text',
+                        'source': 'co_cimh',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO Região Metropolitana de Porto Alegre
+                name: 'poa_metropolitana',
+                subtitle: 'Carta Ortoimagem 1:25.000 da Região Metropoliana de Porto Alegre',
+                description: 'Construção de 08 cartas ortoimagem na escala 1:25.000 visando atender a atualização das Cartas Ortoimagem na Região Metropolitana de Porto Alegre.',
+                zoom: [
+                    [-54.75999, -26.00903], // southwestern corner of the bounds
+                    [-52.49001, -22.49097] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'poa_metropolitana-fill',
+                        'source': 'poa_metropolitana',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'poa_metropolitana-border',
+                        'source': 'poa_metropolitana',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'poa_metropolitana-text',
+                        'source': 'poa_metropolitana',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO Campos de Instrução CMS
+                name: 'ci_co_125000',
+                subtitle: 'Carta Ortoimagem 1:25.000 de Campos de Instrução do CMS',
+                description: 'Construção de 17 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
+                zoom: [
+                    [-54.75999, -26.00903], // southwestern corner of the bounds
+                    [-52.49001, -22.49097] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'ci_co_125000-fill',
+                        'source': 'ci_co_125000',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ci_co_125000-border',
+                        'source': 'ci_co_125000',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ci_co_125000-text',
+                        'source': 'ci_co_125000',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
@@ -401,18 +350,18 @@ var PROJECTS = {
             }
         ]
     },   
-    'mapeamento-interesse-da-forca-2023': {
-        title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2023',
+    'mapeamento-decex-2024': {
+        title: 'Mapeamento por solicitação do DECEx',
         executed: false,
-        description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
+        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 2. Metas de Trabalho, subitem b. do Plano Interno de Trabalho do 1° CGEO - 2024.',
         lotes: [
-            {
-                name: 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
-                subtitle: 'Carta Topográfica 1:25.000 de Curitiba',
-                description: 'Construção de 06 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.',
+            { // DECEx CPOR/CMSP
+                name: 'decex_cpor_cmsp',
+                subtitle: 'Carta Topográfica 1:50.000 de Capinzal de Cima',
+                description: 'Construção de 01 carta topográfica na escala 1:50.000 visando atender a demanda do CPOR/CMSP na região de Capinzal de Cima no estado de São Paulo.',
                 zoom: [
-                    [-49.38496, -25.63403], // southwestern corner of the bounds
-                    [-49.11504, -25.24097] // northeastern corner of the bounds
+                    [-48.75000001515696, -24.499999781820947], // southwestern corner of the bounds
+                    [-48.50000011346867, -24.249999880132663] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -424,8 +373,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-fill',
-                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
+                        'id': 'decex_cpor_cmsp-fill',
+                        'source': 'decex_cpor_cmsp',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -433,8 +382,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-border',
-                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
+                        'id': 'decex_cpor_cmsp-border',
+                        'source': 'decex_cpor_cmsp',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -443,8 +392,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-text',
-                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
+                        'id': 'decex_cpor_cmsp-text',
+                        'source': 'decex_cpor_cmsp',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -458,10 +407,10 @@ var PROJECTS = {
                     }
                 ]
             },
-            {
-                name: 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
-                subtitle: 'Carta Topográfica 1:25.000 de Alegrete',
-                description: 'Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
+            { // DECEx EsACosAAe
+                name: 'decex_esacosaae',
+                subtitle: 'Carta Topográfica 1:50.000 da Região Metropoliana de Curitiba',
+                description: 'Construção de 04 cartas topográficas na escala 1:50.000 visando atender a demanda da EsACosAAe.',
                 zoom: [
                     [-55.88536, -30.00902], // southwestern corner of the bounds
                     [-55.61464, -29.74098] // northeastern corner of the bounds
@@ -476,8 +425,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-fill',
-                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        'id': 'decex_esacosaae-fill',
+                        'source': 'decex_esacosaae',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -485,8 +434,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-border',
-                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        'id': 'decex_esacosaae-border',
+                        'source': 'decex_esacosaae',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -495,112 +444,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-text',
-                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.86,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
-                subtitle: 'Carta Topográfica 1:25.000 de Santana do Livramento',
-                description: 'Construção de 04 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
-                zoom: [
-                    [-55.63547, -31.00902], // southwestern corner of the bounds
-                    [-55.36453, -30.74098] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-fill',
-                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-border',
-                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-text',
-                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.86,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
-                subtitle: 'Carta Topográfica 1:25.000 de Quaraí',
-                description: 'Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
-                zoom: [
-                    [-56.51042, -30.50902], // southwestern corner of the bounds
-                    [-56.36458, -30.24098] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-fill',
-                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-border',
-                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-text',
-                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
+                        'id': 'decex_esacosaae-text',
+                        'source': 'decex_esacosaae',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,

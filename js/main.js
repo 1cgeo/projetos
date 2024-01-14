@@ -355,7 +355,7 @@ getCoverSlide = () => {
                         $("<a/>", {
                             href: "https://1cgeo.github.io/produtos/",
                             target: "_blank",
-                            text: "Link para o site de produtos",
+                            text: "Clique aqui para visualizar os Produtos já disponíveis.",
                             class: "link"
                         }).click(function (e) {
                             window.open(e.target.href);
@@ -440,8 +440,7 @@ getSummarySlide = () => {
 
     ulMain.append(
         $("<li/>", {
-            class: "group",
-            text: "Em Execução"
+            class: "group"
         }).append(
             notExecuted
         )

@@ -1,0 +1,380 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "co_ci_125000",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -52.125, -29.9999999992 ],
+							[ -52, -29.9999999992 ],
+							[ -52, -29.8749999992 ],
+							[ -52.125, -29.8749999992 ],
+							[ -52.125, -29.9999999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2968-4-SE",
+				"id" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55, -29.1249999992 ],
+							[ -54.875, -29.1249999992 ],
+							[ -54.875, -28.9999999992 ],
+							[ -55, -28.9999999992 ],
+							[ -55, -29.1249999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2946-1-NO",
+				"id" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -51.5, -25.4999999993 ],
+							[ -51.375, -25.4999999993 ],
+							[ -51.375, -25.3749999993 ],
+							[ -51.5, -25.3749999993 ],
+							[ -51.5, -25.4999999993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2838-3-SO",
+				"id" : 3
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -52, -29.9999999992 ],
+							[ -51.875, -29.9999999992 ],
+							[ -51.875, -29.8749999992 ],
+							[ -52, -29.8749999992 ],
+							[ -52, -29.9999999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2969-3-SO",
+				"id" : 4
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -55, -29.2499999992 ],
+							[ -54.875, -29.2499999992 ],
+							[ -54.875, -29.1249999992 ],
+							[ -55, -29.1249999992 ],
+							[ -55, -29.2499999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2946-1-SO",
+				"id" : 5
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53, -30.1249999992 ],
+							[ -52.875, -30.1249999992 ],
+							[ -52.875, -29.9999999992 ],
+							[ -53, -29.9999999992 ],
+							[ -53, -30.1249999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2984-1-NO",
+				"id" : 6
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -50.875, -24.7499999993 ],
+							[ -50.75, -24.7499999993 ],
+							[ -50.75, -24.6249999993 ],
+							[ -50.875, -24.6249999993 ],
+							[ -50.875, -24.7499999993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2823-1-SE",
+				"id" : 7
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -52.125, -30.1249999992 ],
+							[ -52, -30.1249999992 ],
+							[ -52, -29.9999999992 ],
+							[ -52.125, -29.9999999992 ],
+							[ -52.125, -30.1249999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2985-2-NE",
+				"id" : 8
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -52, -30.1249999992 ],
+							[ -51.875, -30.1249999992 ],
+							[ -51.875, -29.9999999992 ],
+							[ -52, -29.9999999992 ],
+							[ -52, -30.1249999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2986-1-NO",
+				"id" : 9
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -50.25, -25.1249999993 ],
+							[ -50.125, -25.1249999993 ],
+							[ -50.125, -24.9999999993 ],
+							[ -50.25, -24.9999999993 ],
+							[ -50.25, -25.1249999993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2840-2-NO",
+				"id" : 10
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -50.125, -25.1249999993 ],
+							[ -50, -25.1249999993 ],
+							[ -50, -24.9999999993 ],
+							[ -50.125, -24.9999999993 ],
+							[ -50.125, -25.1249999993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2840-2-NE",
+				"id" : 11
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -50.25, -25.2499999993 ],
+							[ -50.125, -25.2499999993 ],
+							[ -50.125, -25.1249999993 ],
+							[ -50.25, -25.1249999993 ],
+							[ -50.25, -25.2499999993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2840-2-SO",
+				"id" : 12
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -50.125, -25.2499999993 ],
+							[ -50, -25.2499999993 ],
+							[ -50, -25.1249999993 ],
+							[ -50.125, -25.1249999993 ],
+							[ -50.125, -25.2499999993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2840-2-SE",
+				"id" : 13
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -49, -25.3749999993 ],
+							[ -48.875, -25.3749999993 ],
+							[ -48.875, -25.2499999993 ],
+							[ -49, -25.2499999993 ],
+							[ -49, -25.3749999993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2843-3-NO",
+				"id" : 14
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.125, -26.1249999993 ],
+							[ -53, -26.1249999993 ],
+							[ -53, -25.9999999993 ],
+							[ -53.125, -25.9999999993 ],
+							[ -53.125, -26.1249999993 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2861-2-NE",
+				"id" : 15
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.5, -26.7499999992 ],
+							[ -53.375, -26.7499999992 ],
+							[ -53.375, -26.6249999992 ],
+							[ -53.5, -26.6249999992 ],
+							[ -53.5, -26.7499999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2873-1-SO",
+				"id" : 16
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "MultiPolygon",
+				"coordinates" : [
+					[
+						[
+							[ -53.5, -26.8749999992 ],
+							[ -53.375, -26.8749999992 ],
+							[ -53.375, -26.7499999992 ],
+							[ -53.5, -26.7499999992 ],
+							[ -53.5, -26.8749999992 ]
+						]
+					]
+				]
+			},
+			"properties" : {
+				"situacao" : "Processamento Digital de Imagens",
+				"identificador" : "2873-3-NO",
+				"id" : 17
+			}
+		}
+	]
+}
