@@ -27,7 +27,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2980-1-SO",
 				"id" : 1
 			}
@@ -57,7 +57,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2962-4-NE",
 				"id" : 2
 			}
@@ -87,7 +87,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2963-3-NO",
 				"id" : 3
 			}
@@ -117,7 +117,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2979-2-SE",
 				"id" : 4
 			}
@@ -147,7 +147,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2963-3-SO",
 				"id" : 5
 			}
@@ -177,7 +177,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2980-1-NO",
 				"id" : 6
 			}
@@ -207,7 +207,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2962-4-SE",
 				"id" : 7
 			}
@@ -237,7 +237,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2979-2-NE",
 				"id" : 8
 			}
