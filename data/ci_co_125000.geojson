@@ -19,7 +19,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2968-4-SE",
 				"id" : 1
 			}
@@ -41,7 +41,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2946-1-NO",
 				"id" : 2
 			}
@@ -63,7 +63,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2838-3-SO",
 				"id" : 3
 			}
@@ -85,7 +85,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2969-3-SO",
 				"id" : 4
 			}
@@ -107,7 +107,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2946-1-SO",
 				"id" : 5
 			}
@@ -129,7 +129,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2984-1-NO",
 				"id" : 6
 			}
@@ -151,7 +151,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2823-1-SE",
 				"id" : 7
 			}
@@ -173,7 +173,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2985-2-NE",
 				"id" : 8
 			}
@@ -195,7 +195,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2986-1-NO",
 				"id" : 9
 			}
@@ -217,7 +217,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2840-2-NO",
 				"id" : 10
 			}
@@ -239,7 +239,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2840-2-NE",
 				"id" : 11
 			}
@@ -261,7 +261,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2840-2-SO",
 				"id" : 12
 			}
@@ -283,7 +283,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2840-2-SE",
 				"id" : 13
 			}
@@ -305,7 +305,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2843-3-NO",
 				"id" : 14
 			}
@@ -327,7 +327,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2861-2-NE",
 				"id" : 15
 			}
@@ -349,7 +349,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2873-1-SO",
 				"id" : 16
 			}
@@ -371,7 +371,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Processamento Digital de Imagens",
+				"situacao" : "Disseminação",
 				"identificador" : "2873-3-NO",
 				"id" : 17
 			}

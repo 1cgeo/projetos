@@ -387,7 +387,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Edição",
+				"situacao" : "Disseminação",
 				"identificador" : "2927-4-NE",
 				"id" : 13
 			}
@@ -417,7 +417,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Edição",
+				"situacao" : "Disseminação",
 				"identificador" : "2927-2-SE",
 				"id" : 14
 			}
@@ -447,7 +447,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Edição",
+				"situacao" : "Disseminação",
 				"identificador" : "2927-4-NO",
 				"id" : 15
 			}
@@ -477,7 +477,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Edição",
+				"situacao" : "Disseminação",
 				"identificador" : "2927-2-SO",
 				"id" : 16
 			}
