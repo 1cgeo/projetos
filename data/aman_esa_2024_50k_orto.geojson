@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "name": "aman_esa_2024_50k_orto",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Disseminação",
+                "identificador": null,
+                "id": "0"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -44.625,
+                                -22.5
+                            ],
+                            [
+                                -44.625,
+                                -22.25
+                            ],
+                            [
+                                -44.375,
+                                -22.25
+                            ],
+                            [
+                                -44.375,
+                                -22.5
+                            ],
+                            [
+                                -44.625,
+                                -22.5
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

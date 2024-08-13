@@ -1,6 +1,11 @@
 ﻿# FME files
 FME/*
 
-# JSON Files
+# JSON files
 
 nodemon.json
+
+# node files
+node_modules/
+package.json
+package-lock.json
