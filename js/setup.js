@@ -284,7 +284,7 @@ var PROJECTS = {
             { // CO 1:25.000 -- Campos de Instrução do Comando Militar do Sul
                 name: 'ci_co_125000',
                 subtitle: 'Cartas Ortoimagem 1:25.000 de Campos de Instrução do CMS',
-                description: 'Construção de 17 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
+                description: 'Construção de 35 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
                 legend: [
                     1,
                     12,
