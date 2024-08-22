@@ -1,0 +1,1115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.125,
+                -9.125
+              ],
+              [
+                -63,
+                -9.125
+              ],
+              [
+                -63,
+                -9
+              ],
+              [
+                -63.125,
+                -9
+              ],
+              [
+                -63.125,
+                -9.125
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 359,
+        "identificador": "1470-2-NE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.5,
+                -9.25
+              ],
+              [
+                -64.375,
+                -9.25
+              ],
+              [
+                -64.375,
+                -9.125
+              ],
+              [
+                -64.5,
+                -9.125
+              ],
+              [
+                -64.5,
+                -9.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 348,
+        "identificador": "1468-1-SO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.5,
+                -9.125
+              ],
+              [
+                -63.375,
+                -9.125
+              ],
+              [
+                -63.375,
+                -9
+              ],
+              [
+                -63.5,
+                -9
+              ],
+              [
+                -63.5,
+                -9.125
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 354,
+        "identificador": "1470-1-NO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.25,
+                -9.125
+              ],
+              [
+                -64.125,
+                -9.125
+              ],
+              [
+                -64.125,
+                -9
+              ],
+              [
+                -64.25,
+                -9
+              ],
+              [
+                -64.25,
+                -9.125
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 350,
+        "identificador": "1468-2-NO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.25,
+                -9.25
+              ],
+              [
+                -63.125,
+                -9.25
+              ],
+              [
+                -63.125,
+                -9.125
+              ],
+              [
+                -63.25,
+                -9.125
+              ],
+              [
+                -63.25,
+                -9.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 360,
+        "identificador": "1470-2-SO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.625,
+                -8.875
+              ],
+              [
+                -63.5,
+                -8.875
+              ],
+              [
+                -63.5,
+                -8.75
+              ],
+              [
+                -63.625,
+                -8.75
+              ],
+              [
+                -63.625,
+                -8.875
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 339,
+        "identificador": "1392-4-NE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.75,
+                -9
+              ],
+              [
+                -63.625,
+                -9
+              ],
+              [
+                -63.625,
+                -8.875
+              ],
+              [
+                -63.75,
+                -8.875
+              ],
+              [
+                -63.75,
+                -9
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 340,
+        "identificador": "1392-4-SO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.375,
+                -8.875
+              ],
+              [
+                -63.25,
+                -8.875
+              ],
+              [
+                -63.25,
+                -8.75
+              ],
+              [
+                -63.375,
+                -8.75
+              ],
+              [
+                -63.375,
+                -8.875
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 343,
+        "identificador": "1393-3-NE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.25,
+                -8.875
+              ],
+              [
+                -64.125,
+                -8.875
+              ],
+              [
+                -64.125,
+                -8.75
+              ],
+              [
+                -64.25,
+                -8.75
+              ],
+              [
+                -64.25,
+                -8.875
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 332,
+        "identificador": "1391-4-NO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.625,
+                -9
+              ],
+              [
+                -63.5,
+                -9
+              ],
+              [
+                -63.5,
+                -8.875
+              ],
+              [
+                -63.625,
+                -8.875
+              ],
+              [
+                -63.625,
+                -9
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 341,
+        "identificador": "1392-4-SE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.375,
+                -9
+              ],
+              [
+                -63.25,
+                -9
+              ],
+              [
+                -63.25,
+                -8.875
+              ],
+              [
+                -63.375,
+                -8.875
+              ],
+              [
+                -63.375,
+                -9
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 345,
+        "identificador": "1393-3-SE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.5,
+                -8.875
+              ],
+              [
+                -63.375,
+                -8.875
+              ],
+              [
+                -63.375,
+                -8.75
+              ],
+              [
+                -63.5,
+                -8.75
+              ],
+              [
+                -63.5,
+                -8.875
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 342,
+        "identificador": "1393-3-NO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.25,
+                -9.25
+              ],
+              [
+                -64.125,
+                -9.25
+              ],
+              [
+                -64.125,
+                -9.125
+              ],
+              [
+                -64.25,
+                -9.125
+              ],
+              [
+                -64.25,
+                -9.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 352,
+        "identificador": "1468-2-SO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.5,
+                -9.25
+              ],
+              [
+                -63.375,
+                -9.25
+              ],
+              [
+                -63.375,
+                -9.125
+              ],
+              [
+                -63.5,
+                -9.125
+              ],
+              [
+                -63.5,
+                -9.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 356,
+        "identificador": "1470-1-SO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.125,
+                -9.25
+              ],
+              [
+                -64,
+                -9.25
+              ],
+              [
+                -64,
+                -9.125
+              ],
+              [
+                -64.125,
+                -9.125
+              ],
+              [
+                -64.125,
+                -9.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 353,
+        "identificador": "1468-2-SE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.125,
+                -9
+              ],
+              [
+                -64,
+                -9
+              ],
+              [
+                -64,
+                -8.875
+              ],
+              [
+                -64.125,
+                -8.875
+              ],
+              [
+                -64.125,
+                -9
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 335,
+        "identificador": "1391-4-SE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.375,
+                -9.125
+              ],
+              [
+                -63.25,
+                -9.125
+              ],
+              [
+                -63.25,
+                -9
+              ],
+              [
+                -63.375,
+                -9
+              ],
+              [
+                -63.375,
+                -9.125
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 355,
+        "identificador": "1470-1-NE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.375,
+                -9.125
+              ],
+              [
+                -64.25,
+                -9.125
+              ],
+              [
+                -64.25,
+                -9
+              ],
+              [
+                -64.375,
+                -9
+              ],
+              [
+                -64.375,
+                -9.125
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 347,
+        "identificador": "1468-1-NE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.25,
+                -9
+              ],
+              [
+                -64.125,
+                -9
+              ],
+              [
+                -64.125,
+                -8.875
+              ],
+              [
+                -64.25,
+                -8.875
+              ],
+              [
+                -64.25,
+                -9
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 334,
+        "identificador": "1391-4-SO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.125,
+                -8.875
+              ],
+              [
+                -64,
+                -8.875
+              ],
+              [
+                -64,
+                -8.75
+              ],
+              [
+                -64.125,
+                -8.75
+              ],
+              [
+                -64.125,
+                -8.875
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 333,
+        "identificador": "1391-4-NE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.375,
+                -9.25
+              ],
+              [
+                -64.25,
+                -9.25
+              ],
+              [
+                -64.25,
+                -9.125
+              ],
+              [
+                -64.375,
+                -9.125
+              ],
+              [
+                -64.375,
+                -9.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 349,
+        "identificador": "1468-1-SE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.375,
+                -9.25
+              ],
+              [
+                -63.25,
+                -9.25
+              ],
+              [
+                -63.25,
+                -9.125
+              ],
+              [
+                -63.375,
+                -9.125
+              ],
+              [
+                -63.375,
+                -9.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 357,
+        "identificador": "1470-1-SE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.125,
+                -9.125
+              ],
+              [
+                -64,
+                -9.125
+              ],
+              [
+                -64,
+                -9
+              ],
+              [
+                -64.125,
+                -9
+              ],
+              [
+                -64.125,
+                -9.125
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 351,
+        "identificador": "1468-2-NE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.25,
+                -9.125
+              ],
+              [
+                -63.125,
+                -9.125
+              ],
+              [
+                -63.125,
+                -9
+              ],
+              [
+                -63.25,
+                -9
+              ],
+              [
+                -63.25,
+                -9.125
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 358,
+        "identificador": "1470-2-NO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.75,
+                -8.875
+              ],
+              [
+                -63.625,
+                -8.875
+              ],
+              [
+                -63.625,
+                -8.75
+              ],
+              [
+                -63.75,
+                -8.75
+              ],
+              [
+                -63.75,
+                -8.875
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 338,
+        "identificador": "1392-4-NO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.125,
+                -9.25
+              ],
+              [
+                -63,
+                -9.25
+              ],
+              [
+                -63,
+                -9.125
+              ],
+              [
+                -63.125,
+                -9.125
+              ],
+              [
+                -63.125,
+                -9.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 361,
+        "identificador": "1470-2-SE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.5,
+                -9
+              ],
+              [
+                -63.375,
+                -9
+              ],
+              [
+                -63.375,
+                -8.875
+              ],
+              [
+                -63.5,
+                -8.875
+              ],
+              [
+                -63.5,
+                -9
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 344,
+        "identificador": "1393-3-SO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -63.875,
+                -9
+              ],
+              [
+                -63.75,
+                -9
+              ],
+              [
+                -63.75,
+                -8.875
+              ],
+              [
+                -63.875,
+                -8.875
+              ],
+              [
+                -63.875,
+                -9
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 337,
+        "identificador": "1392-3-SE",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64.5,
+                -9.125
+              ],
+              [
+                -64.375,
+                -9.125
+              ],
+              [
+                -64.375,
+                -9
+              ],
+              [
+                -64.5,
+                -9
+              ],
+              [
+                -64.5,
+                -9.125
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 346,
+        "identificador": "1468-1-NO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -64,
+                -9
+              ],
+              [
+                -63.875,
+                -9
+              ],
+              [
+                -63.875,
+                -8.875
+              ],
+              [
+                -64,
+                -8.875
+              ],
+              [
+                -64,
+                -9
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 336,
+        "identificador": "1392-3-SO",
+        "situacao": "Extração"
+      }
+    }
+  ]
+}

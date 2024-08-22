@@ -1,0 +1,597 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.75,
+                -21
+              ],
+              [
+                -57.5,
+                -21
+              ],
+              [
+                -57.5,
+                -20.75
+              ],
+              [
+                -57.75,
+                -20.75
+              ],
+              [
+                -57.75,
+                -21
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "identificador": "2581-4",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.75,
+                -20.75
+              ],
+              [
+                -57.5,
+                -20.75
+              ],
+              [
+                -57.5,
+                -20.5
+              ],
+              [
+                -57.75,
+                -20.5
+              ],
+              [
+                -57.75,
+                -20.75
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "identificador": "2581-2",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.5,
+                -21
+              ],
+              [
+                -57.25,
+                -21
+              ],
+              [
+                -57.25,
+                -20.75
+              ],
+              [
+                -57.5,
+                -20.75
+              ],
+              [
+                -57.5,
+                -21
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 251,
+        "identificador": "2582-3",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.75,
+                -20.5
+              ],
+              [
+                -57.5,
+                -20.5
+              ],
+              [
+                -57.5,
+                -20.25
+              ],
+              [
+                -57.75,
+                -20.25
+              ],
+              [
+                -57.75,
+                -20.5
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "identificador": "2545-4",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -58,
+                -21
+              ],
+              [
+                -57.75,
+                -21
+              ],
+              [
+                -57.75,
+                -20.75
+              ],
+              [
+                -58,
+                -20.75
+              ],
+              [
+                -58,
+                -21
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "identificador": "2581-3",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.25,
+                -20.5
+              ],
+              [
+                -57,
+                -20.5
+              ],
+              [
+                -57,
+                -20.25
+              ],
+              [
+                -57.25,
+                -20.25
+              ],
+              [
+                -57.25,
+                -20.5
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 244,
+        "identificador": "2546-4",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -58,
+                -20.25
+              ],
+              [
+                -57.75,
+                -20.25
+              ],
+              [
+                -57.75,
+                -20
+              ],
+              [
+                -58,
+                -20
+              ],
+              [
+                -58,
+                -20.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "identificador": "2545-1",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.25,
+                -21
+              ],
+              [
+                -57,
+                -21
+              ],
+              [
+                -57,
+                -20.75
+              ],
+              [
+                -57.25,
+                -20.75
+              ],
+              [
+                -57.25,
+                -21
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "identificador": "2582-4",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -58,
+                -20.5
+              ],
+              [
+                -57.75,
+                -20.5
+              ],
+              [
+                -57.75,
+                -20.25
+              ],
+              [
+                -58,
+                -20.25
+              ],
+              [
+                -58,
+                -20.5
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "identificador": "2545-3",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.25,
+                -20.75
+              ],
+              [
+                -57,
+                -20.75
+              ],
+              [
+                -57,
+                -20.5
+              ],
+              [
+                -57.25,
+                -20.5
+              ],
+              [
+                -57.25,
+                -20.75
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "identificador": "2582-2",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.5,
+                -20.75
+              ],
+              [
+                -57.25,
+                -20.75
+              ],
+              [
+                -57.25,
+                -20.5
+              ],
+              [
+                -57.5,
+                -20.5
+              ],
+              [
+                -57.5,
+                -20.75
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "identificador": "2582-1",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.25,
+                -20.25
+              ],
+              [
+                -57,
+                -20.25
+              ],
+              [
+                -57,
+                -20
+              ],
+              [
+                -57.25,
+                -20
+              ],
+              [
+                -57.25,
+                -20.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "identificador": "2546-2",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.5,
+                -20.5
+              ],
+              [
+                -57.25,
+                -20.5
+              ],
+              [
+                -57.25,
+                -20.25
+              ],
+              [
+                -57.5,
+                -20.25
+              ],
+              [
+                -57.5,
+                -20.5
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "identificador": "2546-3",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -58,
+                -20.75
+              ],
+              [
+                -57.75,
+                -20.75
+              ],
+              [
+                -57.75,
+                -20.5
+              ],
+              [
+                -58,
+                -20.5
+              ],
+              [
+                -58,
+                -20.75
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "identificador": "2581-1",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.75,
+                -20.25
+              ],
+              [
+                -57.5,
+                -20.25
+              ],
+              [
+                -57.5,
+                -20
+              ],
+              [
+                -57.75,
+                -20
+              ],
+              [
+                -57.75,
+                -20.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "identificador": "2545-2",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -57.5,
+                -20.25
+              ],
+              [
+                -57.25,
+                -20.25
+              ],
+              [
+                -57.25,
+                -20
+              ],
+              [
+                -57.5,
+                -20
+              ],
+              [
+                -57.5,
+                -20.25
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "identificador": "2546-1",
+        "situacao": "Previsto"
+      }
+    }
+  ]
+}

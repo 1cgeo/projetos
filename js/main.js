@@ -598,6 +598,7 @@ const loadQuery = () => {
 }
 
 main = async () => {
+    await loadAndAdaptProjects()
     await setProjectSettings()
     loadSlides()
     connectEvents()

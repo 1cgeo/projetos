@@ -1,0 +1,153 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -45.0375,
+                -21.6875
+              ],
+              [
+                -45.0375,
+                -21.5625
+              ],
+              [
+                -44.9125,
+                -21.5625
+              ],
+              [
+                -44.9125,
+                -21.6875
+              ],
+              [
+                -45.0375,
+                -21.6875
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331,
+        "identificador": "",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -44.5,
+                -22.5
+              ],
+              [
+                -44.375,
+                -22.5
+              ],
+              [
+                -44.375,
+                -22.375
+              ],
+              [
+                -44.5,
+                -22.375
+              ],
+              [
+                -44.5,
+                -22.5
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330,
+        "identificador": "2713-3-SO",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -45.375,
+                -21.75
+              ],
+              [
+                -45.25,
+                -21.75
+              ],
+              [
+                -45.25,
+                -21.625
+              ],
+              [
+                -45.375,
+                -21.625
+              ],
+              [
+                -45.375,
+                -21.75
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 328,
+        "identificador": "2677-1-SE",
+        "situacao": "Previsto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -44.625,
+                -22.5
+              ],
+              [
+                -44.5,
+                -22.5
+              ],
+              [
+                -44.5,
+                -22.375
+              ],
+              [
+                -44.625,
+                -22.375
+              ],
+              [
+                -44.625,
+                -22.5
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 329,
+        "identificador": "2712-4-SE",
+        "situacao": "Extração"
+      }
+    }
+  ]
+}

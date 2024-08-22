@@ -1,0 +1,340 @@
+{
+  "21": {
+    "lotes": [
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 12,
+        "subtitle": "CDGV 1:25.000 de Campos de Instrução 2024",
+        "description": "Construção de 22 cartas topográficas na escala 1:25.000 dos seguintes campos de instrução: CIR, CIBSB, CISM e CIGC",
+        "zoom": [
+          [
+            -55.75,
+            -30.25
+          ],
+          [
+            -50,
+            -25
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 14,
+        "subtitle": "CDGV 1:50.000 Generalização MGCP",
+        "description": "Construção proposta via Generalização Cartográfica das Cartas Topográficas 1:25.000 geradas em 2023. Desta forma, tal Lote se enquadra como meta de desenvolvimento do DSGTools como meio de elencar, desenvolver, aplicar e avaliar ferramentas de Generalização 25k para 50k.",
+        "zoom": [
+          [
+            -58,
+            -21
+          ],
+          [
+            -57,
+            -20
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 15,
+        "subtitle": "CDGV Orto 1:50.000 do CIMH",
+        "description": "Construção de 6 cartas ortoimagem na escala 1:50.000 na fronteira entre SC e PR",
+        "zoom": [
+          [
+            -50.5,
+            -26.5
+          ],
+          [
+            -49.5,
+            -26
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 16,
+        "subtitle": "CDGV Orto 1:25.000 para FT",
+        "description": "Construção de 43 cartas ortoimagem na escala 1:25.000 para atendimento da solicitação da Força Terrestre.",
+        "zoom": [
+          [
+            -55.75,
+            -30.25
+          ],
+          [
+            -48.875,
+            -24.625
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 21,
+        "subtitle": "CDGV Orto 1:25.000 de CI CMS",
+        "description": "Construção de 17 cartas ortoimagem na escala 1:25.000 dos Campos de Instrução do CMS",
+        "zoom": [
+          [
+            -55,
+            -30.125
+          ],
+          [
+            -48.875,
+            -24.625
+          ]
+        ]
+      }
+    ],
+    "title": "Meta 1 2024 - Mapeamento para a Força Terrestre",
+    "description": "O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 2. Metas de Trabalho, subitem a. do Plano Interno de Trabalho do 1° CGEO - 2024"
+  },
+  "22": {
+    "lotes": [
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 13,
+        "subtitle": "CDGV 1:50.000 para DECEx",
+        "description": "Construção de 5 cartas topográficas na escala 1:50.000 visando atender solicitação do DECEx.",
+        "zoom": [
+          [
+            -49.5,
+            -25.75
+          ],
+          [
+            -48.5,
+            -24.25
+          ]
+        ]
+      }
+    ],
+    "title": "Meta 2 2024 - Mapeamento por solicitação do DECEx",
+    "description": "O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 2. Metas de Trabalho, subitem b. do Plano Interno de Trabalho do 1° CGEO - 2024"
+  },
+  "23": {
+    "lotes": [
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 17,
+        "subtitle": "CDGV MGCP 1:50.000",
+        "description": "Construção dos vetores de 1 bloco, conforme determinação da DSG no contexto de produção do MGCP",
+        "zoom": [
+          [
+            -60,
+            3
+          ],
+          [
+            -59,
+            5
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 25,
+        "subtitle": "CDGV MGCP 1:50.000 versão 1.1.0",
+        "description": "Construção dos vetores de 3 blocos, conforme determinação da DSG no contexto de produção do MGCP",
+        "zoom": [
+          [
+            -60,
+            4
+          ],
+          [
+            -59,
+            5
+          ]
+        ]
+      }
+    ],
+    "title": "Meta 4 2024 - MGCP",
+    "description": "O objetivo do presente projeto consiste na elaboração de produtos para atender o acordo internacional estabelecido entre o Ministério da Defesa do Brasil e outras nações no contexto do Multi-national Geospatial Co-production Program conforme demanda constante no Item 2. Metas de Trabalho, subitem d. do Plano Interno de Trabalho do 1 CGEO - 2024."
+  },
+  "24": {
+    "lotes": [
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 18,
+        "subtitle": "CDGV Orto 1:250.000 da AMAN-ESA",
+        "description": "Construção de 1 carta ortoimagem na escala 1:250.000 para atendimento da Meta Especial - 2024",
+        "zoom": [
+          [
+            -45.625,
+            -22.5
+          ],
+          [
+            -44.125,
+            -21.5
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 19,
+        "subtitle": "CDGV 1:100.000 da AMAN-ESA",
+        "description": "Construçao de 3 cartas topográficas na escala 1:100.000 para atendimento da demanda",
+        "zoom": [
+          [
+            -45.4,
+            -22.5
+          ],
+          [
+            -44.375,
+            -21.5
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 20,
+        "subtitle": "CDGV 1:50.000 da AMAN-ESA",
+        "description": "Construção de 3 cartas topográficas na escala 1:50.000 para atendimento da meta especial.",
+        "zoom": [
+          [
+            -45.4,
+            -22.5
+          ],
+          [
+            -44.375,
+            -21.5
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 22,
+        "subtitle": "CDGV 1:250.000 da AMAN-ESA",
+        "description": "Cosntrução de 1 carta topográfica na escala 1:250.000 para atendimento da Meta Especial - 2024",
+        "zoom": [
+          [
+            -45.625,
+            -22.5
+          ],
+          [
+            -44.125,
+            -21.5
+          ]
+        ]
+      },
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 23,
+        "subtitle": "CDGV 1:25.000 da AMAN-ESA",
+        "description": "Construção de 3 cartas topográficas na escala 1:25.000 para atendimento da meta especial.",
+        "zoom": [
+          [
+            -45.375,
+            -22.5
+          ],
+          [
+            -44.375,
+            -21.5625
+          ]
+        ]
+      }
+    ],
+    "title": "Meta Especial",
+    "description": "O objetivo do presente projeto consiste na elaboração de um conjunto de produtos que contemplem a região da Academia Militar das Agulhas Negras e da Escola de Sargento das Armas. O projeto visa disseminar produtos de geoinformação física e digital para militares de frentes diversas."
+  },
+  "25": {
+    "lotes": [
+      {
+        "legend": [
+          0,
+          16,
+          1,
+          3,
+          5
+        ],
+        "name": 24,
+        "subtitle": "CDGV 1:25.000 do Convênio de Rondônia",
+        "description": "Construção de 30 cartas topográficas na escala 1:25.000 do Estado de Rondônia",
+        "zoom": [
+          [
+            -64.5,
+            -9.25
+          ],
+          [
+            -63,
+            -8.75
+          ]
+        ]
+      }
+    ],
+    "title": "Convênio Rondônia",
+    "description": "O objetivo do presente projeto consiste na elaboração de produtos para atender o Convênio com o Estado de Rondônia, dentro do estabelecido pela Diretoria de Serviço Geográfico,"
+  }
+}
