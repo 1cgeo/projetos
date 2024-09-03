@@ -9,43 +9,6 @@
           [
             [
               [
-                -44.875,
-                -22.5
-              ],
-              [
-                -44.875,
-                -22
-              ],
-              [
-                -44.375,
-                -22
-              ],
-              [
-                -44.375,
-                -22.5
-              ],
-              [
-                -44.875,
-                -22.5
-              ]
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": 305,
-        "identificador": "",
-        "situacao": "Extração"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
                 -45.4,
                 -22
               ],
@@ -71,6 +34,43 @@
       },
       "properties": {
         "id": 304,
+        "identificador": "",
+        "situacao": "Extração"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -44.875,
+                -22.5
+              ],
+              [
+                -44.875,
+                -22
+              ],
+              [
+                -44.375,
+                -22
+              ],
+              [
+                -44.375,
+                -22.5
+              ],
+              [
+                -44.875,
+                -22.5
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 305,
         "identificador": "",
         "situacao": "Extração"
       }
