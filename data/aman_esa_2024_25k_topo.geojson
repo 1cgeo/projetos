@@ -5,43 +5,6 @@
         {
             "type": "Feature",
             "properties": {
-                "situacao": "Digitalização",
-                "identificador": null,
-                "id": "0"
-            },
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [
-                                -45.375,
-                                -21.75
-                            ],
-                            [
-                                -45.375,
-                                -21.625
-                            ],
-                            [
-                                -45.25,
-                                -21.625
-                            ],
-                            [
-                                -45.25,
-                                -21.75
-                            ],
-                            [
-                                -45.375,
-                                -21.75
-                            ]
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "situacao": "Disseminação",
                 "identificador": null,
                 "id": "1"
