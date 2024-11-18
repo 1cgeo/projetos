@@ -267,7 +267,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2840-2-SE",
 				"id" : 9
 			}
@@ -297,7 +297,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2840-2-NO",
 				"id" : 10
 			}
@@ -327,7 +327,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2840-2-SO",
 				"id" : 11
 			}
@@ -357,7 +357,7 @@
 				]
 			},
 			"properties" : {
-				"situacao" : "Digitalização",
+				"situacao" : "Disseminação",
 				"identificador" : "2840-2-NE",
 				"id" : 12
 			}
