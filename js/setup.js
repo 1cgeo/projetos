@@ -89,7 +89,7 @@ const INIT_ZOOM = {
 
 var PROJECTS = {
     'pit-dsg-2025': {
-        title: 'Mapeamento para a Força Terrestre 2024',
+        title: 'Meta 1 - Produção de Geoinformação',
         executed: false,
         description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes Plano Interno de Trabalho da Diretoria de Serviço Geográfico.',
         lotes: [
@@ -143,7 +143,7 @@ var PROJECTS = {
             { // Bloco 1B
                 name: 'bloco_1b_2025',
                 subtitle: 'Cartas Topográficas 1:25.000 na região leste do Paraná',
-                description: 'Construção de 2 cartas topográficas na escala 1:25.000 visando complementar os dados da região de Ponta Grossa, na cidade de Guaragi',
+                description: 'Construção de 2 cartas topográficas na escala 1:25.000 visando complementar os dados da região de Ponta Grossa, na cidade de Guaragi - PR.',
                 legend: [
                     1,
                     12,
@@ -190,7 +190,7 @@ var PROJECTS = {
             { // Bloco 1C
                 name: 'bloco_1c_2025',
                 subtitle: 'Cartas Topográficas 1:25.000 em Cruz Alta - RS',
-                description: 'Construção de 4 cartas topográficas na escala 1:25.000 visando fornecer geoinformação atualizada, dados de Streetview, modelos 3D e produtos de drone para a EASA',
+                description: 'Construção de 4 cartas topográficas na escala 1:25.000 visando fornecer geoinformação atualizada, dados de Streetview, modelos 3D e produtos de drone para a EASA.',
                 legend: [
                     1,
                     12,
@@ -237,7 +237,7 @@ var PROJECTS = {
             { // Bloco 1D
                 name: 'bloco_1d_2025',
                 subtitle: 'Cartas Topográficas 1:25.000 em Bagé - RS',
-                description: 'Construção de 4 cartas topográficas na escala 1:25.000 visando fornecer geoinformação atualizada, dados de Streetview, modelos 3D e produtos de drone para a 3ª Bda C Mec',
+                description: 'Construção de 4 cartas topográficas na escala 1:25.000 visando fornecer geoinformação atualizada, dados de Streetview, modelos 3D e produtos de drone para a 3ª Bda C Mec.',
                 legend: [
                     1,
                     12,
@@ -284,7 +284,7 @@ var PROJECTS = {
             { // Bloco 1E
                 name: 'bloco_1e_2025',
                 subtitle: 'Carta Topográfica 1:50.000 em Reserva - PR',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Reserva - PR',
+                description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Reserva - PR.',
                 legend: [
                     1,
                     12,
@@ -330,8 +330,8 @@ var PROJECTS = {
             },
             { // Bloco 1F
                 name: 'bloco_1f_2025',
-                subtitle: 'Cartas Topográficas 1:50.000 em Sanca Catarina',
-                description: 'Construção de 2 cartas topográficsa na escala 1:50.000 nas cidades de Florianopólis e Blumenau visando apoio das OM da 14ª Bda Inf Mtz',
+                subtitle: 'Cartas Topográficas 1:50.000 em Santa Catarina',
+                description: 'Construção de 2 cartas topográficas na escala 1:50.000 nas cidades de Florianopólis e Blumenau visando apoio as OM da 14ª Bda Inf Mtz.',
                 legend: [
                     1,
                     12,
@@ -377,8 +377,8 @@ var PROJECTS = {
             },
             { // Bloco 1G
                 name: 'bloco_1g_2025',
-                subtitle: 'Carta Topográfica 1:50.000 em Cruz Alta',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Cruz Alta, realizada por meio de generalização de cartas topográficas 1:25.000',
+                subtitle: 'Carta Topográfica 1:50.000 em Cruz Alta - RS',
+                description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Cruz Alta, realizada por meio de generalização de cartas topográficas 1:25.000.',
                 legend: [
                     1,
                     12,
@@ -519,7 +519,7 @@ var PROJECTS = {
             { // Bloco 1J
                 name: 'bloco_1j_2025',
                 subtitle: 'Cartas Topográficas 1:100.000 na região do Campo de Instrução de Marechael Hermes',
-                description: 'Construção de 3 cartas topográficas na escala 1:100.000 na região do Campo de Instrução de Marechal Hermes, além das cidades de São Mateus do Sul, Canoinhas, Papanduva e Irineópolis',
+                description: 'Construção de 3 cartas topográficas na escala 1:100.000 na região do Campo de Instrução de Marechal Hermes, além das cidades de São Mateus do Sul, Canoinhas, Papanduva e Irineópolis.',
                 legend: [
                     1,
                     12,
@@ -565,7 +565,7 @@ var PROJECTS = {
             },
             { // Bloco 1K
                 name: 'bloco_1k_2025',
-                subtitle: 'Carta Topográfica 1:50.000 em Bagé',
+                subtitle: 'Carta Topográfica 1:50.000 em Bagé -  RS',
                 description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Bagé, realizada por meio de generalização de cartas topográficas 1:25.000',
                 legend: [
                     1,
@@ -660,7 +660,7 @@ var PROJECTS = {
             { // Bloco 1M
                 name: 'bloco_1m_2025',
                 subtitle: 'Cartas Topográficas 1:25.000 na região metropolitana de Curitiba - PR',
-                description: 'Construção de 8 cartas topográficas na escala 1:25.000 na região metropolitana de Curitiba',
+                description: 'Construção de 8 cartas topográficas na escala 1:25.000 na região metropolitana de Curitiba.',
                 legend: [
                     1,
                     12,
@@ -707,7 +707,7 @@ var PROJECTS = {
             { // Bloco 1N
                 name: 'bloco_1n_2025',
                 subtitle: 'Cartas Ortoimagem 1:25.000 nos estados do Rio Grande do Sul e do Paraná',
-                description: 'Construção de 41 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul e do Paraná',
+                description: 'Construção de 41 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul e do Paraná.',
                 legend: [
                     1,
                     12,
@@ -754,7 +754,7 @@ var PROJECTS = {
             { // Bloco 1O
                 name: 'bloco_1o_2025',
                 subtitle: 'Cartas Ortoimagem 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná',
-                description: 'Construção de 103 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná',
+                description: 'Construção de 103 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná.',
                 legend: [
                     1,
                     12,
@@ -800,7 +800,7 @@ var PROJECTS = {
             },
             { // Bloco 1P
                 name: 'bloco_1p_2025',
-                subtitle: 'Cartas Ortoimagem 1:100.000 nas cidades de Guarapuava e Ponta Grossa',
+                subtitle: 'Cartas Ortoimagem 1:100.000 nas cidades de Guarapuava - PR e Ponta Grossa - PR',
                 description: 'Construção de 2 cartas ortoimagem na escala 1:100.000.',
                 legend: [
                     1,
@@ -847,7 +847,7 @@ var PROJECTS = {
             },
             { // Bloco 1P
                 name: 'bloco_1q_2025',
-                subtitle: 'Cartas Ortoimagem 1:25.000 da região metropolitana de Porto Alegre',
+                subtitle: 'Cartas Ortoimagem 1:25.000 da região metropolitana de Porto Alegre - RS',
                 description: 'Construção de 3 cartas ortoimagem na escala 1:25.000 na região de metropolitana de Porto Alegre.',
                 legend: [
                     1,

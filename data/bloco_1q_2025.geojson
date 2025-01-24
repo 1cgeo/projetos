@@ -34,7 +34,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2987-1-NE",
                 "id": 1
             }
@@ -71,7 +71,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2970-4-NO",
                 "id": 2
             }
@@ -108,7 +108,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2987-2-NO",
                 "id": 3
             }
