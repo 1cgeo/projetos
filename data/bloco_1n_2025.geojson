@@ -1,0 +1,1523 @@
+{
+    "type": "FeatureCollection",
+    "name": "co_geral_25k",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.375,
+                                -24.875
+                            ],
+                            [
+                                -53.25,
+                                -24.875
+                            ],
+                            [
+                                -53.25,
+                                -24.75
+                            ],
+                            [
+                                -53.375,
+                                -24.75
+                            ],
+                            [
+                                -53.375,
+                                -24.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2818-3-NE",
+                "id": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.375,
+                                -25.0
+                            ],
+                            [
+                                -53.25,
+                                -25.0
+                            ],
+                            [
+                                -53.25,
+                                -24.875
+                            ],
+                            [
+                                -53.375,
+                                -24.875
+                            ],
+                            [
+                                -53.375,
+                                -25.0
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2818-3-SE",
+                "id": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.25,
+                                -24.875
+                            ],
+                            [
+                                -53.125,
+                                -24.875
+                            ],
+                            [
+                                -53.125,
+                                -24.75
+                            ],
+                            [
+                                -53.25,
+                                -24.75
+                            ],
+                            [
+                                -53.25,
+                                -24.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2818-4-NO",
+                "id": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.25,
+                                -25.0
+                            ],
+                            [
+                                -53.125,
+                                -25.0
+                            ],
+                            [
+                                -53.125,
+                                -24.875
+                            ],
+                            [
+                                -53.25,
+                                -24.875
+                            ],
+                            [
+                                -53.25,
+                                -25.0
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2818-4-SO",
+                "id": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -50.125,
+                                -24.875
+                            ],
+                            [
+                                -50.0,
+                                -24.875
+                            ],
+                            [
+                                -50.0,
+                                -24.75
+                            ],
+                            [
+                                -50.125,
+                                -24.75
+                            ],
+                            [
+                                -50.125,
+                                -24.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2824-4-NE",
+                "id": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.875,
+                                -25.125
+                            ],
+                            [
+                                -53.75,
+                                -25.125
+                            ],
+                            [
+                                -53.75,
+                                -25.0
+                            ],
+                            [
+                                -53.875,
+                                -25.0
+                            ],
+                            [
+                                -53.875,
+                                -25.125
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2833-1-NE",
+                "id": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.0,
+                                -25.125
+                            ],
+                            [
+                                -53.875,
+                                -25.125
+                            ],
+                            [
+                                -53.875,
+                                -25.0
+                            ],
+                            [
+                                -54.0,
+                                -25.0
+                            ],
+                            [
+                                -54.0,
+                                -25.125
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2833-1-NO",
+                "id": 7
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.875,
+                                -25.25
+                            ],
+                            [
+                                -53.75,
+                                -25.25
+                            ],
+                            [
+                                -53.75,
+                                -25.125
+                            ],
+                            [
+                                -53.875,
+                                -25.125
+                            ],
+                            [
+                                -53.875,
+                                -25.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2833-1-SE",
+                "id": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.0,
+                                -25.25
+                            ],
+                            [
+                                -53.875,
+                                -25.25
+                            ],
+                            [
+                                -53.875,
+                                -25.125
+                            ],
+                            [
+                                -54.0,
+                                -25.125
+                            ],
+                            [
+                                -54.0,
+                                -25.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2833-1-SO",
+                "id": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.875,
+                                -25.375
+                            ],
+                            [
+                                -53.75,
+                                -25.375
+                            ],
+                            [
+                                -53.75,
+                                -25.25
+                            ],
+                            [
+                                -53.875,
+                                -25.25
+                            ],
+                            [
+                                -53.875,
+                                -25.375
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2833-3-NE",
+                "id": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.0,
+                                -25.375
+                            ],
+                            [
+                                -53.875,
+                                -25.375
+                            ],
+                            [
+                                -53.875,
+                                -25.25
+                            ],
+                            [
+                                -54.0,
+                                -25.25
+                            ],
+                            [
+                                -54.0,
+                                -25.375
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2833-3-NO",
+                "id": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.875,
+                                -25.5
+                            ],
+                            [
+                                -53.75,
+                                -25.5
+                            ],
+                            [
+                                -53.75,
+                                -25.375
+                            ],
+                            [
+                                -53.875,
+                                -25.375
+                            ],
+                            [
+                                -53.875,
+                                -25.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2833-3-SE",
+                "id": 12
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.0,
+                                -25.5
+                            ],
+                            [
+                                -53.875,
+                                -25.5
+                            ],
+                            [
+                                -53.875,
+                                -25.375
+                            ],
+                            [
+                                -54.0,
+                                -25.375
+                            ],
+                            [
+                                -54.0,
+                                -25.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2833-3-SO",
+                "id": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.875,
+                                -25.625
+                            ],
+                            [
+                                -53.75,
+                                -25.625
+                            ],
+                            [
+                                -53.75,
+                                -25.5
+                            ],
+                            [
+                                -53.875,
+                                -25.5
+                            ],
+                            [
+                                -53.875,
+                                -25.625
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2848-1-NE",
+                "id": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.0,
+                                -25.625
+                            ],
+                            [
+                                -53.875,
+                                -25.625
+                            ],
+                            [
+                                -53.875,
+                                -25.5
+                            ],
+                            [
+                                -54.0,
+                                -25.5
+                            ],
+                            [
+                                -54.0,
+                                -25.625
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2848-1-NO",
+                "id": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -50.375,
+                                -26.125
+                            ],
+                            [
+                                -50.25,
+                                -26.125
+                            ],
+                            [
+                                -50.25,
+                                -26.0
+                            ],
+                            [
+                                -50.375,
+                                -26.0
+                            ],
+                            [
+                                -50.375,
+                                -26.125
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2867-1-NE",
+                "id": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -56.625,
+                                -29.5
+                            ],
+                            [
+                                -56.5,
+                                -29.5
+                            ],
+                            [
+                                -56.5,
+                                -29.375
+                            ],
+                            [
+                                -56.625,
+                                -29.375
+                            ],
+                            [
+                                -56.625,
+                                -29.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2942-4-SE",
+                "id": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -56.75,
+                                -29.5
+                            ],
+                            [
+                                -56.625,
+                                -29.5
+                            ],
+                            [
+                                -56.625,
+                                -29.375
+                            ],
+                            [
+                                -56.75,
+                                -29.375
+                            ],
+                            [
+                                -56.75,
+                                -29.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2942-4-SO",
+                "id": 18
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -56.375,
+                                -29.5
+                            ],
+                            [
+                                -56.25,
+                                -29.5
+                            ],
+                            [
+                                -56.25,
+                                -29.375
+                            ],
+                            [
+                                -56.375,
+                                -29.375
+                            ],
+                            [
+                                -56.375,
+                                -29.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2943-3-SE",
+                "id": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -56.5,
+                                -29.5
+                            ],
+                            [
+                                -56.375,
+                                -29.5
+                            ],
+                            [
+                                -56.375,
+                                -29.375
+                            ],
+                            [
+                                -56.5,
+                                -29.375
+                            ],
+                            [
+                                -56.5,
+                                -29.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2943-3-SO",
+                "id": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -56.25,
+                                -29.5
+                            ],
+                            [
+                                -56.125,
+                                -29.5
+                            ],
+                            [
+                                -56.125,
+                                -29.375
+                            ],
+                            [
+                                -56.25,
+                                -29.375
+                            ],
+                            [
+                                -56.25,
+                                -29.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2943-4-SO",
+                "id": 21
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -51.875,
+                                -29.25
+                            ],
+                            [
+                                -51.75,
+                                -29.25
+                            ],
+                            [
+                                -51.75,
+                                -29.125
+                            ],
+                            [
+                                -51.875,
+                                -29.125
+                            ],
+                            [
+                                -51.875,
+                                -29.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2952-1-SE",
+                "id": 22
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.0,
+                                -29.25
+                            ],
+                            [
+                                -51.875,
+                                -29.25
+                            ],
+                            [
+                                -51.875,
+                                -29.125
+                            ],
+                            [
+                                -52.0,
+                                -29.125
+                            ],
+                            [
+                                -52.0,
+                                -29.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2952-1-SO",
+                "id": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -51.875,
+                                -29.375
+                            ],
+                            [
+                                -51.75,
+                                -29.375
+                            ],
+                            [
+                                -51.75,
+                                -29.25
+                            ],
+                            [
+                                -51.875,
+                                -29.25
+                            ],
+                            [
+                                -51.875,
+                                -29.375
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2952-3-NE",
+                "id": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.0,
+                                -29.375
+                            ],
+                            [
+                                -51.875,
+                                -29.375
+                            ],
+                            [
+                                -51.875,
+                                -29.25
+                            ],
+                            [
+                                -52.0,
+                                -29.25
+                            ],
+                            [
+                                -52.0,
+                                -29.375
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2952-3-NO",
+                "id": 25
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.0,
+                                -29.5
+                            ],
+                            [
+                                -51.875,
+                                -29.5
+                            ],
+                            [
+                                -51.875,
+                                -29.375
+                            ],
+                            [
+                                -52.0,
+                                -29.375
+                            ],
+                            [
+                                -52.0,
+                                -29.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2952-3-SO",
+                "id": 26
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.375,
+                                -29.875
+                            ],
+                            [
+                                -52.25,
+                                -29.875
+                            ],
+                            [
+                                -52.25,
+                                -29.75
+                            ],
+                            [
+                                -52.375,
+                                -29.75
+                            ],
+                            [
+                                -52.375,
+                                -29.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2968-3-NE",
+                "id": 27
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.5,
+                                -29.875
+                            ],
+                            [
+                                -52.375,
+                                -29.875
+                            ],
+                            [
+                                -52.375,
+                                -29.75
+                            ],
+                            [
+                                -52.5,
+                                -29.75
+                            ],
+                            [
+                                -52.5,
+                                -29.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2968-3-NO",
+                "id": 28
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.0,
+                                -29.625
+                            ],
+                            [
+                                -51.875,
+                                -29.625
+                            ],
+                            [
+                                -51.875,
+                                -29.5
+                            ],
+                            [
+                                -52.0,
+                                -29.5
+                            ],
+                            [
+                                -52.0,
+                                -29.625
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2969-1-NO",
+                "id": 29
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -57.75,
+                                -30.25
+                            ],
+                            [
+                                -57.625,
+                                -30.25
+                            ],
+                            [
+                                -57.625,
+                                -30.125
+                            ],
+                            [
+                                -57.75,
+                                -30.125
+                            ],
+                            [
+                                -57.75,
+                                -30.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "2974-2-SO",
+                "id": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.125,
+                                -31.25
+                            ],
+                            [
+                                -54.0,
+                                -31.25
+                            ],
+                            [
+                                -54.0,
+                                -31.125
+                            ],
+                            [
+                                -54.125,
+                                -31.125
+                            ],
+                            [
+                                -54.125,
+                                -31.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3007-2-SE",
+                "id": 31
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.375,
+                                -31.375
+                            ],
+                            [
+                                -54.25,
+                                -31.375
+                            ],
+                            [
+                                -54.25,
+                                -31.25
+                            ],
+                            [
+                                -54.375,
+                                -31.25
+                            ],
+                            [
+                                -54.375,
+                                -31.375
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3007-3-NE",
+                "id": 32
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.875,
+                                -31.25
+                            ],
+                            [
+                                -53.75,
+                                -31.25
+                            ],
+                            [
+                                -53.75,
+                                -31.125
+                            ],
+                            [
+                                -53.875,
+                                -31.125
+                            ],
+                            [
+                                -53.875,
+                                -31.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3008-1-SE",
+                "id": 33
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.0,
+                                -31.25
+                            ],
+                            [
+                                -53.875,
+                                -31.25
+                            ],
+                            [
+                                -53.875,
+                                -31.125
+                            ],
+                            [
+                                -54.0,
+                                -31.125
+                            ],
+                            [
+                                -54.0,
+                                -31.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3008-1-SO",
+                "id": 34
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.0,
+                                -31.375
+                            ],
+                            [
+                                -53.875,
+                                -31.375
+                            ],
+                            [
+                                -53.875,
+                                -31.25
+                            ],
+                            [
+                                -54.0,
+                                -31.25
+                            ],
+                            [
+                                -54.0,
+                                -31.375
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3008-3-NO",
+                "id": 35
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.875,
+                                -31.5
+                            ],
+                            [
+                                -53.75,
+                                -31.5
+                            ],
+                            [
+                                -53.75,
+                                -31.375
+                            ],
+                            [
+                                -53.875,
+                                -31.375
+                            ],
+                            [
+                                -53.875,
+                                -31.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3008-3-SE",
+                "id": 36
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.0,
+                                -31.5
+                            ],
+                            [
+                                -53.875,
+                                -31.5
+                            ],
+                            [
+                                -53.875,
+                                -31.375
+                            ],
+                            [
+                                -54.0,
+                                -31.375
+                            ],
+                            [
+                                -54.0,
+                                -31.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3008-3-SO",
+                "id": 37
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.875,
+                                -31.875
+                            ],
+                            [
+                                -52.75,
+                                -31.875
+                            ],
+                            [
+                                -52.75,
+                                -31.75
+                            ],
+                            [
+                                -52.875,
+                                -31.75
+                            ],
+                            [
+                                -52.875,
+                                -31.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3019-3-NE",
+                "id": 38
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.625,
+                                -31.875
+                            ],
+                            [
+                                -52.5,
+                                -31.875
+                            ],
+                            [
+                                -52.5,
+                                -31.75
+                            ],
+                            [
+                                -52.625,
+                                -31.75
+                            ],
+                            [
+                                -52.625,
+                                -31.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3019-4-NE",
+                "id": 39
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.75,
+                                -31.875
+                            ],
+                            [
+                                -52.625,
+                                -31.875
+                            ],
+                            [
+                                -52.625,
+                                -31.75
+                            ],
+                            [
+                                -52.75,
+                                -31.75
+                            ],
+                            [
+                                -52.75,
+                                -31.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3019-4-NO",
+                "id": 40
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -52.5,
+                                -31.875
+                            ],
+                            [
+                                -52.375,
+                                -31.875
+                            ],
+                            [
+                                -52.375,
+                                -31.75
+                            ],
+                            [
+                                -52.5,
+                                -31.75
+                            ],
+                            [
+                                -52.5,
+                                -31.875
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3020-3-NO",
+                "id": 41
+            }
+        }
+    ]
+}

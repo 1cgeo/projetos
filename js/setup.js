@@ -659,7 +659,7 @@ var PROJECTS = {
             },
             { // Bloco 1M
                 name: 'bloco_1m_2025',
-                subtitle: 'Carta Topográfica 1:25.000 na região metropolitana de Curitiba - PR',
+                subtitle: 'Cartas Topográficas 1:25.000 na região metropolitana de Curitiba - PR',
                 description: 'Construção de 8 cartas topográficas na escala 1:25.000 na região metropolitana de Curitiba',
                 legend: [
                     1,
@@ -692,6 +692,194 @@ var PROJECTS = {
                     {
                         'id': 'bloco_1m_2025-text',
                         'source': 'bloco_1m_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // Bloco 1N
+                name: 'bloco_1n_2025',
+                subtitle: 'Cartas Ortoimagem 1:25.000 nos estados do Rio Grande do Sul e do Paraná',
+                description: 'Construção de 41 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul e do Paraná',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1n_2025-fill',
+                        'source': 'bloco_1n_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1n_2025-border',
+                        'source': 'bloco_1n_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1n_2025-text',
+                        'source': 'bloco_1n_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // Bloco 1O
+                name: 'bloco_1o_2025',
+                subtitle: 'Cartas Ortoimagem 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná',
+                description: 'Construção de 103 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1o_2025-fill',
+                        'source': 'bloco_1o_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1o_2025-border',
+                        'source': 'bloco_1o_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1o_2025-text',
+                        'source': 'bloco_1o_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // Bloco 1P
+                name: 'bloco_1p_2025',
+                subtitle: 'Cartas Ortoimagem 1:100.000 nas cidades de Guarapuava e Ponta Grossa',
+                description: 'Construção de 2 cartas ortoimagem na escala 1:100.000.',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1p_2025-fill',
+                        'source': 'bloco_1p_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1p_2025-border',
+                        'source': 'bloco_1p_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1p_2025-text',
+                        'source': 'bloco_1p_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // Bloco 1P
+                name: 'bloco_1q_2025',
+                subtitle: 'Cartas Ortoimagem 1:25.000 da região metropolitana de Porto Alegre',
+                description: 'Construção de 3 cartas ortoimagem na escala 1:25.000 na região de metropolitana de Porto Alegre.',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1q_2025-fill',
+                        'source': 'bloco_1q_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1q_2025-border',
+                        'source': 'bloco_1q_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1q_2025-text',
+                        'source': 'bloco_1q_2025',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {

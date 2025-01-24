@@ -1,6 +1,6 @@
 {
     "type": "FeatureCollection",
-    "name": "co_cimh",
+    "name": "metropolitana_curitiba_25k",
     "features": [
         {
             "type": "Feature",

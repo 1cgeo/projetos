@@ -1,6 +1,6 @@
 {
     "type": "FeatureCollection",
-    "name": "co_cimh",
+    "name": "cimh_100k",
     "features": [
         {
             "type": "Feature",
