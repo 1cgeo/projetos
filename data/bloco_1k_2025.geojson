@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "name": "co_cimh",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -54.25,
+                                -31.5
+                            ],
+                            [
+                                -54.125,
+                                -31.5
+                            ],
+                            [
+                                -54.0,
+                                -31.5
+                            ],
+                            [
+                                -54.0,
+                                -31.375
+                            ],
+                            [
+                                -54.0,
+                                -31.25
+                            ],
+                            [
+                                -54.125,
+                                -31.25
+                            ],
+                            [
+                                -54.25,
+                                -31.25
+                            ],
+                            [
+                                -54.25,
+                                -31.375
+                            ],
+                            [
+                                -54.25,
+                                -31.5
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Previsto",
+                "identificador": "3007-4",
+                "id": 1
+            }
+        }
+    ]
+}
