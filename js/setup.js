@@ -754,7 +754,7 @@ var PROJECTS = {
             { // Bloco 1O
                 name: 'bloco_1o_2025',
                 subtitle: 'Cartas Ortoimagem 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná',
-                description: 'Construção de 103 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná.',
+                description: 'Construção de 95 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná.',
                 legend: [
                     1,
                     12,

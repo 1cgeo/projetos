@@ -34,7 +34,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Digitalização",
+                "situacao": "Validação",
                 "identificador": "2840-4-NO",
                 "id": 1
             }
@@ -71,7 +71,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Digitalização",
+                "situacao": "Validação",
                 "identificador": "2840-4-NE",
                 "id": 2
             }

@@ -50,7 +50,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Digitalização",
                 "identificador": "2881-4",
                 "id": 1
             }
@@ -103,7 +103,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Digitalização",
                 "identificador": "2909-2",
                 "id": 2
             }
