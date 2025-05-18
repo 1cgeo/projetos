@@ -1,80 +1,8 @@
 {
-    "type": "FeatureCollection",
-    "name": "ct_leste_parana",
-    "features": [
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [
-                                -50.25,
-                                -25.375
-                            ],
-                            [
-                                -50.125,
-                                -25.375
-                            ],
-                            [
-                                -50.125,
-                                -25.25
-                            ],
-                            [
-                                -50.25,
-                                -25.25
-                            ],
-                            [
-                                -50.25,
-                                -25.375
-                            ]
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "situacao": "Validação",
-                "identificador": "2840-4-NO",
-                "id": 1
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [
-                                -50.125,
-                                -25.375
-                            ],
-                            [
-                                -50.0,
-                                -25.375
-                            ],
-                            [
-                                -50.0,
-                                -25.25
-                            ],
-                            [
-                                -50.125,
-                                -25.25
-                            ],
-                            [
-                                -50.125,
-                                -25.375
-                            ]
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "situacao": "Validação",
-                "identificador": "2840-4-NE",
-                "id": 2
-            }
-        }
-    ]
+"type": "FeatureCollection",
+"name": "ct_leste_parana",
+"features": [
+{ "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2840-4-NO", "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -50.25, -25.375 ], [ -50.125, -25.375 ], [ -50.125, -25.25 ], [ -50.25, -25.25 ], [ -50.25, -25.375 ] ] ] ] } },
+{ "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2840-4-NE", "id": 2 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -50.125, -25.375 ], [ -50.0, -25.375 ], [ -50.0, -25.25 ], [ -50.125, -25.25 ], [ -50.125, -25.375 ] ] ] ] } }
+]
 }

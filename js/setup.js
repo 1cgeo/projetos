@@ -7,7 +7,7 @@ const SUBTITLE_STATES = [
     },
     {
         id: 2,
-        name: 'Digitalização',
+        name: 'Extração',
         color: 'rgb(252,141,89)'
     },
     {

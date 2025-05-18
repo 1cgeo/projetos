@@ -1,59 +1,7 @@
 {
-    "type": "FeatureCollection",
-    "name": "reserva_50k",
-    "features": [
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [
-                                -51.0,
-                                -24.75
-                            ],
-                            [
-                                -50.875,
-                                -24.75
-                            ],
-                            [
-                                -50.75,
-                                -24.75
-                            ],
-                            [
-                                -50.75,
-                                -24.625
-                            ],
-                            [
-                                -50.75,
-                                -24.5
-                            ],
-                            [
-                                -50.875,
-                                -24.5
-                            ],
-                            [
-                                -51.0,
-                                -24.5
-                            ],
-                            [
-                                -51.0,
-                                -24.625
-                            ],
-                            [
-                                -51.0,
-                                -24.75
-                            ]
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "situacao": "Validação",
-                "identificador": "2823-1",
-                "id": 1
-            }
-        }
-    ]
+"type": "FeatureCollection",
+"name": "reserva_50k",
+"features": [
+{ "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2823-1", "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -51.0, -24.75 ], [ -50.875, -24.75 ], [ -50.75, -24.75 ], [ -50.75, -24.625 ], [ -50.75, -24.5 ], [ -50.875, -24.5 ], [ -51.0, -24.5 ], [ -51.0, -24.625 ], [ -51.0, -24.75 ] ] ] ] } }
+]
 }
