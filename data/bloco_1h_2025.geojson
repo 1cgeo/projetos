@@ -50,7 +50,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Processamento Digital de Imagens",
                 "identificador": "2969-3",
                 "id": 1
             }
@@ -103,7 +103,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Processamento Digital de Imagens",
                 "identificador": "2969-1",
                 "id": 2
             }
@@ -156,7 +156,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Processamento Digital de Imagens",
                 "identificador": "2968-4",
                 "id": 3
             }
@@ -209,7 +209,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Processamento Digital de Imagens",
                 "identificador": "2968-2",
                 "id": 4
             }

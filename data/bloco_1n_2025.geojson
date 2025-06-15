@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "name": "co_geral_25k",
 "features": [
-{ "type": "Feature", "properties": { "situacao": "Previsto", "identificador": "2931-2-NE", "id": 4 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.625, -28.625 ], [ -53.5, -28.625 ], [ -53.5, -28.5 ], [ -53.625, -28.5 ], [ -53.625, -28.625 ] ] ] ] } },
+{ "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2931-2-NE", "id": 4 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.625, -28.625 ], [ -53.5, -28.625 ], [ -53.5, -28.5 ], [ -53.625, -28.5 ], [ -53.625, -28.625 ] ] ] ] } },
 { "type": "Feature", "properties": { "situacao": "Previsto", "identificador": "2818-3-NE", "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.375, -24.875 ], [ -53.25, -24.875 ], [ -53.25, -24.75 ], [ -53.375, -24.75 ], [ -53.375, -24.875 ] ] ] ] } },
 { "type": "Feature", "properties": { "situacao": "Previsto", "identificador": "2818-3-SE", "id": 2 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.375, -25.0 ], [ -53.25, -25.0 ], [ -53.25, -24.875 ], [ -53.375, -24.875 ], [ -53.375, -25.0 ] ] ] ] } },
 { "type": "Feature", "properties": { "situacao": "Previsto", "identificador": "2818-4-NO", "id": 3 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.25, -24.875 ], [ -53.125, -24.875 ], [ -53.125, -24.75 ], [ -53.25, -24.75 ], [ -53.25, -24.875 ] ] ] ] } },
@@ -83,8 +83,8 @@
 { "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2841-4-NE", "id": 78 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -49.625, -25.375 ], [ -49.5, -25.375 ], [ -49.5, -25.25 ], [ -49.625, -25.25 ], [ -49.625, -25.375 ] ] ] ] } },
 { "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2841-4-SO", "id": 79 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -49.75, -25.5 ], [ -49.625, -25.5 ], [ -49.625, -25.375 ], [ -49.75, -25.375 ], [ -49.75, -25.5 ] ] ] ] } },
 { "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2841-4-SE", "id": 80 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -49.625, -25.5 ], [ -49.5, -25.5 ], [ -49.5, -25.375 ], [ -49.625, -25.375 ], [ -49.625, -25.5 ] ] ] ] } },
-{ "type": "Feature", "properties": { "situacao": "Previsto", "identificador": "2931-2-NO", "id": 2 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.75, -28.625 ], [ -53.625, -28.625 ], [ -53.625, -28.5 ], [ -53.75, -28.5 ], [ -53.75, -28.625 ] ] ] ] } },
-{ "type": "Feature", "properties": { "situacao": "Previsto", "identificador": "2931-2-SO", "id": 3 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.75, -28.75 ], [ -53.625, -28.75 ], [ -53.625, -28.625 ], [ -53.75, -28.625 ], [ -53.75, -28.75 ] ] ] ] } },
-{ "type": "Feature", "properties": { "situacao": "Previsto", "identificador": "2931-2-SE", "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.625, -28.75 ], [ -53.5, -28.75 ], [ -53.5, -28.625 ], [ -53.625, -28.625 ], [ -53.625, -28.75 ] ] ] ] } }
+{ "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2931-2-NO", "id": 2 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.75, -28.625 ], [ -53.625, -28.625 ], [ -53.625, -28.5 ], [ -53.75, -28.5 ], [ -53.75, -28.625 ] ] ] ] } },
+{ "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2931-2-SO", "id": 3 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.75, -28.75 ], [ -53.625, -28.75 ], [ -53.625, -28.625 ], [ -53.75, -28.625 ], [ -53.75, -28.75 ] ] ] ] } },
+{ "type": "Feature", "properties": { "situacao": "Disseminação", "identificador": "2931-2-SE", "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -53.625, -28.75 ], [ -53.5, -28.75 ], [ -53.5, -28.625 ], [ -53.625, -28.625 ], [ -53.625, -28.75 ] ] ] ] } }
 ]
 }

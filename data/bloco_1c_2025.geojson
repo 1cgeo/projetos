@@ -34,7 +34,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2931-2-SE",
                 "id": 1
             }
@@ -71,7 +71,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2931-2-NO",
                 "id": 2
             }
@@ -108,7 +108,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2931-2-SO",
                 "id": 3
             }
@@ -145,7 +145,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2931-2-NE",
                 "id": 4
             }

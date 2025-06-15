@@ -96,7 +96,7 @@ var PROJECTS = {
             { // Bloco 1A
                 name: 'bloco_1a_2025',
                 subtitle: 'Cartas Topográficas 1:25.000 na região oeste do Paraná',
-                description: 'Construção de 23 cartas topográficas na escala 1:25.000 na região de Foz do Iguaçu.',
+                description: 'Construção de 25 cartas topográficas na escala 1:25.000 na região de Foz do Iguaçu.',
                 legend: [
                     1,
                     12,
@@ -707,7 +707,7 @@ var PROJECTS = {
             { // Bloco 1N
                 name: 'bloco_1n_2025',
                 subtitle: 'Cartas Ortoimagem 1:25.000 nos estados do Rio Grande do Sul e do Paraná',
-                description: 'Construção de 41 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul e do Paraná.',
+                description: 'Construção de 84 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul e do Paraná.',
                 legend: [
                     1,
                     12,
@@ -754,7 +754,7 @@ var PROJECTS = {
             { // Bloco 1O
                 name: 'bloco_1o_2025',
                 subtitle: 'Cartas Ortoimagem 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná',
-                description: 'Construção de 95 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná.',
+                description: 'Construção de 101 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná.',
                 legend: [
                     1,
                     12,
