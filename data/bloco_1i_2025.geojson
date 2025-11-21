@@ -156,7 +156,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3016-1",
                 "id": 3
             }
@@ -209,7 +209,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3015-2",
                 "id": 4
             }
@@ -686,7 +686,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3006-3",
                 "id": 13
             }
@@ -898,7 +898,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3005-4",
                 "id": 17
             }
@@ -1004,7 +1004,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3005-2",
                 "id": 19
             }
@@ -1163,7 +1163,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3006-1",
                 "id": 22
             }
@@ -1375,7 +1375,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3005-1",
                 "id": 26
             }
@@ -1481,7 +1481,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3004-1",
                 "id": 28
             }
@@ -1534,7 +1534,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3016-3",
                 "id": 29
             }
@@ -1693,7 +1693,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "3016-4",
                 "id": 32
             }

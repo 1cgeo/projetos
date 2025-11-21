@@ -82,7 +82,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2855",
                 "id": 1
             }
@@ -167,7 +167,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2866",
                 "id": 2
             }
@@ -252,7 +252,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Disseminação",
                 "identificador": "2867",
                 "id": 3
             }
