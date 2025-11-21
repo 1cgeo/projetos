@@ -50,7 +50,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3009-4",
                 "id": 1
             }
@@ -103,7 +103,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3009-3",
                 "id": 2
             }
@@ -262,7 +262,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3008-4",
                 "id": 5
             }
@@ -315,7 +315,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3008-3",
                 "id": 6
             }
@@ -368,7 +368,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3009-2",
                 "id": 7
             }
@@ -421,7 +421,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3009-1",
                 "id": 8
             }
@@ -474,7 +474,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3007-3",
                 "id": 9
             }
@@ -527,7 +527,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3008-2",
                 "id": 10
             }
@@ -580,7 +580,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3008-1",
                 "id": 11
             }
@@ -633,7 +633,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3006-4",
                 "id": 12
             }
@@ -739,7 +739,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3007-2",
                 "id": 14
             }
@@ -792,7 +792,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3007-1",
                 "id": 15
             }
@@ -845,7 +845,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3018-3",
                 "id": 16
             }
@@ -951,7 +951,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3018-2",
                 "id": 18
             }
@@ -1057,7 +1057,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3006-2",
                 "id": 20
             }
@@ -1110,7 +1110,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3018-4",
                 "id": 21
             }
@@ -1216,7 +1216,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3017-3",
                 "id": 23
             }
@@ -1269,7 +1269,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3017-2",
                 "id": 24
             }
@@ -1322,7 +1322,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3018-1",
                 "id": 25
             }
@@ -1428,7 +1428,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3017-4",
                 "id": 27
             }
@@ -1587,7 +1587,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3016-2",
                 "id": 30
             }
@@ -1640,7 +1640,7 @@
                 ]
             },
             "properties": {
-                "situacao": "Previsto",
+                "situacao": "Extração",
                 "identificador": "3017-1",
                 "id": 31
             }
