@@ -89,14 +89,14 @@ const INIT_ZOOM = {
 
 var PROJECTS = {
     'pit-dsg-2025': {
-        title: 'Meta 1 - Produção de Geoinformação',
+        title: 'Produção de Geoinformação',
         executed: false,
-        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes Plano Interno de Trabalho da Diretoria de Serviço Geográfico.',
+        description: 'Elaboração de produtos previstos no Plano Interno de Trabalho da Diretoria de Serviço Geográfico.',
         lotes: [
-            { // Bloco 1A
-                name: 'bloco_1a_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 na região oeste do Paraná',
-                description: 'Construção de 25 cartas topográficas na escala 1:25.000 na região de Foz do Iguaçu.',
+            {
+                name: 'ct_25k',
+                subtitle: 'Cartas Topográficas 1:25.000',
+                description: '26 cartas nas seguintes localidades/regiões: Faxinal do Soturno - RS (6), Tubarão - SC (6), Ponta Grossa - PR (3), Parque Nacional do Iguaçu - PR (10), São Luiz - PR (1)',
                 legend: [
                     1,
                     12,
@@ -107,8 +107,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'bloco_1a_2025-fill',
-                        'source': 'bloco_1a_2025',
+                        'id': 'ct_25k-fill',
+                        'source': 'ct_25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -116,8 +116,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1a_2025-border',
-                        'source': 'bloco_1a_2025',
+                        'id': 'ct_25k-border',
+                        'source': 'ct_25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -126,24 +126,22 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1a_2025-text',
-                        'source': 'bloco_1a_2025',
+                        'id': 'ct_25k-text',
+                        'source': 'ct_25k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // Bloco 1B
-                name: 'bloco_1b_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 na região leste do Paraná',
-                description: 'Construção de 2 cartas topográficas na escala 1:25.000 visando complementar os dados da região de Ponta Grossa, na cidade de Guaragi - PR.',
+
+            { // Cartas Topográficas 1:50.000
+                name: 'ct_50k',
+                subtitle: 'Cartas Topográficas 1:50.000',
+                description: '53 cartas nas seguintes localidades/regiões: Santiago - RS (10), Faxinal do Soturno - RS (1), Três Barras - SC (8), União da Vitória - SC (8), Parque Nacional do Iguaçu - PR (26)',
                 legend: [
                     1,
                     12,
@@ -154,8 +152,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'bloco_1b_2025-fill',
-                        'source': 'bloco_1b_2025',
+                        'id': 'ct_50k-fill',
+                        'source': 'ct_50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -163,8 +161,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1b_2025-border',
-                        'source': 'bloco_1b_2025',
+                        'id': 'ct_50k-border',
+                        'source': 'ct_50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -173,24 +171,22 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1b_2025-text',
-                        'source': 'bloco_1b_2025',
+                        'id': 'ct_50k-text',
+                        'source': 'ct_50k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // Bloco 1C
-                name: 'bloco_1c_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 em Cruz Alta - RS',
-                description: 'Construção de 4 cartas topográficas na escala 1:25.000 visando fornecer geoinformação atualizada, dados de Streetview, modelos 3D e produtos de drone para a EASA.',
+
+            { // Cartas Ortoimagem 1:25.000
+                name: 'co_25k',
+                subtitle: 'Cartas Ortoimagem 1:25.000',
+                description: '72 cartas previstas nas seguintes localidades/regiões: Caxias do Sul - RS (6), Porto Alegre - RS (7), Rincão do Inhandui - RS (1), Tubarão - SC (6), Palmas - PR (4), Oeste do Estado do Paraná - PR (48)',
                 legend: [
                     1,
                     12,
@@ -201,8 +197,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'bloco_1c_2025-fill',
-                        'source': 'bloco_1c_2025',
+                        'id': 'co_25k-fill',
+                        'source': 'co_25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -210,8 +206,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1c_2025-border',
-                        'source': 'bloco_1c_2025',
+                        'id': 'co_25k-border',
+                        'source': 'co_25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -220,24 +216,22 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1c_2025-text',
-                        'source': 'bloco_1c_2025',
+                        'id': 'co_25k-text',
+                        'source': 'co_25k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // Bloco 1D
-                name: 'bloco_1d_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 em Bagé - RS',
-                description: 'Construção de 4 cartas topográficas na escala 1:25.000 visando fornecer geoinformação atualizada, dados de Streetview, modelos 3D e produtos de drone para a 3ª Bda C Mec.',
+
+            { // Cartas Ortoimagem 1:50.000
+                name: 'co_50k',
+                subtitle: 'Cartas Ortoimagem 1:50.000',
+                description: '2 cartas previstas em Porto Alegre - RS',
                 legend: [
                     1,
                     12,
@@ -248,8 +242,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'bloco_1d_2025-fill',
-                        'source': 'bloco_1d_2025',
+                        'id': 'co_50k-fill',
+                        'source': 'co_50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -257,8 +251,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1d_2025-border',
-                        'source': 'bloco_1d_2025',
+                        'id': 'co_50k-border',
+                        'source': 'co_50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -267,24 +261,22 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1d_2025-text',
-                        'source': 'bloco_1d_2025',
+                        'id': 'co_50k-text',
+                        'source': 'co_50k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // Bloco 1E
-                name: 'bloco_1e_2025',
-                subtitle: 'Carta Topográfica 1:50.000 em Reserva - PR',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Reserva - PR.',
+
+            { // Carta Ortoimagem 1:10.000
+                name: 'co_10k',
+                subtitle: 'Cartas Ortoimagem 1:10.000',
+                description: 'Cartas Ortoimagem na região sul de Porto Alegre',
                 legend: [
                     1,
                     12,
@@ -295,8 +287,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'bloco_1e_2025-fill',
-                        'source': 'bloco_1e_2025',
+                        'id': 'co_10k-fill',
+                        'source': 'co_10k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -304,8 +296,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1e_2025-border',
-                        'source': 'bloco_1e_2025',
+                        'id': 'co_10k-border',
+                        'source': 'co_10k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -314,24 +306,22 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1e_2025-text',
-                        'source': 'bloco_1e_2025',
+                        'id': 'co_10k-text',
+                        'source': 'co_10k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // Bloco 1F
-                name: 'bloco_1f_2025',
-                subtitle: 'Cartas Topográficas 1:50.000 em Santa Catarina',
-                description: 'Construção de 2 cartas topográficas na escala 1:50.000 nas cidades de Florianopólis e Blumenau visando apoio as OM da 14ª Bda Inf Mtz.',
+
+            { // COMBATER
+                name: 'combater',
+                subtitle: 'Dados para o Sistema COMBATER',
+                description: 'Dados para o sistema COMBATER na escala 1:50.000 no Oeste do Estado do Paraná',
                 legend: [
                     1,
                     12,
@@ -342,8 +332,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'bloco_1f_2025-fill',
-                        'source': 'bloco_1f_2025',
+                        'id': 'combater-fill',
+                        'source': 'combater',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -351,8 +341,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1f_2025-border',
-                        'source': 'bloco_1f_2025',
+                        'id': 'combater-border',
+                        'source': 'combater',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -361,24 +351,22 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1f_2025-text',
-                        'source': 'bloco_1f_2025',
+                        'id': 'combater-text',
+                        'source': 'combater',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // Bloco 1G
-                name: 'bloco_1g_2025',
-                subtitle: 'Carta Topográfica 1:50.000 em Cruz Alta - RS',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Cruz Alta, realizada por meio de generalização de cartas topográficas 1:25.000.',
+
+            { // Copa do Mundo
+                name: 'ct_25k_especial',
+                subtitle: 'Carta Ortoimagem e Carta Topográfica (1:25.000) em Enquadramento Especial',
+                description: 'Uma carta topográfica e uma carta ortoimagem em enquadramento especial de Porto Alegre - RS',
                 legend: [
                     1,
                     12,
@@ -389,8 +377,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'bloco_1g_2025-fill',
-                        'source': 'bloco_1g_2025',
+                        'id': 'ct_25k_especial-fill',
+                        'source': 'ct_25k_especial',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -398,8 +386,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1g_2025-border',
-                        'source': 'bloco_1g_2025',
+                        'id': 'ct_25k_especial-border',
+                        'source': 'ct_25k_especial',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -408,487 +396,14 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1g_2025-text',
-                        'source': 'bloco_1g_2025',
+                        'id': 'ct_25k_especial-text',
+                        'source': 'ct_25k_especial',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
-
                         },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1H
-                name: 'bloco_1h_2025',
-                subtitle: 'Cartas Topográficas 1:50.000 no Vale do Taquari - RS',
-                description: 'Construção de 4 cartas topográficas na escala 1:50.000 na região do Vale do Taquari.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1h_2025-fill',
-                        'source': 'bloco_1h_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1h_2025-border',
-                        'source': 'bloco_1h_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1h_2025-text',
-                        'source': 'bloco_1h_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1I
-                name: 'bloco_1i_2025',
-                subtitle: 'Cartas Topográficas 1:50.000 na região Sul e Sudoeste do RS',
-                description: 'Construção de 32 cartas topográficas na escala 1:50.000 na região Sul e Sudoeste do Rio Grande do Sul.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1i_2025-fill',
-                        'source': 'bloco_1i_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1i_2025-border',
-                        'source': 'bloco_1i_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1i_2025-text',
-                        'source': 'bloco_1i_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1J
-                name: 'bloco_1j_2025',
-                subtitle: 'Cartas Topográficas 1:100.000 na região do Campo de Instrução de Marechael Hermes',
-                description: 'Construção de 3 cartas topográficas na escala 1:100.000 na região do Campo de Instrução de Marechal Hermes, além das cidades de São Mateus do Sul, Canoinhas, Papanduva e Irineópolis.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1j_2025-fill',
-                        'source': 'bloco_1j_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1j_2025-border',
-                        'source': 'bloco_1j_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1j_2025-text',
-                        'source': 'bloco_1j_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1K
-                name: 'bloco_1k_2025',
-                subtitle: 'Carta Topográfica 1:50.000 em Bagé -  RS',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Bagé, realizada por meio de generalização de cartas topográficas 1:25.000',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1k_2025-fill',
-                        'source': 'bloco_1k_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1k_2025-border',
-                        'source': 'bloco_1k_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1k_2025-text',
-                        'source': 'bloco_1k_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1L
-                name: 'bloco_1l_2025',
-                subtitle: 'Carta Topográfica 1:50.000 em Ponta Grossa - PR',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 na cidade de Ponta Grossa - PR, realizada por meio de generalização de cartas topográficas 1:25.000 produzidas em 2024.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1l_2025-fill',
-                        'source': 'bloco_1l_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1l_2025-border',
-                        'source': 'bloco_1l_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1l_2025-text',
-                        'source': 'bloco_1l_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1M
-                name: 'bloco_1m_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 na região metropolitana de Curitiba - PR',
-                description: 'Construção de 8 cartas topográficas na escala 1:25.000 na região metropolitana de Curitiba.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1m_2025-fill',
-                        'source': 'bloco_1m_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1m_2025-border',
-                        'source': 'bloco_1m_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1m_2025-text',
-                        'source': 'bloco_1m_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1N
-                name: 'bloco_1n_2025',
-                subtitle: 'Cartas Ortoimagem 1:25.000 nos estados do Rio Grande do Sul e do Paraná',
-                description: 'Construção de 84 cartas ortoimagem na escala 1:25.000 nos estados do Rio Grande do Sul e do Paraná.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1n_2025-fill',
-                        'source': 'bloco_1n_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1n_2025-border',
-                        'source': 'bloco_1n_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1n_2025-text',
-                        'source': 'bloco_1n_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1O
-                name: 'bloco_1o_2025',
-                subtitle: 'Cartas Ortoimagem 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná',
-                description: 'Construção de 101 cartas ortoimagem na escala 1:50.000 nos estados do Rio Grande do Sul, Santa Catarina e Paraná.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1o_2025-fill',
-                        'source': 'bloco_1o_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1o_2025-border',
-                        'source': 'bloco_1o_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1o_2025-text',
-                        'source': 'bloco_1o_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1P
-                name: 'bloco_1p_2025',
-                subtitle: 'Cartas Ortoimagem 1:100.000 nas cidades de Guarapuava - PR e Ponta Grossa - PR',
-                description: 'Construção de 2 cartas ortoimagem na escala 1:100.000.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1p_2025-fill',
-                        'source': 'bloco_1p_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1p_2025-border',
-                        'source': 'bloco_1p_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1p_2025-text',
-                        'source': 'bloco_1p_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Bloco 1P
-                name: 'bloco_1q_2025',
-                subtitle: 'Cartas Ortoimagem 1:25.000 da região metropolitana de Porto Alegre - RS',
-                description: 'Construção de 3 cartas ortoimagem na escala 1:25.000 na região de metropolitana de Porto Alegre.',
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1q_2025-fill',
-                        'source': 'bloco_1q_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1q_2025-border',
-                        'source': 'bloco_1q_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1q_2025-text',
-                        'source': 'bloco_1q_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
