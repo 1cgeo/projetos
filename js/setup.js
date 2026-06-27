@@ -1,84 +1,93 @@
 
+// Espelha dominio.tipo_fase do SAP (code/nome/cor). Os ids DEVEM ser iguais aos
+// codes de tipo_fase para que o campo "legend" exportado pelo SAP (que usa
+// tipo_fase_id) e o "situacao" do GeoJSON casem corretamente. O id 0 ("Previsto")
+// é o default do COALESCE no export e corresponde ao prefixo [0] da legenda do SAP.
 const SUBTITLE_STATES = [
     {
-        id: 1,
+        id: 0,
         name: 'Previsto',
         color: 'rgb(255,255,255)'
     },
     {
-        id: 2,
+        id: 1,
         name: 'Extração',
         color: 'rgb(252,141,89)'
     },
     {
-        id: 3,
-        name: 'Disseminação',
-        color: 'rgb(145,207,96)'
-    },
-    {
-        id: 4,
+        id: 2,
         name: 'Reambulação',
         color: 'rgb(254,224,139)'
     },
     {
-        id: 5,
+        id: 3,
         name: 'Validação',
         color: 'rgb(255,255,191)'
     },
     {
-        id: 6,
+        id: 4,
         name: 'Edição',
         color: 'rgb(217,239,139)'
     },
     {
-        id: 7,
+        id: 5,
+        name: 'Disseminação',
+        color: 'rgb(145,207,96)'
+    },
+    {
+        id: 6,
         name: 'Vetorização',
         color: 'rgb(222,119,174)'
     },
     {
-        id: 8,
+        id: 7,
         name: 'Avaliação',
         color: 'rgb(175,141,195)'
     },
     {
-        id: 9,
+        id: 8,
         name: 'Generalização',
         color: 'rgb(224,243,248)'
     },
     {
-        id: 10,
+        id: 9,
         name: 'Fototriangulação',
         color: 'rgb(44,127,184)'
     },
     {
-        id: 11,
+        id: 10,
         name: 'Restituição',
         color: 'rgb(186,186,186)'
     },
     {
-        id: 12,
+        id: 11,
         name: 'Processamento Digital de Imagens',
         color: 'rgb(215,48,39)'
     },
     {
-        id: 13,
+        id: 12,
         name: 'Medição de pontos de controle',
         color: 'rgb(0,0,0)'
     },
     {
-        id: 14,
+        id: 13,
         name: 'Geração de ortoimagem',
         color: 'rgb(128,205,193)'
     },
     {
-        id: 15,
+        id: 14,
         name: 'Geração de MDE',
         color: 'rgb(191,129,45)'
     },
     {
-        id: 16,
+        id: 15,
         name: 'Levantamento topográfico',
         color: 'rgb(37,52,148)'
+    },
+    {
+        id: 16,
+        name: 'Preparo',
+        color: 'rgb(175,141,195)'
     }
 ]
 
@@ -98,12 +107,12 @@ var PROJECTS = {
                 subtitle: 'Cartas Topográficas 1:25.000',
                 description: '26 cartas nas seguintes localidades/regiões: Faxinal do Soturno - RS (6), Tubarão - SC (6), Ponta Grossa - PR (3), Parque Nacional do Iguaçu - PR (10), São Luiz - PR (1)',
                 legend: [
+                    0,
+                    11,
                     1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    3,
+                    4,
+                    5
                 ],
                 styles: [
                     {
@@ -143,12 +152,12 @@ var PROJECTS = {
                 subtitle: 'Cartas Topográficas 1:50.000',
                 description: '53 cartas nas seguintes localidades/regiões: Santiago - RS (10), Faxinal do Soturno - RS (1), Três Barras - SC (8), União da Vitória - SC (8), Parque Nacional do Iguaçu - PR (26)',
                 legend: [
+                    0,
+                    11,
                     1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    3,
+                    4,
+                    5
                 ],
                 styles: [
                     {
@@ -188,12 +197,12 @@ var PROJECTS = {
                 subtitle: 'Cartas Ortoimagem 1:25.000',
                 description: '72 cartas previstas nas seguintes localidades/regiões: Caxias do Sul - RS (6), Porto Alegre - RS (7), Rincão do Inhandui - RS (1), Tubarão - SC (6), Palmas - PR (4), Oeste do Estado do Paraná - PR (48)',
                 legend: [
+                    0,
+                    11,
                     1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    3,
+                    4,
+                    5
                 ],
                 styles: [
                     {
@@ -233,12 +242,12 @@ var PROJECTS = {
                 subtitle: 'Cartas Ortoimagem 1:50.000',
                 description: '2 cartas previstas em Porto Alegre - RS',
                 legend: [
+                    0,
+                    11,
                     1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    3,
+                    4,
+                    5
                 ],
                 styles: [
                     {
@@ -278,12 +287,12 @@ var PROJECTS = {
                 subtitle: 'Cartas Ortoimagem 1:10.000',
                 description: 'Cartas Ortoimagem na região sul de Porto Alegre',
                 legend: [
+                    0,
+                    11,
                     1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    3,
+                    4,
+                    5
                 ],
                 styles: [
                     {
@@ -323,12 +332,12 @@ var PROJECTS = {
                 subtitle: 'Dados para o Sistema COMBATER',
                 description: 'Dados para o sistema COMBATER na escala 1:50.000 no Oeste do Estado do Paraná',
                 legend: [
+                    0,
+                    11,
                     1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    3,
+                    4,
+                    5
                 ],
                 styles: [
                     {
@@ -368,12 +377,12 @@ var PROJECTS = {
                 subtitle: 'Carta Ortoimagem e Carta Topográfica (1:25.000) em Enquadramento Especial',
                 description: 'Uma carta topográfica e uma carta ortoimagem em enquadramento especial de Porto Alegre - RS',
                 legend: [
+                    0,
+                    11,
                     1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    3,
+                    4,
+                    5
                 ],
                 styles: [
                     {
